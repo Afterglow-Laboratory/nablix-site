@@ -1,0 +1,12 @@
+{
+    "name": "nablix-site",
+    "private": true,
+    "version": "1.0.0",
+    "description": "nablix.app — static marketing site for Nablix (GitHub Pages, no dependencies)",
+    "type": "module",
+    "scripts": {
+        "build": "node build.mjs",
+        "og": "powershell -ExecutionPolicy Bypass -File scripts/make-og.ps1",
+        "serve": "node serve.mjs"
+    }
+}

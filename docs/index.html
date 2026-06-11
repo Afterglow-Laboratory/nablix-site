@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nablix — Markdown notes with handwriting, runnable code & your own AI</title>
+    <meta name="description" content="Nablix is a local-first note app for Windows that fuses Markdown, handwritten ink, executable code and BYOK AI. No account, no cloud, no telemetry — your notes stay on your machine." />
+    <link rel="canonical" href="https://nablix.app/" />
+    <link rel="alternate" hreflang="en" href="https://nablix.app/" />
+    <link rel="alternate" hreflang="ja" href="https://nablix.app/ja/" />
+    <link rel="alternate" hreflang="zh" href="https://nablix.app/zh/" />
+    <link rel="alternate" hreflang="fr" href="https://nablix.app/fr/" />
+    <link rel="alternate" hreflang="es" href="https://nablix.app/es/" />
+    <link rel="alternate" hreflang="hi" href="https://nablix.app/hi/" />
+    <link rel="alternate" hreflang="ar" href="https://nablix.app/ar/" />
+    <link rel="alternate" hreflang="x-default" href="https://nablix.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Nablix" />
+    <meta property="og:title" content="Nablix — Markdown notes with handwriting, runnable code & your own AI" />
+    <meta property="og:description" content="Nablix is a local-first note app for Windows that fuses Markdown, handwritten ink, executable code and BYOK AI. No account, no cloud, no telemetry — your notes stay on your machine." />
+    <meta property="og:url" content="https://nablix.app/" />
+    <meta property="og:image" content="https://nablix.app/assets/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Nablix — Markdown notes with handwriting, runnable code & your own AI" />
+    <meta name="twitter:description" content="Nablix is a local-first note app for Windows that fuses Markdown, handwritten ink, executable code and BYOK AI. No account, no cloud, no telemetry — your notes stay on your machine." />
+    <meta name="twitter:image" content="https://nablix.app/assets/og.png" />
+    <meta name="theme-color" content="#050509" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/assets/icon-128.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/style.css" />
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Nablix",
+        "operatingSystem": "Windows 10, Windows 11",
+        "applicationCategory": "Productivity",
+        "description": "Nablix is a local-first note app for Windows that fuses Markdown, handwritten ink, executable code and BYOK AI. No account, no cloud, no telemetry — your notes stay on your machine.",
+        "url": "https://nablix.app/",
+        "image": "https://nablix.app/assets/og.png",
+        "author": { "@type": "Organization", "name": "Afterglow Laboratory" },
+        "offers": [
+            { "@type": "Offer", "price": "0", "priceCurrency": "USD", "name": "Free" },
+            { "@type": "Offer", "price": "5", "priceCurrency": "USD", "name": "Pro (monthly)" },
+            { "@type": "Offer", "price": "96", "priceCurrency": "USD", "name": "Lifetime" }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <div class="nav-wrap">
+        <div class="wrap nav">
+            <a class="nav-logo" href="/">
+                <img src="/assets/icon-128.png" alt="" width="30" height="30" />
+                <span>Nab<span class="lix">lix</span></span>
+            </a>
+            <nav class="nav-links" aria-label="Main">
+                <a href="/#features">Features</a>
+                <a href="/pricing/">Pricing</a>
+                <a href="/#faq">FAQ</a>
+            </nav>
+            <select class="lang-switch" aria-label="Language" onchange="location.href=this.value"><option value="/" selected>English</option><option value="/ja/">日本語</option><option value="/zh/">简体中文</option><option value="/fr/">Français</option><option value="/es/">Español</option><option value="/hi/">हिन्दी</option><option value="/ar/">العربية</option></select>
+            <a class="btn btn-primary" data-dl href="https://github.com/Afterglow-Laboratory/nablix-releases/releases/latest">Download</a>
+            <details class="nav-menu">
+                <summary aria-label="Menu">
+                    <svg width="18" height="14" viewBox="0 0 18 14" fill="none" aria-hidden="true"><path d="M1 1h16M1 7h16M1 13h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                </summary>
+                <div class="menu-pop">
+                    <a href="/#features">Features</a>
+                    <a href="/pricing/">Pricing</a>
+                    <a href="/#faq">FAQ</a>
+                </div>
+            </details>
+        </div>
+    </div>
+
+    <main>
+        <!-- ═══ Hero ═══ -->
+        <header class="hero wrap">
+            <div class="hero-badge"><span class="dot"></span><span data-dl-meta>v0.1.0 · Windows</span></div>
+            <h1>Your thoughts, <span class="grad-text">linked</span>.<br />Your ideas, <span class="grad-text">alive</span>.</h1>
+            <p class="lead">Nablix is a local-first notebook for Windows where Markdown, handwritten ink, executable code and AI share the same page. No account. No cloud. Your files stay yours.</p>
+            <div class="hero-ctas">
+                <a class="btn btn-primary" data-dl href="https://github.com/Afterglow-Laboratory/nablix-releases/releases/latest">⬇&nbsp; Download for Windows — Free</a>
+                <a class="btn btn-ghost" href="/pricing/">See pricing</a>
+            </div>
+            <p class="hero-fineprint">Free up to 20 pages<span class="sep">·</span>No sign-up<span class="sep">·</span>Auto-updates</p>
+
+            <!-- App mockup -->
+            <div class="mock-stage">
+                <div class="mock" role="img" aria-label="Nablix app window showing a Markdown page with a math block, runnable Python code, a handwriting canvas and a page graph">
+                    <svg viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg" font-family="Inter,'Segoe UI',sans-serif">
+                        <defs>
+                            <linearGradient id="mg" x1="0" y1="0" x2="1" y2="1">
+                                <stop offset="0" stop-color="#00fff7" stop-opacity=".14"/>
+                                <stop offset="1" stop-color="#ff3df5" stop-opacity=".10"/>
+                            </linearGradient>
+                            <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+                                <feGaussianBlur stdDeviation="3.2" result="b"/>
+                                <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+                            </filter>
+                        </defs>
+
+                        <rect width="960" height="600" fill="#07070e"/>
+
+                        <!-- titlebar -->
+                        <rect width="960" height="38" fill="#0b0b14"/>
+                        <circle cx="22" cy="19" r="5.5" fill="#ff5f57" opacity=".85"/>
+                        <circle cx="42" cy="19" r="5.5" fill="#febc2e" opacity=".85"/>
+                        <circle cx="62" cy="19" r="5.5" fill="#28c840" opacity=".85"/>
+                        <text x="480" y="24" text-anchor="middle" font-size="12" fill="#5b6470">Vector Fields — Nablix</text>
+
+                        <!-- sidebar -->
+                        <rect y="38" width="208" height="562" fill="#0a0a13"/>
+                        <line x1="208" y1="38" x2="208" y2="600" stroke="#1a1a28" stroke-width="1"/>
+                        <text x="20" y="76" font-size="10.5" fill="#5b6470" letter-spacing="2" font-weight="700">ANALYSIS</text>
+                        <text x="22" y="108" font-size="13" fill="#8b94a2">📄 Gradient Descent</text>
+                        <rect x="10" y="124" width="188" height="30" rx="7" fill="#00fff7" opacity=".10"/>
+                        <rect x="10" y="124" width="188" height="30" rx="7" fill="none" stroke="#00fff7" stroke-opacity=".35"/>
+                        <text x="22" y="144" font-size="13" fill="#aef7f4" font-weight="600">∇ Vector Fields</text>
+                        <text x="22" y="180" font-size="13" fill="#8b94a2">📄 Curl &amp; Divergence</text>
+                        <text x="22" y="212" font-size="13" fill="#8b94a2">✍️ Whiteboard 06-11</text>
+                        <text x="22" y="244" font-size="13" fill="#8b94a2">🕸 Page Map</text>
+
+                        <!-- main column -->
+                        <text x="240" y="92" font-size="27" fill="#eef4f6" font-weight="800">Vector Fields</text>
+                        <!-- wiki chips -->
+                        <rect x="240" y="110" width="104" height="24" rx="12" fill="#00fff7" opacity=".08"/>
+                        <text x="252" y="126" font-size="12" fill="#7ee8e4">[[Divergence]]</text>
+                        <rect x="354" y="110" width="92" height="24" rx="12" fill="#ff3df5" opacity=".08"/>
+                        <text x="366" y="126" font-size="12" fill="#f5a3ef">[[Gradient]]</text>
+
+                        <text x="240" y="166" font-size="13.5" fill="#9aa3ad">A vector field assigns a direction and magnitude to every</text>
+                        <text x="240" y="188" font-size="13.5" fill="#9aa3ad">point in space — the flow of an idea, made visible.</text>
+
+                        <!-- math block -->
+                        <rect x="240" y="210" width="430" height="52" rx="10" fill="#00fff7" opacity=".05"/>
+                        <rect x="240" y="210" width="430" height="52" rx="10" fill="none" stroke="#00fff7" stroke-opacity=".25"/>
+                        <text x="455" y="243" text-anchor="middle" font-size="18" fill="#d9fffd" font-family="Cambria Math,Georgia,serif" font-style="italic">∇·F = ∂F₁/∂x + ∂F₂/∂y</text>
+
+                        <!-- code block -->
+                        <rect x="240" y="286" width="430" height="158" rx="10" fill="#0c0c16"/>
+                        <rect x="240" y="286" width="430" height="158" rx="10" fill="none" stroke="#23233a"/>
+                        <text x="258" y="312" font-size="11" fill="#5b6470" font-family="JetBrains Mono,Consolas,monospace">python</text>
+                        <rect x="600" y="298" width="56" height="22" rx="6" fill="#00fff7" opacity=".12"/>
+                        <text x="611" y="313" font-size="11.5" fill="#00fff7" font-family="JetBrains Mono,Consolas,monospace">▶ Run</text>
+                        <g font-family="JetBrains Mono,Consolas,monospace" font-size="12.5">
+                            <text x="258" y="340" fill="#6b7280"># divergence at (1, 2)</text>
+                            <text x="258" y="362" fill="#c9d4dd">div <tspan fill="#ff3df5">=</tspan> dFx(<tspan fill="#ffb054">1</tspan>,<tspan fill="#ffb054">2</tspan>) <tspan fill="#ff3df5">+</tspan> dFy(<tspan fill="#ffb054">1</tspan>,<tspan fill="#ffb054">2</tspan>)</text>
+                            <text x="258" y="384" fill="#c9d4dd"><tspan fill="#00fff7">print</tspan>(<tspan fill="#5dff7d">f"∇·F = {div}"</tspan>)</text>
+                        </g>
+                        <rect x="256" y="402" width="398" height="28" rx="7" fill="#5dff7d" opacity=".06"/>
+                        <text x="270" y="421" font-size="12.5" fill="#5dff7d" font-family="JetBrains Mono,Consolas,monospace">∇·F = 4.0</text>
+
+                        <!-- handwriting canvas card -->
+                        <rect x="694" y="62" width="240" height="206" rx="12" fill="url(#mg)"/>
+                        <rect x="694" y="62" width="240" height="206" rx="12" fill="none" stroke="#2a2a40"/>
+                        <text x="712" y="88" font-size="10.5" fill="#5b6470" letter-spacing="2" font-weight="700">CANVAS</text>
+                        <path d="M724 150 C 740 110, 762 112, 772 142 C 780 166, 796 168, 806 140 C 814 118, 836 116, 848 134 M 858 120 L 898 120 M 858 138 L 898 138"
+                              fill="none" stroke="#ff3df5" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+                        <path d="M730 196 q 30 18 64 6 t 70 -6" fill="none" stroke="#00fff7" stroke-width="2.4" stroke-linecap="round" opacity=".8" filter="url(#glow)"/>
+                        <rect x="712" y="220" width="204" height="30" rx="8" fill="#0c0c16" stroke="#23233a"/>
+                        <text x="724" y="240" font-size="12" fill="#aef7f4" font-family="Cambria Math,Georgia,serif" font-style="italic">✨ → x² ≈ ∑ aₙcos(nx)</text>
+
+                        <!-- graph constellation card -->
+                        <rect x="694" y="288" width="240" height="252" rx="12" fill="#0a0a13"/>
+                        <rect x="694" y="288" width="240" height="252" rx="12" fill="none" stroke="#2a2a40"/>
+                        <text x="712" y="314" font-size="10.5" fill="#5b6470" letter-spacing="2" font-weight="700">PAGE MAP</text>
+                        <g stroke="#22d3ee" stroke-opacity=".30" stroke-width="1.2">
+                            <line x1="784" y1="380" x2="848" y2="346"/>
+                            <line x1="784" y1="380" x2="872" y2="420"/>
+                            <line x1="784" y1="380" x2="744" y2="450"/>
+                            <line x1="872" y1="420" x2="848" y2="346"/>
+                            <line x1="872" y1="420" x2="824" y2="488"/>
+                            <line x1="744" y1="450" x2="824" y2="488"/>
+                            <line x1="848" y1="346" x2="900" y2="362"/>
+                        </g>
+                        <circle cx="784" cy="380" r="13" fill="#00fff7" opacity=".9" filter="url(#glow)"/>
+                        <circle cx="848" cy="346" r="8" fill="#5dff7d" opacity=".8" filter="url(#glow)"/>
+                        <circle cx="872" cy="420" r="10" fill="#ff3df5" opacity=".8" filter="url(#glow)"/>
+                        <circle cx="744" cy="450" r="7" fill="#22d3ee" opacity=".7"/>
+                        <circle cx="824" cy="488" r="6" fill="#b44dff" opacity=".8"/>
+                        <circle cx="900" cy="362" r="5" fill="#ffb054" opacity=".8"/>
+                        <text x="784" y="408" text-anchor="middle" font-size="10" fill="#7ee8e4">vector fields</text>
+
+                        <!-- status bar -->
+                        <rect y="572" width="960" height="28" fill="#0b0b14"/>
+                        <text x="240" y="590" font-size="11" fill="#4b5563">⌁ local · offline-ready</text>
+                        <text x="938" y="590" text-anchor="end" font-size="11" fill="#4b5563">md + ink + code</text>
+                    </svg>
+                </div>
+            </div>
+        </header>
+
+        <!-- ═══ Features ═══ -->
+        <section class="section wrap" id="features">
+            <div class="section-head reveal">
+                <span class="kicker">Features</span>
+                <h2>One page. Every way you think.</h2>
+                <p class="lead">Stop juggling a notes app, a whiteboard, a LaTeX editor and a REPL. Nablix folds them into a single fast workspace.</p>
+            </div>
+            <div class="features-grid">
+                
+                <article class="fcard reveal">
+                    <div class="ficon">✍️</div>
+                    <h3>Infinite handwriting canvas</h3>
+                    <p>Think in ink on boundless canvases — as standalone whiteboard pages or as blocks embedded right inside your Markdown.</p>
+                </article>
+                
+                <article class="fcard reveal">
+                    <div class="ficon">⚡</div>
+                    <h3>Code that actually runs</h3>
+                    <p>Execute Python, TypeScript, Rust, C++ and 17+ languages inline, Jupyter-style. Output lands right under the block.</p>
+                </article>
+                
+                <article class="fcard reveal">
+                    <div class="ficon">✨</div>
+                    <h3>Ink → LaTeX, image → Markdown</h3>
+                    <p>Handwrite an equation and let AI turn it into clean KaTeX. Paste a screenshot, get editable Markdown back.</p>
+                </article>
+                
+                <article class="fcard reveal">
+                    <div class="ficon">🕸</div>
+                    <h3>A graph, not a pile</h3>
+                    <p>Bidirectional [[wiki links]], hover-glossary definitions and a constellation Page Map turn scattered notes into a second brain.</p>
+                </article>
+                
+                <article class="fcard reveal">
+                    <div class="ficon">🤖</div>
+                    <h3>Your AI, your key</h3>
+                    <p>Bring your own OpenAI or Anthropic key. Chat with page context, autocomplete as you type, connect agents over MCP. Keys never leave your machine.</p>
+                </article>
+                
+                <article class="fcard reveal">
+                    <div class="ficon">🔒</div>
+                    <h3>Local-first. Actually.</h3>
+                    <p>Built with Rust + Tauri: instant startup, fully offline, zero telemetry. Notes live in plain folders you own and can export anytime.</p>
+                </article>
+                
+            </div>
+        </section>
+
+        <!-- ═══ Deep dives ═══ -->
+        <section class="section wrap" id="dives">
+            <!-- 1: ink + math -->
+            <div class="dive">
+                <div class="reveal">
+                    <span class="kicker">Write · Sketch · Solve</span>
+                    <h2>Math-grade notes, ink included</h2>
+                    <p class="lead">KaTeX math with custom macros, definition blocks with hover tooltips, columns and toggles — and when typing is too slow for the idea, just draw it.</p>
+                    <ul>
+                        <li><strong>Handwriting canvas</strong> as full pages or inline blocks inside any note</li><li><strong>AI ink translation</strong> — handwriting becomes Markdown or LaTeX in one tap</li><li><strong>KaTeX everywhere</strong>: inline math, math blocks and reusable macros</li><li><strong>Definition blocks</strong> — hover any reference to see its definition card</li>
+                    </ul>
+                </div>
+                <div class="dive-visual reveal">
+                    <svg viewBox="0 0 440 300" xmlns="http://www.w3.org/2000/svg" font-family="Inter,'Segoe UI',sans-serif">
+                        <defs>
+                            <filter id="g2" x="-60%" y="-60%" width="220%" height="220%">
+                                <feGaussianBlur stdDeviation="2.6" result="b"/>
+                                <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+                            </filter>
+                        </defs>
+                        <text x="20" y="32" font-size="10.5" fill="#5b6470" letter-spacing="2" font-weight="700">HANDWRITING</text>
+                        <path d="M36 110 C 50 60, 80 62, 92 104 C 102 140, 124 142, 136 102 C 146 68, 172 64, 186 92 M 200 78 L 252 78 M 200 100 L 252 100 M 272 60 C 300 64, 300 96, 274 100 C 300 104, 304 136, 272 138"
+                              fill="none" stroke="#ff3df5" stroke-width="3.4" stroke-linecap="round" filter="url(#g2)"/>
+                        <path d="M40 150 q 60 26 130 10 t 150 -8" fill="none" stroke="#00fff7" stroke-width="2.2" stroke-linecap="round" opacity=".65" filter="url(#g2)"/>
+                        <g>
+                            <line x1="220" y1="180" x2="220" y2="208" stroke="#5b6470" stroke-width="1.6" stroke-dasharray="3 4"/>
+                            <path d="M214 202 L220 212 L226 202" fill="none" stroke="#5b6470" stroke-width="1.6"/>
+                        </g>
+                        <text x="232" y="200" font-size="11" fill="#7ee8e4">✨ AI</text>
+                        <rect x="48" y="222" width="344" height="52" rx="10" fill="#00fff7" opacity=".05"/>
+                        <rect x="48" y="222" width="344" height="52" rx="10" fill="none" stroke="#00fff7" stroke-opacity=".3"/>
+                        <text x="220" y="255" text-anchor="middle" font-size="17" fill="#d9fffd" font-family="Cambria Math,Georgia,serif" font-style="italic">f(x) = Σ aₙ cos(nπx/L)</text>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- 2: runnable code -->
+            <div class="dive">
+                <div class="reveal">
+                    <span class="kicker">Run</span>
+                    <h2>A notebook that executes</h2>
+                    <p class="lead">Code blocks are not screenshots of your work — they are your work. Run them in place and keep results next to the reasoning.</p>
+                    <ul>
+                        <li><strong>17+ languages</strong>: Python, JavaScript / TypeScript, Rust, C, C++, Go, R, Ruby and more</li><li><strong>Inline output</strong> right under the block — rerun anytime</li><li><strong>Per-page workspaces</strong>: every page maps to its own folder; open a terminal right there</li><li><strong>Runs on your local toolchain</strong> — no cloud sandbox, no upload</li>
+                    </ul>
+                </div>
+                <div class="dive-visual reveal">
+                    <div class="term">
+                        <div class="t-head"><i></i><i></i><i></i></div>
+                        <div><span class="c-cm"># prototype inside the note — no editor switch</span></div>
+                        <div><span class="c-kw">import</span> numpy <span class="c-kw">as</span> np</div>
+                        <div>A = np.array([[<span class="c-num">2</span>, <span class="c-num">1</span>], [<span class="c-num">1</span>, <span class="c-num">3</span>]])</div>
+                        <div>w, v = np.linalg.<span class="c-fn">eig</span>(A)</div>
+                        <div><span class="c-fn">print</span>(<span class="c-str">"eigenvalues:"</span>, w.round(<span class="c-num">3</span>))</div>
+                        <span class="t-run">▶ Run</span>
+                        <div class="t-out">eigenvalues: [1.382 3.618]</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3: AI + MCP -->
+            <div class="dive">
+                <div class="reveal">
+                    <span class="kicker">BYOK AI + MCP</span>
+                    <h2>AI on your terms</h2>
+                    <p class="lead">Nablix has no AI subscription and no middleman server. Plug in your own OpenAI or Anthropic key — or wire your favorite coding agent straight into your notes via MCP.</p>
+                    <ul>
+                        <li><strong>AI chat</strong> that sees the current page — unlimited, even on Free</li><li><strong>Inline completion</strong> while you type (Pro)</li><li><strong>Built-in MCP server</strong>: Claude Code, Cursor and Windsurf can read and edit your notes</li><li><strong>Scoped by design</strong> — agents only see the page and workspace you have open</li>
+                    </ul>
+                </div>
+                <div class="dive-visual reveal">
+                    <svg viewBox="0 0 440 300" xmlns="http://www.w3.org/2000/svg" font-family="Inter,'Segoe UI',sans-serif">
+                        <defs>
+                            <filter id="g3" x="-60%" y="-60%" width="220%" height="220%">
+                                <feGaussianBlur stdDeviation="3" result="b"/>
+                                <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+                            </filter>
+                        </defs>
+                        <g stroke="#22d3ee" stroke-opacity=".35" stroke-width="1.4" stroke-dasharray="5 5">
+                            <line x1="220" y1="150" x2="90" y2="62"/>
+                            <line x1="220" y1="150" x2="352" y2="62"/>
+                            <line x1="220" y1="150" x2="220" y2="252"/>
+                        </g>
+                        <circle cx="220" cy="150" r="40" fill="#00fff7" opacity=".10"/>
+                        <circle cx="220" cy="150" r="40" fill="none" stroke="#00fff7" stroke-opacity=".6" filter="url(#g3)"/>
+                        <text x="220" y="144" text-anchor="middle" font-size="22" fill="#00fff7" filter="url(#g3)">∇</text>
+                        <text x="220" y="166" text-anchor="middle" font-size="11" fill="#aef7f4" font-weight="700">Nablix MCP</text>
+
+                        <rect x="28" y="38" width="124" height="40" rx="10" fill="#0c0c16" stroke="#2a2a40"/>
+                        <text x="90" y="62" text-anchor="middle" font-size="12.5" fill="#c9d4dd" font-weight="600">Claude Code</text>
+                        <rect x="290" y="38" width="124" height="40" rx="10" fill="#0c0c16" stroke="#2a2a40"/>
+                        <text x="352" y="62" text-anchor="middle" font-size="12.5" fill="#c9d4dd" font-weight="600">Cursor</text>
+                        <rect x="158" y="240" width="124" height="40" rx="10" fill="#0c0c16" stroke="#2a2a40"/>
+                        <text x="220" y="264" text-anchor="middle" font-size="12.5" fill="#c9d4dd" font-weight="600">Windsurf</text>
+
+                        <rect x="296" y="170" width="132" height="26" rx="13" fill="#5dff7d" opacity=".07"/>
+                        <rect x="296" y="170" width="132" height="26" rx="13" fill="none" stroke="#5dff7d" stroke-opacity=".35"/>
+                        <text x="362" y="187" text-anchor="middle" font-size="10.5" fill="#5dff7d">🔒 scoped to the open page</text>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ Privacy strip ═══ -->
+        <section class="section privacy-strip">
+            <div class="wrap reveal">
+                <div class="big">No account. No cloud. No telemetry.</div>
+                <p class="lead">Nablix talks to the internet in exactly three cases: your AI calls (your key, your provider), license activation (Lemon Squeezy) and update checks (GitHub). That is the entire list — and the privacy policy is short enough to actually read.</p>
+                <p style="margin-top:18px"><a href="/privacy/">Read the privacy policy →</a></p>
+            </div>
+        </section>
+
+        <!-- ═══ Pricing preview ═══ -->
+        <section class="section wrap" id="pricing-preview">
+            <div class="section-head reveal">
+                <span class="kicker">Pricing</span>
+                <h2>Free to think. Pay to scale.</h2>
+                <p class="lead">Start with 20 pages and every core feature included. Upgrade when your second brain outgrows them.</p>
+            </div>
+            <div class="plans">
+                
+                <div class="plan  reveal">
+                    
+                    <h3>Free</h3>
+                    <div class="price"><span class="amount">$0</span><span class="per">forever</span></div>
+                    <p class="blurb">20 pages · 1 workspace · all core features, including code execution and AI chat.</p>
+                    <a class="btn btn-ghost" href="/pricing/">Get started</a>
+                </div>
+                
+                <div class="plan popular reveal">
+                    <div class="plan-flag">Most popular</div>
+                    <h3>Pro</h3>
+                    <div class="price"><span class="amount">$4</span><span class="per">/mo billed yearly</span></div>
+                    <p class="blurb">Unlimited pages and folders, inline AI completion, interactive Page Map.</p>
+                    <a class="btn btn-primary" href="/pricing/">See details</a>
+                </div>
+                
+                <div class="plan life reveal">
+                    <div class="plan-flag">Pay once</div>
+                    <h3>Lifetime</h3>
+                    <div class="price"><span class="amount">$96</span><span class="per">one-time</span></div>
+                    <p class="blurb">Every Pro feature, forever. No subscription, nothing to cancel.</p>
+                    <a class="btn btn-magenta" href="/pricing/">See details</a>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- ═══ FAQ ═══ -->
+        <section class="section wrap" id="faq">
+            <div class="section-head reveal">
+                <span class="kicker">FAQ</span>
+                <h2>Questions, answered</h2>
+            </div>
+            <div class="faq-list reveal">
+                
+                <details class="faq-item">
+                    <summary>Is Nablix really free?</summary>
+                    <div class="faq-a"><p>Yes — the Free plan is not a trial. You get 20 pages, one workspace folder, and almost every feature: the full editor, canvas, code execution, math, graph view, search, export and unlimited BYOK AI chat. You only upgrade when you need more room.</p></div>
+                </details>
+                
+                <details class="faq-item">
+                    <summary>Which platforms are supported?</summary>
+                    <div class="faq-a"><p>Windows 10 and 11 (64-bit) today. The codebase is cross-platform and a macOS build is planned once the Windows version is rock solid.</p></div>
+                </details>
+                
+                <details class="faq-item">
+                    <summary>Where is my data stored?</summary>
+                    <div class="faq-a"><p>In ordinary folders on your own disk — pages are files you can open, back up, sync or export with any tool you like. Nothing is uploaded to us. There is no 'us' server at all.</p></div>
+                </details>
+                
+                <details class="faq-item">
+                    <summary>Do I need an AI subscription?</summary>
+                    <div class="faq-a"><p>No. AI features are optional and BYOK (bring your own key): you connect your own OpenAI or Anthropic API key and pay your provider only for what you use. Everything else works without any key.</p></div>
+                </details>
+                
+                <details class="faq-item">
+                    <summary>What is the MCP integration?</summary>
+                    <div class="faq-a"><p>Nablix ships a built-in MCP server, so tools like Claude Code, Cursor and Windsurf can read and edit your notes as first-class context. Access is scoped to the page and workspace you currently have open — nothing else is exposed.</p></div>
+                </details>
+                
+                <details class="faq-item">
+                    <summary>What happens when I hit the 20-page limit?</summary>
+                    <div class="faq-a"><p>Nothing scary. Your notes always remain viewable, editable and exportable — Free limits only stop you from creating new pages beyond 20. Delete pages to get back under the limit, or upgrade to Pro.</p></div>
+                </details>
+                
+                <details class="faq-item">
+                    <summary>Windows says 'unknown publisher' — why?</summary>
+                    <div class="faq-a"><p>Early builds are not yet code-signed (a signing certificate is planned before 1.0). Every installer is built automatically from tagged source by GitHub Actions, and you can inspect each release on the releases page. Click 'More info' → 'Run anyway' to proceed.</p></div>
+                </details>
+                
+            </div>
+        </section>
+
+        <!-- ═══ Final CTA ═══ -->
+        <section class="section wrap">
+            <div class="cta-final reveal">
+                <span class="nabla">∇</span>
+                <h2>Give your ideas a place to run.</h2>
+                <p class="lead">Download Nablix, open a page, and let notes, ink, math and code finally live together.</p>
+                <a class="btn btn-primary" data-dl href="https://github.com/Afterglow-Laboratory/nablix-releases/releases/latest">⬇&nbsp; Download for Windows</a>
+                <span class="btn-sub">Free · 20 pages · No account</span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrap">
+            <div class="foot-grid">
+                <div class="foot-brand">
+                    <img src="/assets/icon-128.png" alt="Nablix" width="34" height="34" />
+                    <div class="name">Nab<span style="color:var(--cyan)">lix</span></div>
+                    <p>A local-first notebook where Markdown, ink, code and AI share the page.</p>
+                </div>
+                <div class="foot-col">
+                    <h4>Product</h4>
+                    <a data-dl href="https://github.com/Afterglow-Laboratory/nablix-releases/releases/latest">Download</a>
+                    <a href="/pricing/">Pricing</a>
+                    <a href="https://github.com/Afterglow-Laboratory/nablix-releases/releases">Release notes</a>
+                </div>
+                <div class="foot-col">
+                    <h4>Legal</h4>
+                    <a href="/privacy/">Privacy Policy</a>
+                    <a href="/terms/">Terms of Service</a>
+                </div>
+                <div class="foot-col">
+                    <h4>Contact</h4>
+                    <a href="mailto:afterglowlaboratory@gmail.com">afterglowlaboratory@gmail.com</a>
+                    <a href="https://github.com/Afterglow-Laboratory">GitHub</a>
+                </div>
+            </div>
+            <div class="foot-bottom">
+                <span>© 2026 Afterglow Laboratory. All rights reserved.</span>
+                <span>∇ Made in Japan by a solo developer</span>
+            </div>
+        </div>
+    </footer>
+    <script src="/assets/site.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="{{lang}}" dir="{{dir}}">
+<head>
+    {{>head}}
+</head>
+<body>
+    {{>nav}}
+
+    <main>
+        <header class="hero wrap" style="padding-bottom:0">
+            <h1>{{pricing.title}}</h1>
+            <p class="lead" style="max-width:620px;margin:20px auto 0">{{pricing.sub}}</p>
+        </header>
+
+        <section class="section wrap" style="padding-top:42px">
+            <!-- billing toggle -->
+            <div class="toggle-row">
+                <span class="opt" data-opt="monthly" role="button" tabindex="0">{{pricing.monthly}}</span>
+                <div class="switch" role="switch" aria-checked="true" tabindex="0" aria-label="{{pricing.toggleAria}}"></div>
+                <span class="opt on" data-opt="yearly" role="button" tabindex="0">{{pricing.yearly}}<span class="save">{{pricing.save}}</span></span>
+            </div>
+
+            <div class="plans">
+                <!-- Free -->
+                <div class="plan reveal">
+                    <h3>{{pricing.free.name}}</h3>
+                    <div class="price"><span class="amount">$0</span></div>
+                    <div class="price-note">{{pricing.free.note}}</div>
+                    <p class="blurb">{{pricing.free.blurb}}</p>
+                    <ul>
+                        {{#each pricing.free.feats}}<li>{{.t}}</li>{{/each}}
+                    </ul>
+                    <a class="btn btn-ghost" data-dl href="https://github.com/Afterglow-Laboratory/nablix-releases/releases/latest">{{pricing.free.cta}}</a>
+                    <span class="btn-sub">{{pricing.free.ctaSub}}</span>
+                </div>
+
+                <!-- Pro -->
+                <div class="plan popular reveal">
+                    <div class="plan-flag">{{pricing.pro.flag}}</div>
+                    <h3>{{pricing.pro.name}}</h3>
+                    <div class="price" data-when="monthly" style="display:none"><span class="amount">$5</span><span class="per">{{pricing.pro.perMonth}}</span></div>
+                    <div class="price-note" data-when="monthly" style="display:none">{{pricing.pro.noteMonthly}}</div>
+                    <div class="price" data-when="yearly"><span class="amount">$4</span><span class="per">{{pricing.pro.perMonth}}</span></div>
+                    <div class="price-note" data-when="yearly">{{pricing.pro.noteYearly}}</div>
+                    <p class="blurb">{{pricing.pro.blurb}}</p>
+                    <ul>
+                        {{#each pricing.pro.feats}}<li>{{.t}}</li>{{/each}}
+                    </ul>
+                    <a class="btn btn-primary" data-buy="pro_annual" data-buy-pro data-label-live="{{pricing.pro.ctaLive}}" aria-disabled="true" href="#">{{pricing.buySoon}}</a>
+                    <span class="btn-sub">{{pricing.buySoonSub}}</span>
+                </div>
+
+                <!-- Lifetime -->
+                <div class="plan life reveal">
+                    <div class="plan-flag">{{pricing.life.flag}}</div>
+                    <h3>{{pricing.life.name}}</h3>
+                    <div class="price"><span class="amount">$96</span><span class="per">{{pricing.life.per}}</span></div>
+                    <div class="price-note">{{pricing.life.note}}</div>
+                    <p class="blurb">{{pricing.life.blurb}}</p>
+                    <ul>
+                        {{#each pricing.life.feats}}<li>{{.t}}</li>{{/each}}
+                    </ul>
+                    <a class="btn btn-magenta" data-buy="lifetime" data-label-live="{{pricing.life.ctaLive}}" aria-disabled="true" href="#">{{pricing.buySoon}}</a>
+                    <span class="btn-sub">{{pricing.buySoonSub}}</span>
+                </div>
+            </div>
+
+            <div class="assurance">
+                <span><span class="ok">✓</span> {{pricing.assure1}}</span>
+                <span><span class="ok">✓</span> {{pricing.assure2}}</span>
+                <span><span class="ok">✓</span> {{pricing.assure3}}</span>
+            </div>
+        </section>
+
+        <!-- comparison table -->
+        <section class="section wrap" style="padding-top:20px">
+            <div class="section-head reveal">
+                <h2>{{pricing.tableHeading}}</h2>
+            </div>
+            <div class="cmp-scroll reveal">
+                <table class="cmp">
+                    <thead>
+                        <tr>
+                            <th>{{pricing.colFeature}}</th>
+                            <th>{{pricing.free.name}}</th>
+                            <th>{{pricing.pro.name}} / {{pricing.life.name}}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each pricing.rows}}
+                        <tr>
+                            <td>{{.f}}</td>
+                            <td>{{.free}}</td>
+                            <td>{{.pro}}</td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- billing FAQ -->
+        <section class="section wrap" id="faq">
+            <div class="section-head reveal">
+                <h2>{{pricing.faqHeading}}</h2>
+            </div>
+            <div class="faq-list reveal">
+                {{#each pricing.faq}}
+                <details class="faq-item">
+                    <summary>{{.q}}</summary>
+                    <div class="faq-a"><p>{{.a}}</p></div>
+                </details>
+                {{/each}}
+            </div>
+        </section>
+
+        <!-- final CTA -->
+        <section class="section wrap">
+            <div class="cta-final reveal">
+                <span class="nabla">∇</span>
+                <h2>{{cta.title}}</h2>
+                <p class="lead">{{cta.sub}}</p>
+                <a class="btn btn-primary" data-dl href="https://github.com/Afterglow-Laboratory/nablix-releases/releases/latest">⬇&nbsp; {{cta.button}}</a>
+                <span class="btn-sub">{{cta.sub2}}</span>
+            </div>
+        </section>
+    </main>
+
+    {{>footer}}
+</body>
+</html>

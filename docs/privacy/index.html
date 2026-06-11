@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy — Nablix</title>
+    <meta name="description" content="How Nablix handles your data: locally. Exactly what leaves your device, when, and why — the complete, short list." />
+    <link rel="canonical" href="https://nablix.app/privacy/" />
+    <link rel="alternate" hreflang="en" href="https://nablix.app/privacy/" />
+    <link rel="alternate" hreflang="ja" href="https://nablix.app/ja/privacy/" />
+    <link rel="alternate" hreflang="x-default" href="https://nablix.app/privacy/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Nablix" />
+    <meta property="og:title" content="Privacy Policy — Nablix" />
+    <meta property="og:description" content="How Nablix handles your data: locally. Exactly what leaves your device, when, and why — the complete, short list." />
+    <meta property="og:url" content="https://nablix.app/privacy/" />
+    <meta property="og:image" content="https://nablix.app/assets/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Privacy Policy — Nablix" />
+    <meta name="twitter:description" content="How Nablix handles your data: locally. Exactly what leaves your device, when, and why — the complete, short list." />
+    <meta name="twitter:image" content="https://nablix.app/assets/og.png" />
+    <meta name="theme-color" content="#050509" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/assets/icon-128.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/style.css" />
+    <meta name="robots" content="index,follow" />
+</head>
+<body>
+    <div class="nav-wrap">
+        <div class="wrap nav">
+            <a class="nav-logo" href="/">
+                <img src="/assets/icon-128.png" alt="" width="30" height="30" />
+                <span>Nab<span class="lix">lix</span></span>
+            </a>
+            <nav class="nav-links" aria-label="Main">
+                <a href="/#features">Features</a>
+                <a href="/pricing/">Pricing</a>
+                <a href="/#faq">FAQ</a>
+            </nav>
+            <select class="lang-switch" aria-label="Language" onchange="location.href=this.value"><option value="/privacy/" selected>English</option><option value="/ja/privacy/">日本語</option></select>
+            <a class="btn btn-primary" data-dl href="https://github.com/Afterglow-Laboratory/nablix-releases/releases/latest">Download</a>
+            <details class="nav-menu">
+                <summary aria-label="Menu">
+                    <svg width="18" height="14" viewBox="0 0 18 14" fill="none" aria-hidden="true"><path d="M1 1h16M1 7h16M1 13h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                </summary>
+                <div class="menu-pop">
+                    <a href="/#features">Features</a>
+                    <a href="/pricing/">Pricing</a>
+                    <a href="/#faq">FAQ</a>
+                </div>
+            </details>
+        </div>
+    </div>
+
+    <main class="wrap">
+        <article class="legal-doc">
+<h1>Privacy Policy</h1>
+<p class="doc-date">Effective date: June 11, 2026 · Applies to the Nablix desktop app and the nablix.app website</p>
+
+<div class="note">
+    <strong>The short version:</strong> Nablix is local-first. Your notes live on your device and are never uploaded to us — we don't operate a server that could receive them. The app talks to the internet only for license activation (Lemon Squeezy), update checks (GitHub), and AI requests you initiate with your own API key.
+</div>
+
+<h2>1. Who we are</h2>
+<p>Nablix is developed and operated by <strong>Afterglow Laboratory</strong> (sole developer, Japan). You can reach us anytime at <a href="mailto:afterglowlaboratory@gmail.com">afterglowlaboratory@gmail.com</a>.</p>
+
+<h2>2. At a glance</h2>
+<table>
+    <thead>
+        <tr><th>Data</th><th>Where it lives</th><th>Sent anywhere?</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>Your notes, pages, canvases, attachments</td><td>Folders on your device</td><td>Never sent to us. Sent to your AI provider only if you explicitly use an AI feature on that content.</td></tr>
+        <tr><td>AI API keys (OpenAI / Anthropic)</td><td>Stored locally on your device; requests are proxied through the app's local backend</td><td>Used only to authenticate your requests to the provider you chose. Never sent to us.</td></tr>
+        <tr><td>License key &amp; device name</td><td>Stored locally</td><td>Sent to Lemon Squeezy to activate/validate your license.</td></tr>
+        <tr><td>Usage analytics / telemetry</td><td colspan="2"><strong>None. The app contains no analytics, tracking or telemetry of any kind.</strong></td></tr>
+    </tbody>
+</table>
+
+<h2>3. What stays on your device</h2>
+<ul>
+    <li><strong>Your content.</strong> Pages, handwriting canvases, attachments and workspace files are stored in ordinary folders on your disk. We cannot access them.</li>
+    <li><strong>Settings,</strong> including your AI configuration and language preference.</li>
+    <li><strong>AI API keys.</strong> Keys are stored locally and injected into requests by the app's local backend; they are not displayed in full after saving and are never transmitted to Afterglow Laboratory.</li>
+    <li><strong>License state.</strong> A cached copy of your license status, so the app works offline.</li>
+</ul>
+
+<h2>4. When data leaves your device</h2>
+<p>The app connects to external services in exactly these cases:</p>
+
+<h3>4.1 Purchases, license activation and validation — Lemon Squeezy</h3>
+<p>Payments are processed by Lemon Squeezy, LLC as <strong>merchant of record</strong>. When you buy a license, Lemon Squeezy collects your payment and billing details under <a href="https://www.lemonsqueezy.com/privacy" rel="noopener">their privacy policy</a>; we never see your card number. When you activate or validate a license inside the app, your license key and a human-readable device name are sent to the Lemon Squeezy License API. We receive order information (such as your email and the product purchased) from Lemon Squeezy to provide support.</p>
+
+<h3>4.2 AI requests — your chosen provider</h3>
+<p>If you configure an API key, AI features (chat, inline completion, ink/image conversion) send the relevant note content directly from your device to the provider you selected — OpenAI or Anthropic — authenticated with your key. That content is handled under your agreement with that provider. No AI request passes through any server of ours. If you never add a key, no AI request is ever made.</p>
+
+<h3>4.3 Update checks — GitHub</h3>
+<p>The official edition periodically asks GitHub (github.com) for the latest release manifest to offer auto-updates. Like any web request, this exposes your IP address to GitHub under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" rel="noopener">GitHub's privacy statement</a>. No identifier beyond the standard web request is included.</p>
+
+<h3>4.4 MCP — AI tools you connect</h3>
+<p>If you enable the built-in MCP server, third-party AI tools that <em>you</em> configure (for example Claude Code, Cursor or Windsurf) can read and edit the currently open page and its workspace, locally on your machine. What those tools then do with that content (for example sending it to their own AI provider) is governed by their respective privacy policies. Access is limited to the page and workspace you have open; closing the note revokes the context.</p>
+
+<h2>5. What we don't do</h2>
+<ul>
+    <li>No analytics, telemetry, crash reporting or tracking in the app.</li>
+    <li>No account system — we don't have your name unless you email us.</li>
+    <li>No selling, renting or sharing of personal data. There is nothing to sell.</li>
+    <li>No advertising.</li>
+</ul>
+
+<h2>6. This website (nablix.app)</h2>
+<ul>
+    <li>The site is hosted on <strong>GitHub Pages</strong>; GitHub may log standard request data such as IP addresses under its privacy statement.</li>
+    <li>The site sets <strong>no cookies</strong>. It uses your browser's localStorage solely to remember your language preference. No analytics scripts are loaded.</li>
+    <li>Web fonts are served by <strong>Google Fonts</strong>, which receives your IP address as part of font delivery.</li>
+    <li>The download button queries the <strong>GitHub API</strong> from your browser to display the latest version.</li>
+</ul>
+
+<h2>7. Email</h2>
+<p>If you contact us, we keep the correspondence so we can help you (and to handle refunds). We use it for nothing else.</p>
+
+<h2>8. Children</h2>
+<p>Nablix is not directed at children under 13, and we do not knowingly collect personal data from them — by design, we collect almost no personal data from anyone.</p>
+
+<h2>9. Changes to this policy</h2>
+<p>If we change this policy, we will update this page and the effective date above. Material changes will be highlighted in release notes.</p>
+
+<h2>10. Contact</h2>
+<p>Afterglow Laboratory — <a href="mailto:afterglowlaboratory@gmail.com">afterglowlaboratory@gmail.com</a></p>
+
+        </article>
+    </main>
+
+    <footer>
+        <div class="wrap">
+            <div class="foot-grid">
+                <div class="foot-brand">
+                    <img src="/assets/icon-128.png" alt="Nablix" width="34" height="34" />
+                    <div class="name">Nab<span style="color:var(--cyan)">lix</span></div>
+                    <p>A local-first notebook where Markdown, ink, code and AI share the page.</p>
+                </div>
+                <div class="foot-col">
+                    <h4>Product</h4>
+                    <a data-dl href="https://github.com/Afterglow-Laboratory/nablix-releases/releases/latest">Download</a>
+                    <a href="/pricing/">Pricing</a>
+                    <a href="https://github.com/Afterglow-Laboratory/nablix-releases/releases">Release notes</a>
+                </div>
+                <div class="foot-col">
+                    <h4>Legal</h4>
+                    <a href="/privacy/">Privacy Policy</a>
+                    <a href="/terms/">Terms of Service</a>
+                </div>
+                <div class="foot-col">
+                    <h4>Contact</h4>
+                    <a href="mailto:afterglowlaboratory@gmail.com">afterglowlaboratory@gmail.com</a>
+                    <a href="https://github.com/Afterglow-Laboratory">GitHub</a>
+                </div>
+            </div>
+            <div class="foot-bottom">
+                <span>© 2026 Afterglow Laboratory. All rights reserved.</span>
+                <span>∇ Made in Japan by a solo developer</span>
+            </div>
+        </div>
+    </footer>
+    <script src="/assets/site.js" defer></script>
+</body>
+</html>

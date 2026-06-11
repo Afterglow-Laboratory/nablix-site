@@ -1,0 +1,327 @@
+{
+    "meta": {
+        "lang": "en",
+        "dir": "ltr",
+        "name": "English",
+        "fontQuery": "family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600",
+        "landingTitle": "Nablix — Markdown notes with handwriting, runnable code & your own AI",
+        "landingDesc": "Nablix is a local-first note app for Windows that fuses Markdown, handwritten ink, executable code and BYOK AI. No account, no cloud, no telemetry — your notes stay on your machine.",
+        "pricingTitle": "Nablix Pricing — Free, Pro $5/mo, Lifetime $96",
+        "pricingDesc": "Start free with 20 pages and every core feature. Upgrade to Pro for unlimited pages, inline AI completion and the interactive Page Map — monthly, yearly, or pay-once Lifetime.",
+        "privacyTitle": "Privacy Policy — Nablix",
+        "privacyDesc": "How Nablix handles your data: locally. Exactly what leaves your device, when, and why — the complete, short list.",
+        "termsTitle": "Terms of Service — Nablix",
+        "termsDesc": "The terms that govern your use of Nablix: license, purchases, refunds, code execution and your responsibilities.",
+        "notFoundTitle": "404 — Nablix"
+    },
+
+    "nav": {
+        "features": "Features",
+        "pricing": "Pricing",
+        "faq": "FAQ",
+        "download": "Download"
+    },
+
+    "hero": {
+        "badge": "v0.1.0 · Windows",
+        "title": "Your thoughts, <span class=\"grad-text\">linked</span>.<br />Your ideas, <span class=\"grad-text\">alive</span>.",
+        "sub": "Nablix is a local-first notebook for Windows where Markdown, handwritten ink, executable code and AI share the same page. No account. No cloud. Your files stay yours.",
+        "ctaPrimary": "Download for Windows — Free",
+        "ctaSecondary": "See pricing",
+        "fine1": "Free up to 20 pages",
+        "fine2": "No sign-up",
+        "fine3": "Auto-updates",
+        "mockAlt": "Nablix app window showing a Markdown page with a math block, runnable Python code, a handwriting canvas and a page graph"
+    },
+
+    "features": {
+        "kicker": "Features",
+        "heading": "One page. Every way you think.",
+        "sub": "Stop juggling a notes app, a whiteboard, a LaTeX editor and a REPL. Nablix folds them into a single fast workspace.",
+        "items": [
+            {
+                "icon": "✍️",
+                "title": "Infinite handwriting canvas",
+                "desc": "Think in ink on boundless canvases — as standalone whiteboard pages or as blocks embedded right inside your Markdown."
+            },
+            {
+                "icon": "⚡",
+                "title": "Code that actually runs",
+                "desc": "Execute Python, TypeScript, Rust, C++ and 17+ languages inline, Jupyter-style. Output lands right under the block."
+            },
+            {
+                "icon": "✨",
+                "title": "Ink → LaTeX, image → Markdown",
+                "desc": "Handwrite an equation and let AI turn it into clean KaTeX. Paste a screenshot, get editable Markdown back."
+            },
+            {
+                "icon": "🕸",
+                "title": "A graph, not a pile",
+                "desc": "Bidirectional [[wiki links]], hover-glossary definitions and a constellation Page Map turn scattered notes into a second brain."
+            },
+            {
+                "icon": "🤖",
+                "title": "Your AI, your key",
+                "desc": "Bring your own OpenAI or Anthropic key. Chat with page context, autocomplete as you type, connect agents over MCP. Keys never leave your machine."
+            },
+            {
+                "icon": "🔒",
+                "title": "Local-first. Actually.",
+                "desc": "Built with Rust + Tauri: instant startup, fully offline, zero telemetry. Notes live in plain folders you own and can export anytime."
+            }
+        ]
+    },
+
+    "dive1": {
+        "kicker": "Write · Sketch · Solve",
+        "title": "Math-grade notes, ink included",
+        "desc": "KaTeX math with custom macros, definition blocks with hover tooltips, columns and toggles — and when typing is too slow for the idea, just draw it.",
+        "points": [
+            { "html": "<strong>Handwriting canvas</strong> as full pages or inline blocks inside any note" },
+            { "html": "<strong>AI ink translation</strong> — handwriting becomes Markdown or LaTeX in one tap" },
+            { "html": "<strong>KaTeX everywhere</strong>: inline math, math blocks and reusable macros" },
+            { "html": "<strong>Definition blocks</strong> — hover any reference to see its definition card" }
+        ]
+    },
+
+    "dive2": {
+        "kicker": "Run",
+        "title": "A notebook that executes",
+        "desc": "Code blocks are not screenshots of your work — they are your work. Run them in place and keep results next to the reasoning.",
+        "points": [
+            { "html": "<strong>17+ languages</strong>: Python, JavaScript / TypeScript, Rust, C, C++, Go, R, Ruby and more" },
+            { "html": "<strong>Inline output</strong> right under the block — rerun anytime" },
+            { "html": "<strong>Per-page workspaces</strong>: every page maps to its own folder; open a terminal right there" },
+            { "html": "<strong>Runs on your local toolchain</strong> — no cloud sandbox, no upload" }
+        ]
+    },
+
+    "dive3": {
+        "kicker": "BYOK AI + MCP",
+        "title": "AI on your terms",
+        "desc": "Nablix has no AI subscription and no middleman server. Plug in your own OpenAI or Anthropic key — or wire your favorite coding agent straight into your notes via MCP.",
+        "points": [
+            { "html": "<strong>AI chat</strong> that sees the current page — unlimited, even on Free" },
+            { "html": "<strong>Inline completion</strong> while you type (Pro)" },
+            { "html": "<strong>Built-in MCP server</strong>: Claude Code, Cursor and Windsurf can read and edit your notes" },
+            { "html": "<strong>Scoped by design</strong> — agents only see the page and workspace you have open" }
+        ],
+        "scopeChip": "scoped to the open page"
+    },
+
+    "privacyStrip": {
+        "title": "No account. No cloud. No telemetry.",
+        "desc": "Nablix talks to the internet in exactly three cases: your AI calls (your key, your provider), license activation (Lemon Squeezy) and update checks (GitHub). That is the entire list — and the privacy policy is short enough to actually read.",
+        "link": "Read the privacy policy"
+    },
+
+    "pricingPreview": {
+        "heading": "Free to think. Pay to scale.",
+        "sub": "Start with 20 pages and every core feature included. Upgrade when your second brain outgrows them.",
+        "cards": [
+            {
+                "cls": "",
+                "flag": "",
+                "name": "Free",
+                "price": "$0",
+                "per": "forever",
+                "blurb": "20 pages · 1 workspace · all core features, including code execution and AI chat.",
+                "btnCls": "btn-ghost",
+                "cta": "Get started"
+            },
+            {
+                "cls": "popular",
+                "flag": "<div class=\"plan-flag\">Most popular</div>",
+                "name": "Pro",
+                "price": "$4",
+                "per": "/mo billed yearly",
+                "blurb": "Unlimited pages and folders, inline AI completion, interactive Page Map.",
+                "btnCls": "btn-primary",
+                "cta": "See details"
+            },
+            {
+                "cls": "life",
+                "flag": "<div class=\"plan-flag\">Pay once</div>",
+                "name": "Lifetime",
+                "price": "$96",
+                "per": "one-time",
+                "blurb": "Every Pro feature, forever. No subscription, nothing to cancel.",
+                "btnCls": "btn-magenta",
+                "cta": "See details"
+            }
+        ]
+    },
+
+    "faq": {
+        "heading": "Questions, answered",
+        "items": [
+            {
+                "q": "Is Nablix really free?",
+                "a": "Yes — the Free plan is not a trial. You get 20 pages, one workspace folder, and almost every feature: the full editor, canvas, code execution, math, graph view, search, export and unlimited BYOK AI chat. You only upgrade when you need more room."
+            },
+            {
+                "q": "Which platforms are supported?",
+                "a": "Windows 10 and 11 (64-bit) today. The codebase is cross-platform and a macOS build is planned once the Windows version is rock solid."
+            },
+            {
+                "q": "Where is my data stored?",
+                "a": "In ordinary folders on your own disk — pages are files you can open, back up, sync or export with any tool you like. Nothing is uploaded to us. There is no 'us' server at all."
+            },
+            {
+                "q": "Do I need an AI subscription?",
+                "a": "No. AI features are optional and BYOK (bring your own key): you connect your own OpenAI or Anthropic API key and pay your provider only for what you use. Everything else works without any key."
+            },
+            {
+                "q": "What is the MCP integration?",
+                "a": "Nablix ships a built-in MCP server, so tools like Claude Code, Cursor and Windsurf can read and edit your notes as first-class context. Access is scoped to the page and workspace you currently have open — nothing else is exposed."
+            },
+            {
+                "q": "What happens when I hit the 20-page limit?",
+                "a": "Nothing scary. Your notes always remain viewable, editable and exportable — Free limits only stop you from creating new pages beyond 20. Delete pages to get back under the limit, or upgrade to Pro."
+            },
+            {
+                "q": "Windows says 'unknown publisher' — why?",
+                "a": "Early builds are not yet code-signed (a signing certificate is planned before 1.0). Every installer is built automatically from tagged source by GitHub Actions, and you can inspect each release on the releases page. Click 'More info' → 'Run anyway' to proceed."
+            }
+        ]
+    },
+
+    "cta": {
+        "title": "Give your ideas a place to run.",
+        "sub": "Download Nablix, open a page, and let notes, ink, math and code finally live together.",
+        "button": "Download for Windows",
+        "sub2": "Free · 20 pages · No account"
+    },
+
+    "footer": {
+        "tagline": "A local-first notebook where Markdown, ink, code and AI share the page.",
+        "product": "Product",
+        "releases": "Release notes",
+        "legal": "Legal",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "contact": "Contact",
+        "rights": "All rights reserved.",
+        "made": "Made in Japan by a solo developer"
+    },
+
+    "pricing": {
+        "title": "Simple pricing, honest limits",
+        "sub": "Nablix is local-first software: no seats, no storage tiers, no data hostage-taking. Pay only when your notebook outgrows Free.",
+        "monthly": "Monthly",
+        "yearly": "Yearly",
+        "save": "2 months free",
+        "toggleAria": "Toggle yearly billing",
+        "buySoon": "Available at launch",
+        "buySoonSub": "Purchases open soon — the Free plan is available today",
+        "free": {
+            "name": "Free",
+            "note": "free forever",
+            "blurb": "A complete second brain, capped at 20 pages.",
+            "feats": [
+                { "t": "20 pages in 1 workspace folder" },
+                { "t": "Full Markdown editor, canvas & handwriting" },
+                { "t": "Code execution in 17+ languages" },
+                { "t": "KaTeX math, macros & definition blocks" },
+                { "t": "Wiki links, graph view & full-text search" },
+                { "t": "Unlimited AI chat (your own key)" },
+                { "t": "Ink / image → LaTeX: 3 per day" },
+                { "t": "Export & auto-updates" }
+            ],
+            "cta": "Download free",
+            "ctaSub": "No account, no card"
+        },
+        "pro": {
+            "name": "Pro",
+            "flag": "Most popular",
+            "perMonth": "/month",
+            "noteMonthly": "$5 billed monthly",
+            "noteYearly": "$48 billed yearly — 2 months free",
+            "blurb": "Headroom for a notebook that never stops growing.",
+            "feats": [
+                { "t": "Everything in Free" },
+                { "t": "Unlimited pages" },
+                { "t": "Unlimited workspace folders" },
+                { "t": "Inline AI completion as you type" },
+                { "t": "Unlimited ink / image → LaTeX" },
+                { "t": "Interactive Page Map" }
+            ],
+            "ctaLive": "Upgrade to Pro"
+        },
+        "life": {
+            "name": "Lifetime",
+            "flag": "Pay once",
+            "per": "one-time",
+            "note": "yours forever",
+            "blurb": "All of Pro, paid once. No subscription, ever.",
+            "feats": [
+                { "t": "Every Pro feature" },
+                { "t": "All future updates included" },
+                { "t": "No recurring payments, nothing to cancel" },
+                { "t": "Move between your devices anytime" }
+            ],
+            "ctaLive": "Get Lifetime"
+        },
+        "assure1": "14-day money-back guarantee",
+        "assure2": "Secure checkout, taxes & invoices by Lemon Squeezy",
+        "assure3": "Cancel anytime — your data is never locked",
+        "tableHeading": "Compare plans",
+        "colFeature": "Feature",
+        "rows": [
+            { "f": "Pages", "free": "20", "pro": "<span class=\"yes\">Unlimited</span>" },
+            { "f": "Workspace folders", "free": "1", "pro": "<span class=\"yes\">Unlimited</span>" },
+            { "f": "Markdown editor, canvas & handwriting", "free": "<span class=\"yes\">✓</span>", "pro": "<span class=\"yes\">✓</span>" },
+            { "f": "Code execution (17+ languages)", "free": "<span class=\"yes\">✓</span>", "pro": "<span class=\"yes\">✓</span>" },
+            { "f": "KaTeX math & macros", "free": "<span class=\"yes\">✓</span>", "pro": "<span class=\"yes\">✓</span>" },
+            { "f": "Wiki links & graph view", "free": "<span class=\"yes\">✓</span>", "pro": "<span class=\"yes\">✓</span>" },
+            { "f": "Full-text search", "free": "<span class=\"yes\">✓</span>", "pro": "<span class=\"yes\">✓</span>" },
+            { "f": "AI chat (your own key)", "free": "<span class=\"yes\">Unlimited</span>", "pro": "<span class=\"yes\">Unlimited</span>" },
+            { "f": "Inline AI completion", "free": "<span class=\"no\">—</span>", "pro": "<span class=\"yes\">✓</span>" },
+            { "f": "Ink / image → LaTeX", "free": "3 / day", "pro": "<span class=\"yes\">Unlimited</span>" },
+            { "f": "Page Map", "free": "View only", "pro": "<span class=\"yes\">Interactive</span>" },
+            { "f": "MCP server (Claude Code, Cursor…)", "free": "<span class=\"yes\">✓</span>", "pro": "<span class=\"yes\">✓</span>" },
+            { "f": "Export & auto-updates", "free": "<span class=\"yes\">✓</span>", "pro": "<span class=\"yes\">✓</span>" }
+        ],
+        "faqHeading": "Billing & licenses",
+        "faq": [
+            {
+                "q": "How does buying work?",
+                "a": "Checkout and billing are handled by Lemon Squeezy, our merchant of record — they process payment, taxes and invoices. You receive a license key by email within minutes; paste it into Nablix (Settings → License) and you are done."
+            },
+            {
+                "q": "Can I use one license on multiple devices?",
+                "a": "Yes. Your license can be deactivated on one device and activated on another at any time, right from the app. It is licensed per person, not per machine."
+            },
+            {
+                "q": "What does 'Lifetime' actually mean?",
+                "a": "A one-time payment that unlocks every Pro feature permanently, including future updates of the app. It is not a subscription and there is nothing to renew."
+            },
+            {
+                "q": "What happens if I cancel Pro?",
+                "a": "Your notes are never held hostage. Everything remains viewable, editable and exportable. If you are over the Free limits you simply cannot create new pages or folders until you are back under them — or until you upgrade again."
+            },
+            {
+                "q": "Do prices include tax?",
+                "a": "Lemon Squeezy calculates and adds any applicable VAT or sales tax at checkout based on your country, and handles all tax paperwork as merchant of record."
+            },
+            {
+                "q": "What is your refund policy?",
+                "a": "If Nablix is not for you, email us within 14 days of purchase and we will refund you in full — no forms, no interrogation."
+            },
+            {
+                "q": "Is there a Microsoft Store version?",
+                "a": "A Store edition is planned. Store sandbox rules disallow launching external processes, so code execution is exclusive to the official edition you download here. Licenses purchased on this site activate the official edition."
+            },
+            {
+                "q": "Do I need to pay extra for AI?",
+                "a": "Nablix never charges for AI. You bring your own OpenAI or Anthropic API key and pay your provider directly for usage — typically pennies for note-taking workloads. AI chat is unlimited on every plan, including Free."
+            }
+        ]
+    },
+
+    "notFound": {
+        "desc": "This page drifted off the graph.",
+        "descJa": "このページはグラフの外に漂流してしまったようです。",
+        "home": "Back to home"
+    }
+}

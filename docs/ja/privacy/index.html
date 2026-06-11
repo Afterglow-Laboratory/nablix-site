@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>プライバシーポリシー — Nablix</title>
+    <meta name="description" content="Nablixのデータの扱いはシンプルです：すべてローカル。デバイスの外に出る通信を、いつ・なぜ発生するのかまで全部書きました。" />
+    <link rel="canonical" href="https://nablix.app/ja/privacy/" />
+    <link rel="alternate" hreflang="en" href="https://nablix.app/privacy/" />
+    <link rel="alternate" hreflang="ja" href="https://nablix.app/ja/privacy/" />
+    <link rel="alternate" hreflang="x-default" href="https://nablix.app/privacy/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Nablix" />
+    <meta property="og:title" content="プライバシーポリシー — Nablix" />
+    <meta property="og:description" content="Nablixのデータの扱いはシンプルです：すべてローカル。デバイスの外に出る通信を、いつ・なぜ発生するのかまで全部書きました。" />
+    <meta property="og:url" content="https://nablix.app/ja/privacy/" />
+    <meta property="og:image" content="https://nablix.app/assets/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="プライバシーポリシー — Nablix" />
+    <meta name="twitter:description" content="Nablixのデータの扱いはシンプルです：すべてローカル。デバイスの外に出る通信を、いつ・なぜ発生するのかまで全部書きました。" />
+    <meta name="twitter:image" content="https://nablix.app/assets/og.png" />
+    <meta name="theme-color" content="#050509" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/assets/icon-128.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/style.css" />
+    <meta name="robots" content="index,follow" />
+</head>
+<body>
+    <div class="nav-wrap">
+        <div class="wrap nav">
+            <a class="nav-logo" href="/ja/">
+                <img src="/assets/icon-128.png" alt="" width="30" height="30" />
+                <span>Nab<span class="lix">lix</span></span>
+            </a>
+            <nav class="nav-links" aria-label="Main">
+                <a href="/ja/#features">機能</a>
+                <a href="/ja/pricing/">料金</a>
+                <a href="/ja/#faq">FAQ</a>
+            </nav>
+            <select class="lang-switch" aria-label="Language" onchange="location.href=this.value"><option value="/privacy/">English</option><option value="/ja/privacy/" selected>日本語</option></select>
+            <a class="btn btn-primary" data-dl href="https://github.com/Afterglow-Laboratory/nablix-releases/releases/latest">ダウンロード</a>
+            <details class="nav-menu">
+                <summary aria-label="Menu">
+                    <svg width="18" height="14" viewBox="0 0 18 14" fill="none" aria-hidden="true"><path d="M1 1h16M1 7h16M1 13h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                </summary>
+                <div class="menu-pop">
+                    <a href="/ja/#features">機能</a>
+                    <a href="/ja/pricing/">料金</a>
+                    <a href="/ja/#faq">FAQ</a>
+                </div>
+            </details>
+        </div>
+    </div>
+
+    <main class="wrap">
+        <article class="legal-doc">
+<h1>プライバシーポリシー</h1>
+<p class="doc-date">発効日: 2026年6月11日 · 対象: Nablixデスクトップアプリおよびnablix.appウェブサイト</p>
+
+<div class="note">
+    <strong>要約:</strong> Nablixはローカルファーストです。ノートはあなたのデバイス内に保存され、開発者にアップロードされることはありません — そもそも受け取るためのサーバーが存在しません。アプリがインターネットと通信するのは、ライセンス認証（Lemon Squeezy）、アップデート確認（GitHub）、そしてあなた自身のAPIキーで開始するAIリクエストのみです。<br /><br />
+    本ポリシーは英語版を正文とし、日本語版は参考訳です。
+</div>
+
+<h2>1. 運営者</h2>
+<p>Nablixは<strong>Afterglow Laboratory</strong>（日本・個人開発）が開発・運営しています。お問い合わせは <a href="mailto:afterglowlaboratory@gmail.com">afterglowlaboratory@gmail.com</a> までいつでもどうぞ。</p>
+
+<h2>2. ひと目でわかる一覧</h2>
+<table>
+    <thead>
+        <tr><th>データ</th><th>保存場所</th><th>外部送信は？</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>ノート・ページ・キャンバス・添付ファイル</td><td>あなたのデバイス上のフォルダ</td><td>開発者には一切送信されません。あなたがAI機能を明示的に使った場合のみ、その内容がAIプロバイダへ送られます。</td></tr>
+        <tr><td>AI APIキー（OpenAI / Anthropic）</td><td>デバイス内に保存。リクエストはアプリのローカルバックエンドが中継</td><td>あなたが選んだプロバイダへの認証にのみ使用。開発者へは送信されません。</td></tr>
+        <tr><td>ライセンスキーとデバイス名</td><td>デバイス内に保存</td><td>ライセンスの有効化・検証のためLemon Squeezyに送信されます。</td></tr>
+        <tr><td>利用状況の分析・テレメトリ</td><td colspan="2"><strong>ありません。アプリに分析・トラッキング・テレメトリの類は一切含まれていません。</strong></td></tr>
+    </tbody>
+</table>
+
+<h2>3. デバイス内に留まるもの</h2>
+<ul>
+    <li><strong>あなたのコンテンツ。</strong>ページ、手書きキャンバス、添付ファイル、ワークスペースのファイルは、ディスク上の普通のフォルダに保存されます。開発者はアクセスできません。</li>
+    <li><strong>設定</strong>（AI設定や言語設定を含む）。</li>
+    <li><strong>AI APIキー。</strong>キーはローカルに保存され、アプリのローカルバックエンドがリクエストに付与します。保存後は全文表示されず、Afterglow Laboratoryに送信されることもありません。</li>
+    <li><strong>ライセンス状態。</strong>オフラインでも動作するよう、ライセンス状態のキャッシュを保持します。</li>
+</ul>
+
+<h2>4. データがデバイスの外に出る場合</h2>
+<p>アプリが外部サービスに接続するのは、以下の場合に限られます。</p>
+
+<h3>4.1 購入・ライセンス認証 — Lemon Squeezy</h3>
+<p>決済は<strong>Merchant of Record（販売事業者）</strong>であるLemon Squeezy, LLCが処理します。ライセンス購入時、支払い情報・請求情報は<a href="https://www.lemonsqueezy.com/privacy" rel="noopener">同社のプライバシーポリシー</a>のもとでLemon Squeezyが収集します。開発者がカード番号を見ることはありません。アプリ内でライセンスを有効化・検証する際は、ライセンスキーと判読可能なデバイス名がLemon SqueezyのライセンスAPIに送信されます。サポート対応のため、注文情報（メールアドレス・購入商品など）をLemon Squeezyから受け取ります。</p>
+
+<h3>4.2 AIリクエスト — あなたが選んだプロバイダ</h3>
+<p>APIキーを設定すると、AI機能（チャット、インライン補完、手書き/画像変換）は該当するノート内容を、あなたのデバイスから直接、選択したプロバイダ（OpenAIまたはAnthropic）へあなたのキーで送信します。その内容の取り扱いは、あなたとプロバイダ間の規約に従います。AIリクエストが開発者のサーバーを経由することはありません。キーを設定しなければ、AIリクエストは一切発生しません。</p>
+
+<h3>4.3 アップデート確認 — GitHub</h3>
+<p>公式版は自動アップデートのため、GitHub（github.com）に最新リリース情報を定期的に問い合わせます。通常のWebリクエストと同様、IPアドレスが<a href="https://docs.github.com/ja/site-policy/privacy-policies/github-privacy-statement" rel="noopener">GitHubのプライバシーステートメント</a>のもとでGitHubに渡ります。標準的なリクエスト以上の識別子は含まれません。</p>
+
+<h3>4.4 MCP — あなたが接続するAIツール</h3>
+<p>内蔵MCPサーバーを有効にすると、<em>あなたが</em>設定したサードパーティAIツール（Claude Code、Cursor、Windsurfなど）が、現在開いているページとそのワークスペースを、あなたのマシン上でローカルに読み書きできます。それらのツールがその内容をどう扱うか（例: 各ツールのAIプロバイダへの送信）は、各ツールのプライバシーポリシーに従います。アクセス範囲は開いているページとワークスペースに限定され、ノートを閉じるとコンテキストは失効します。</p>
+
+<h2>5. 開発者がしないこと</h2>
+<ul>
+    <li>アプリ内での分析・テレメトリ・クラッシュレポート・トラッキングは行いません。</li>
+    <li>アカウント制度はありません — メールをいただかない限り、お名前すら知り得ません。</li>
+    <li>個人データの販売・貸与・共有は行いません。売るものがそもそも存在しません。</li>
+    <li>広告は表示しません。</li>
+</ul>
+
+<h2>6. 本ウェブサイト（nablix.app）について</h2>
+<ul>
+    <li>本サイトは<strong>GitHub Pages</strong>でホストされており、GitHubがIPアドレス等の標準的なリクエスト情報を記録する場合があります。</li>
+    <li>本サイトは<strong>Cookieを使用しません</strong>。言語設定の記憶のためにブラウザのlocalStorageのみを使用します。分析スクリプトは読み込みません。</li>
+    <li>Webフォントは<strong>Google Fonts</strong>から配信され、フォント配信の過程でGoogleにIPアドレスが渡ります。</li>
+    <li>ダウンロードボタンは最新バージョン表示のため、ブラウザから<strong>GitHub API</strong>に問い合わせます。</li>
+</ul>
+
+<h2>7. メールについて</h2>
+<p>お問い合わせをいただいた場合、サポート対応（および返金対応）のためにやり取りを保管します。それ以外の目的には使用しません。</p>
+
+<h2>8. お子様について</h2>
+<p>Nablixは13歳未満のお子様を対象としておらず、お子様の個人データを意図的に収集することはありません — 設計上、誰からもほとんど個人データを収集していません。</p>
+
+<h2>9. 本ポリシーの変更</h2>
+<p>本ポリシーを変更する場合は、このページと上記の発効日を更新します。重要な変更はリリースノートでお知らせします。</p>
+
+<h2>10. お問い合わせ</h2>
+<p>Afterglow Laboratory — <a href="mailto:afterglowlaboratory@gmail.com">afterglowlaboratory@gmail.com</a></p>
+
+        </article>
+    </main>
+
+    <footer>
+        <div class="wrap">
+            <div class="foot-grid">
+                <div class="foot-brand">
+                    <img src="/assets/icon-128.png" alt="Nablix" width="34" height="34" />
+                    <div class="name">Nab<span style="color:var(--cyan)">lix</span></div>
+                    <p>Markdown・インク・コード・AIが同じページに住まう、ローカルファーストのノートアプリ。</p>
+                </div>
+                <div class="foot-col">
+                    <h4>プロダクト</h4>
+                    <a data-dl href="https://github.com/Afterglow-Laboratory/nablix-releases/releases/latest">ダウンロード</a>
+                    <a href="/ja/pricing/">料金</a>
+                    <a href="https://github.com/Afterglow-Laboratory/nablix-releases/releases">リリースノート</a>
+                </div>
+                <div class="foot-col">
+                    <h4>法的情報</h4>
+                    <a href="/ja/privacy/">プライバシーポリシー</a>
+                    <a href="/ja/terms/">利用規約</a>
+                </div>
+                <div class="foot-col">
+                    <h4>お問い合わせ</h4>
+                    <a href="mailto:afterglowlaboratory@gmail.com">afterglowlaboratory@gmail.com</a>
+                    <a href="https://github.com/Afterglow-Laboratory">GitHub</a>
+                </div>
+            </div>
+            <div class="foot-bottom">
+                <span>© 2026 Afterglow Laboratory. All rights reserved.</span>
+                <span>∇ 日本の個人開発者がつくっています</span>
+            </div>
+        </div>
+    </footer>
+    <script src="/assets/site.js" defer></script>
+</body>
+</html>
