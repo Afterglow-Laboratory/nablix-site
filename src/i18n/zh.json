@@ -22,7 +22,7 @@
  },
  "hero": {
   "badge": "v0.1.0 · Windows",
-  "title": "书写。手绘。运行。<br />一切都在同一页上。",
+  "title": "书写。手绘。<span class=\"grad-text\">运行。</span><br />一切都在同一页上。",
   "sub": "Nablix 是一款 Windows 平台的本地优先笔记应用。Markdown、手写墨迹、可运行的代码和数学公式——过去分散在不同应用里的工具，如今汇聚在同一页纸上。无需账号，无需云端。",
   "ctaPrimary": "免费下载 Windows 版",
   "ctaSecondary": "查看价格",

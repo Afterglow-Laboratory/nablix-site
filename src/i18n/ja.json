@@ -22,7 +22,7 @@
  },
  "hero": {
   "badge": "v0.1.0 · Windows",
-  "title": "書く。描く。動かす。<br />すべて、同じページで。",
+  "title": "書く。描く。<span class=\"grad-text\">動かす。</span><br />すべて、同じページで。",
   "sub": "Nablix は Windows 向けのローカルファーストなノートアプリです。Markdown、手書きのインク、実行できるコード、数式——別々のアプリに散らばっていた道具を、1枚のページにまとめました。アカウントもクラウドも不要です。",
   "ctaPrimary": "Windows版を無料ダウンロード",
   "ctaSecondary": "料金を見る",
