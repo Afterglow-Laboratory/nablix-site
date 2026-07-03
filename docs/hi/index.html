@@ -82,165 +82,61 @@
         <!-- ═══ Hero ═══ -->
         <header class="hero wrap">
             <div class="hero-badge"><span class="dot"></span><span data-dl-meta>v0.1.0 · Windows</span></div>
-            <h1>आपके विचार, <span class="grad-text">जुड़े हुए</span>।<br />आपके आइडिया, <span class="grad-text">जीवंत</span>।</h1>
-            <p class="lead">Nablix Windows के लिए एक local-first नोटबुक है जहाँ Markdown, हस्तलिखित इंक, चलने योग्य कोड और AI एक ही पेज पर साथ रहते हैं। न अकाउंट। न क्लाउड। आपकी फ़ाइलें हमेशा आपकी।</p>
+            <h1>लिखें। बनाएँ। चलाएँ।<br />सब कुछ एक ही पेज पर।</h1>
+            <p class="lead">Nablix, Windows के लिए एक लोकल-फ़र्स्ट नोटबुक है। Markdown, हस्तलिखित स्याही, चलने वाला कोड और गणित — जो उपकरण अलग-अलग ऐप्स में बिखरे थे, वे अब एक ही पेज पर हैं। न खाता चाहिए, न क्लाउड।</p>
             <div class="hero-ctas">
-                <a class="btn btn-primary" data-dl href="https://github.com/Afterglow-Laboratory/nablix-releases/releases/latest">⬇&nbsp; Windows के लिए डाउनलोड करें — मुफ़्त</a>
+                <a class="btn btn-primary" data-dl href="https://github.com/Afterglow-Laboratory/nablix-releases/releases/latest">
+                    <svg class="bi" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    Windows के लिए डाउनलोड करें — मुफ़्त
+                </a>
                 <a class="btn btn-ghost" href="/hi/pricing/">मूल्य देखें</a>
             </div>
             <p class="hero-fineprint">20 पेज तक मुफ़्त<span class="sep">·</span>साइन-अप नहीं<span class="sep">·</span>ऑटो-अपडेट</p>
 
-            <!-- App mockup -->
-            <div class="mock-stage">
-                <div class="mock" role="img" aria-label="Nablix ऐप विंडो जिसमें गणित ब्लॉक, चलने योग्य Python कोड, हस्तलेखन कैनवास और पेज ग्राफ़ वाला Markdown पेज दिख रहा है">
-                    <svg viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg" font-family="Inter,'Segoe UI',sans-serif">
-                        <defs>
-                            <linearGradient id="mg" x1="0" y1="0" x2="1" y2="1">
-                                <stop offset="0" stop-color="#00fff7" stop-opacity=".14"/>
-                                <stop offset="1" stop-color="#ff3df5" stop-opacity=".10"/>
-                            </linearGradient>
-                            <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
-                                <feGaussianBlur stdDeviation="3.2" result="b"/>
-                                <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-                            </filter>
-                        </defs>
-
-                        <rect width="960" height="600" fill="#07070e"/>
-
-                        <!-- titlebar -->
-                        <rect width="960" height="38" fill="#0b0b14"/>
-                        <circle cx="22" cy="19" r="5.5" fill="#ff5f57" opacity=".85"/>
-                        <circle cx="42" cy="19" r="5.5" fill="#febc2e" opacity=".85"/>
-                        <circle cx="62" cy="19" r="5.5" fill="#28c840" opacity=".85"/>
-                        <text x="480" y="24" text-anchor="middle" font-size="12" fill="#5b6470">Vector Fields — Nablix</text>
-
-                        <!-- sidebar -->
-                        <rect y="38" width="208" height="562" fill="#0a0a13"/>
-                        <line x1="208" y1="38" x2="208" y2="600" stroke="#1a1a28" stroke-width="1"/>
-                        <text x="20" y="76" font-size="10.5" fill="#5b6470" letter-spacing="2" font-weight="700">ANALYSIS</text>
-                        <text x="22" y="108" font-size="13" fill="#8b94a2">📄 Gradient Descent</text>
-                        <rect x="10" y="124" width="188" height="30" rx="7" fill="#00fff7" opacity=".10"/>
-                        <rect x="10" y="124" width="188" height="30" rx="7" fill="none" stroke="#00fff7" stroke-opacity=".35"/>
-                        <text x="22" y="144" font-size="13" fill="#aef7f4" font-weight="600">∇ Vector Fields</text>
-                        <text x="22" y="180" font-size="13" fill="#8b94a2">📄 Curl &amp; Divergence</text>
-                        <text x="22" y="212" font-size="13" fill="#8b94a2">✍️ Whiteboard 06-11</text>
-                        <text x="22" y="244" font-size="13" fill="#8b94a2">🕸 Page Map</text>
-
-                        <!-- main column -->
-                        <text x="240" y="92" font-size="27" fill="#eef4f6" font-weight="800">Vector Fields</text>
-                        <!-- wiki chips -->
-                        <rect x="240" y="110" width="104" height="24" rx="12" fill="#00fff7" opacity=".08"/>
-                        <text x="252" y="126" font-size="12" fill="#7ee8e4">[[Divergence]]</text>
-                        <rect x="354" y="110" width="92" height="24" rx="12" fill="#ff3df5" opacity=".08"/>
-                        <text x="366" y="126" font-size="12" fill="#f5a3ef">[[Gradient]]</text>
-
-                        <text x="240" y="166" font-size="13.5" fill="#9aa3ad">A vector field assigns a direction and magnitude to every</text>
-                        <text x="240" y="188" font-size="13.5" fill="#9aa3ad">point in space — the flow of an idea, made visible.</text>
-
-                        <!-- math block -->
-                        <rect x="240" y="210" width="430" height="52" rx="10" fill="#00fff7" opacity=".05"/>
-                        <rect x="240" y="210" width="430" height="52" rx="10" fill="none" stroke="#00fff7" stroke-opacity=".25"/>
-                        <text x="455" y="243" text-anchor="middle" font-size="18" fill="#d9fffd" font-family="Cambria Math,Georgia,serif" font-style="italic">∇·F = ∂F₁/∂x + ∂F₂/∂y</text>
-
-                        <!-- code block -->
-                        <rect x="240" y="286" width="430" height="158" rx="10" fill="#0c0c16"/>
-                        <rect x="240" y="286" width="430" height="158" rx="10" fill="none" stroke="#23233a"/>
-                        <text x="258" y="312" font-size="11" fill="#5b6470" font-family="JetBrains Mono,Consolas,monospace">python</text>
-                        <rect x="600" y="298" width="56" height="22" rx="6" fill="#00fff7" opacity=".12"/>
-                        <text x="611" y="313" font-size="11.5" fill="#00fff7" font-family="JetBrains Mono,Consolas,monospace">▶ Run</text>
-                        <g font-family="JetBrains Mono,Consolas,monospace" font-size="12.5">
-                            <text x="258" y="340" fill="#6b7280"># divergence at (1, 2)</text>
-                            <text x="258" y="362" fill="#c9d4dd">div <tspan fill="#ff3df5">=</tspan> dFx(<tspan fill="#ffb054">1</tspan>,<tspan fill="#ffb054">2</tspan>) <tspan fill="#ff3df5">+</tspan> dFy(<tspan fill="#ffb054">1</tspan>,<tspan fill="#ffb054">2</tspan>)</text>
-                            <text x="258" y="384" fill="#c9d4dd"><tspan fill="#00fff7">print</tspan>(<tspan fill="#5dff7d">f"∇·F = {div}"</tspan>)</text>
-                        </g>
-                        <rect x="256" y="402" width="398" height="28" rx="7" fill="#5dff7d" opacity=".06"/>
-                        <text x="270" y="421" font-size="12.5" fill="#5dff7d" font-family="JetBrains Mono,Consolas,monospace">∇·F = 4.0</text>
-
-                        <!-- handwriting canvas card -->
-                        <rect x="694" y="62" width="240" height="206" rx="12" fill="url(#mg)"/>
-                        <rect x="694" y="62" width="240" height="206" rx="12" fill="none" stroke="#2a2a40"/>
-                        <text x="712" y="88" font-size="10.5" fill="#5b6470" letter-spacing="2" font-weight="700">CANVAS</text>
-                        <path d="M724 150 C 740 110, 762 112, 772 142 C 780 166, 796 168, 806 140 C 814 118, 836 116, 848 134 M 858 120 L 898 120 M 858 138 L 898 138"
-                              fill="none" stroke="#ff3df5" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
-                        <path d="M730 196 q 30 18 64 6 t 70 -6" fill="none" stroke="#00fff7" stroke-width="2.4" stroke-linecap="round" opacity=".8" filter="url(#glow)"/>
-                        <rect x="712" y="220" width="204" height="30" rx="8" fill="#0c0c16" stroke="#23233a"/>
-                        <text x="724" y="240" font-size="12" fill="#aef7f4" font-family="Cambria Math,Georgia,serif" font-style="italic">✨ → x² ≈ ∑ aₙcos(nx)</text>
-
-                        <!-- graph constellation card -->
-                        <rect x="694" y="288" width="240" height="252" rx="12" fill="#0a0a13"/>
-                        <rect x="694" y="288" width="240" height="252" rx="12" fill="none" stroke="#2a2a40"/>
-                        <text x="712" y="314" font-size="10.5" fill="#5b6470" letter-spacing="2" font-weight="700">PAGE MAP</text>
-                        <g stroke="#22d3ee" stroke-opacity=".30" stroke-width="1.2">
-                            <line x1="784" y1="380" x2="848" y2="346"/>
-                            <line x1="784" y1="380" x2="872" y2="420"/>
-                            <line x1="784" y1="380" x2="744" y2="450"/>
-                            <line x1="872" y1="420" x2="848" y2="346"/>
-                            <line x1="872" y1="420" x2="824" y2="488"/>
-                            <line x1="744" y1="450" x2="824" y2="488"/>
-                            <line x1="848" y1="346" x2="900" y2="362"/>
-                        </g>
-                        <circle cx="784" cy="380" r="13" fill="#00fff7" opacity=".9" filter="url(#glow)"/>
-                        <circle cx="848" cy="346" r="8" fill="#5dff7d" opacity=".8" filter="url(#glow)"/>
-                        <circle cx="872" cy="420" r="10" fill="#ff3df5" opacity=".8" filter="url(#glow)"/>
-                        <circle cx="744" cy="450" r="7" fill="#22d3ee" opacity=".7"/>
-                        <circle cx="824" cy="488" r="6" fill="#b44dff" opacity=".8"/>
-                        <circle cx="900" cy="362" r="5" fill="#ffb054" opacity=".8"/>
-                        <text x="784" y="408" text-anchor="middle" font-size="10" fill="#7ee8e4">vector fields</text>
-
-                        <!-- status bar -->
-                        <rect y="572" width="960" height="28" fill="#0b0b14"/>
-                        <text x="240" y="590" font-size="11" fill="#4b5563">⌁ local · offline-ready</text>
-                        <text x="938" y="590" text-anchor="end" font-size="11" fill="#4b5563">md + ink + code</text>
-                    </svg>
-                </div>
-            </div>
+            <!-- Product screenshot (replace src/assets/shots/hero.png with a real capture) -->
+            <figure class="shot hero-shot">
+                <img src="/assets/shots/hero.png" width="1920" height="1200" alt="Nablix का वास्तविक इंटरफ़ेस: गणित, हस्तलेखन और चलने वाले कोड ब्लॉक के साथ एक Markdown नोट" loading="eager" fetchpriority="high" />
+            </figure>
         </header>
 
         <!-- ═══ Features ═══ -->
         <section class="section wrap" id="features">
             <div class="section-head reveal">
                 <span class="kicker">Features</span>
-                <h2>एक पेज। सोचने का हर तरीक़ा।</h2>
-                <p class="lead">नोट ऐप, व्हाइटबोर्ड, LaTeX एडिटर और REPL के बीच भागना बंद करें। Nablix इन सबको एक तेज़ वर्कस्पेस में समेट देता है।</p>
+                <h2>उपकरण बदलना बंद कीजिए।</h2>
+                <p class="lead">नोट्स, व्हाइटबोर्ड, LaTeX संपादक, REPL — इनके बीच आते-जाते जो एकाग्रता खोती थी, वह एक ही पेज पर लौट आती है।</p>
             </div>
             <div class="features-grid">
-                
                 <article class="fcard reveal">
-                    <div class="ficon">✍️</div>
-                    <h3>अनंत हस्तलेखन कैनवास</h3>
-                    <p>असीम कैनवास पर क़लम से सोचें — स्वतंत्र व्हाइटबोर्ड पेज के रूप में, या सीधे आपके Markdown में जड़े ब्लॉक के रूप में।</p>
+                    <div class="ficon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg></div>
+                    <h3>जहाँ है वहीं संपादित Markdown</h3>
+                    <p>स्लैश कमांड, तालिकाएँ, टॉगल, कॉलम, विषय-सूची। संपादन कितना भी समृद्ध हो, सहेजी जाती है सिर्फ़ एक सादा .md फ़ाइल, जिसे कहीं भी खोल सकते हैं।</p>
                 </article>
-                
                 <article class="fcard reveal">
-                    <div class="ficon">⚡</div>
+                    <div class="ficon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.85 2.85 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/></svg></div>
+                    <h3>सीधे पेज पर हस्तलेखन</h3>
+                    <p>नोट में कहीं भी कैनवास जोड़ें और पेन से लिखें — या पूरे स्क्रीन का व्हाइटबोर्ड खोलें। दबाव-संवेदी, सहज स्याही।</p>
+                </article>
+                <article class="fcard reveal">
+                    <div class="ficon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg></div>
                     <h3>कोड जो सचमुच चलता है</h3>
-                    <p>Python, TypeScript, Rust, C++ समेत 17+ भाषाएँ Jupyter-शैली में वहीं चलाएँ। आउटपुट ब्लॉक के ठीक नीचे आता है।</p>
+                    <p>पेज के भीतर Python, TypeScript आदि चलाएँ और आउटपुट ब्लॉक के ठीक नीचे रखें। हर पेज का अपना वर्कस्पेस फ़ोल्डर है, टर्मिनल समेत।</p>
                 </article>
-                
                 <article class="fcard reveal">
-                    <div class="ficon">✨</div>
-                    <h3>इंक → LaTeX, इमेज → Markdown</h3>
-                    <p>समीकरण हाथ से लिखें और AI उसे साफ़-सुथरे KaTeX में बदल देगा। स्क्रीनशॉट चिपकाएँ, संपादन-योग्य Markdown पाएँ।</p>
+                    <div class="ficon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg></div>
+                    <h3>गणित, और बढ़ता शब्दकोश</h3>
+                    <p>KaTeX और कस्टम मैक्रो से तेज़ गणित। परिभाषित शब्द अपने आप शब्दकोश में जुड़ते हैं और किसी भी पेज से होवर पर दिखते हैं।</p>
                 </article>
-                
                 <article class="fcard reveal">
-                    <div class="ficon">🕸</div>
-                    <h3>ढेर नहीं, ग्राफ़</h3>
-                    <p>दोतरफ़ा [[विकि लिंक]], होवर पर खुलती परिभाषाएँ और तारामंडल-सा Page Map बिखरे नोट्स को दूसरा दिमाग़ बना देते हैं।</p>
+                    <div class="ficon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="5" r="2.2"/><circle cx="5" cy="19" r="2.2"/><circle cx="19" cy="19" r="2.2"/><line x1="12" y1="7.2" x2="5.8" y2="16.9"/><line x1="12" y1="7.2" x2="18.2" y2="16.9"/><line x1="7.2" y1="19" x2="16.8" y2="19"/></svg></div>
+                    <h3>पेजों के रिश्ते देखें</h3>
+                    <p>लोकल एम्बेडिंग मॉडल पेजों की अर्थगत निकटता मापकर उन्हें तारामंडल की तरह चित्रित करता है। खोज भी अर्थ-आधारित है — पूरी तरह ऑफ़लाइन।</p>
                 </article>
-                
                 <article class="fcard reveal">
-                    <div class="ficon">🤖</div>
-                    <h3>आपकी AI, आपकी कुंजी</h3>
-                    <p>अपनी OpenAI या Anthropic कुंजी जोड़ें। पेज के संदर्भ में चैट करें, टाइप करते हुए पूर्णता पाएँ, MCP से एजेंट जोड़ें। कुंजियाँ कभी आपकी मशीन से बाहर नहीं जातीं।</p>
+                    <div class="ficon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/><path d="M7 8l3 2.5L7 13"/><line x1="12" y1="13" x2="16" y2="13"/></svg></div>
+                    <h3>अपनी AI कुंजियाँ, MCP से विस्तारित</h3>
+                    <p>चैट और इनलाइन पूर्ति के लिए अपनी OpenAI या Anthropic कुंजी जोड़ें। अंतर्निर्मित MCP सर्वर से Claude जैसे उपकरण आपके नोट पढ़-लिख सकते हैं।</p>
                 </article>
-                
-                <article class="fcard reveal">
-                    <div class="ficon">🔒</div>
-                    <h3>Local-first। सच में।</h3>
-                    <p>Rust + Tauri से निर्मित: तुरंत स्टार्ट, पूरी तरह ऑफ़लाइन, शून्य टेलीमेट्री। नोट्स आपके अपने सामान्य फ़ोल्डरों में रहते हैं और कभी भी निर्यात किए जा सकते हैं।</p>
-                </article>
-                
             </div>
         </section>
 
@@ -249,34 +145,16 @@
             <!-- 1: ink + math -->
             <div class="dive">
                 <div class="reveal">
-                    <span class="kicker">लिखें · बनाएँ · हल करें</span>
-                    <h2>गणित-स्तर के नोट्स, इंक समेत</h2>
-                    <p class="lead">कस्टम मैक्रो वाला KaTeX गणित, होवर टूलटिप वाले परिभाषा ब्लॉक, कॉलम और टॉगल — और जब टाइपिंग विचार से धीमी पड़े, तो बस बना डालिए।</p>
+                    <span class="kicker">Ink × Math</span>
+                    <h2>हाथ की रफ़्तार से गणित।</h2>
+                    <p class="lead">जब टाइपिंग विचारों का साथ न दे, तो सीधे बनाइए। हस्तलिखित सूत्र AI द्वारा KaTeX में बदलकर पेज पर सुंदर ढंग से सज जाते हैं।</p>
                     <ul>
-                        <li><strong>हस्तलेखन कैनवास</strong> — पूरे पेज के रूप में या किसी भी नोट के भीतर इनलाइन ब्लॉक के रूप में</li><li><strong>AI इंक अनुवाद</strong> — हस्तलेखन एक टैप में Markdown या LaTeX बन जाता है</li><li><strong>हर जगह KaTeX</strong>: इनलाइन गणित, गणित ब्लॉक और पुन: प्रयोज्य मैक्रो</li><li><strong>परिभाषा ब्लॉक</strong> — किसी भी संदर्भ पर होवर करें और उसका परिभाषा कार्ड देखें</li>
+                        <li><strong>इनलाइन कैनवास</strong> — अनुच्छेदों के बीच हस्तलेखन ब्लॉक</li><li><strong>हस्तलेखन → LaTeX</strong> — AI आपकी लिखावट को सूत्र ब्लॉक में बदलता है</li><li><strong>हर जगह KaTeX</strong> — इनलाइन गणित, ब्लॉक, कस्टम मैक्रो</li><li><strong>सूत्र संपादन पैनल</strong> — रेंडर देखते हुए स्रोत संपादित करें</li>
                     </ul>
                 </div>
                 <div class="dive-visual reveal">
-                    <svg viewBox="0 0 440 300" xmlns="http://www.w3.org/2000/svg" font-family="Inter,'Segoe UI',sans-serif">
-                        <defs>
-                            <filter id="g2" x="-60%" y="-60%" width="220%" height="220%">
-                                <feGaussianBlur stdDeviation="2.6" result="b"/>
-                                <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-                            </filter>
-                        </defs>
-                        <text x="20" y="32" font-size="10.5" fill="#5b6470" letter-spacing="2" font-weight="700">HANDWRITING</text>
-                        <path d="M36 110 C 50 60, 80 62, 92 104 C 102 140, 124 142, 136 102 C 146 68, 172 64, 186 92 M 200 78 L 252 78 M 200 100 L 252 100 M 272 60 C 300 64, 300 96, 274 100 C 300 104, 304 136, 272 138"
-                              fill="none" stroke="#ff3df5" stroke-width="3.4" stroke-linecap="round" filter="url(#g2)"/>
-                        <path d="M40 150 q 60 26 130 10 t 150 -8" fill="none" stroke="#00fff7" stroke-width="2.2" stroke-linecap="round" opacity=".65" filter="url(#g2)"/>
-                        <g>
-                            <line x1="220" y1="180" x2="220" y2="208" stroke="#5b6470" stroke-width="1.6" stroke-dasharray="3 4"/>
-                            <path d="M214 202 L220 212 L226 202" fill="none" stroke="#5b6470" stroke-width="1.6"/>
-                        </g>
-                        <text x="232" y="200" font-size="11" fill="#7ee8e4">✨ AI</text>
-                        <rect x="48" y="222" width="344" height="52" rx="10" fill="#00fff7" opacity=".05"/>
-                        <rect x="48" y="222" width="344" height="52" rx="10" fill="none" stroke="#00fff7" stroke-opacity=".3"/>
-                        <text x="220" y="255" text-anchor="middle" font-size="17" fill="#d9fffd" font-family="Cambria Math,Georgia,serif" font-style="italic">f(x) = Σ aₙ cos(nπx/L)</text>
-                    </svg>
+                    <!-- replace src/assets/shots/handwriting.png -->
+                    <figure class="shot"><img src="/assets/shots/handwriting.png" width="1200" height="900" alt="हस्तलिखित सूत्र का KaTeX ब्लॉक में रूपांतरण" loading="lazy" /></figure>
                 </div>
             </div>
 
@@ -284,65 +162,47 @@
             <div class="dive">
                 <div class="reveal">
                     <span class="kicker">Run</span>
-                    <h2>नोटबुक जो निष्पादित करती है</h2>
-                    <p class="lead">कोड ब्लॉक आपके काम के स्क्रीनशॉट नहीं हैं — वे ख़ुद आपका काम हैं। उन्हें वहीं चलाएँ और नतीजों को तर्क के बगल में रखें।</p>
+                    <h2>नोट्स के भीतर एक छोटी प्रयोगशाला।</h2>
+                    <p class="lead">कोड ब्लॉक काम का स्क्रीनशॉट नहीं — वही असली काम है। आज़माइए, सुधारिए, और नतीजा विचार के बगल में रखिए।</p>
                     <ul>
-                        <li><strong>17+ भाषाएँ</strong>: Python, JavaScript / TypeScript, Rust, C, C++, Go, R, Ruby और भी</li><li><strong>इनलाइन आउटपुट</strong> ब्लॉक के ठीक नीचे — जब चाहें फिर चलाएँ</li><li><strong>प्रति-पेज वर्कस्पेस</strong>: हर पेज का अपना फ़ोल्डर; वहीं टर्मिनल खोलें</li><li><strong>आपकी स्थानीय टूलचेन पर चलता है</strong> — न क्लाउड सैंडबॉक्स, न अपलोड</li>
+                        <li><strong>बहु-भाषा रनर</strong> — Python, JavaScript / TypeScript, C / C++, Go आदि</li><li><strong>इनलाइन आउटपुट</strong> — नतीजा ब्लॉक के नीचे, जब चाहें दोबारा चलाएँ</li><li><strong>प्रति-पेज वर्कस्पेस</strong> — हर पेज का अपना फ़ोल्डर और टर्मिनल</li><li><strong>लोकल निष्पादन</strong> — आपकी मशीन, आपके टूल, कुछ अपलोड नहीं</li>
                     </ul>
                 </div>
                 <div class="dive-visual reveal">
-                    <div class="term">
-                        <div class="t-head"><i></i><i></i><i></i></div>
-                        <div><span class="c-cm"># prototype inside the note — no editor switch</span></div>
-                        <div><span class="c-kw">import</span> numpy <span class="c-kw">as</span> np</div>
-                        <div>A = np.array([[<span class="c-num">2</span>, <span class="c-num">1</span>], [<span class="c-num">1</span>, <span class="c-num">3</span>]])</div>
-                        <div>w, v = np.linalg.<span class="c-fn">eig</span>(A)</div>
-                        <div><span class="c-fn">print</span>(<span class="c-str">"eigenvalues:"</span>, w.round(<span class="c-num">3</span>))</div>
-                        <span class="t-run">▶ Run</span>
-                        <div class="t-out">eigenvalues: [1.382 3.618]</div>
-                    </div>
+                    <!-- replace src/assets/shots/code.png -->
+                    <figure class="shot"><img src="/assets/shots/code.png" width="1200" height="900" alt="नोट में चलाया गया Python ब्लॉक और नीचे उसका आउटपुट" loading="lazy" /></figure>
                 </div>
             </div>
 
-            <!-- 3: AI + MCP -->
+            <!-- 3: definitions + page map -->
             <div class="dive">
                 <div class="reveal">
-                    <span class="kicker">BYOK AI + MCP</span>
-                    <h2>AI, आपकी शर्तों पर</h2>
-                    <p class="lead">Nablix में न AI सब्सक्रिप्शन है, न कोई बिचौलिया सर्वर। अपनी OpenAI या Anthropic कुंजी लगाएँ — या अपने पसंदीदा कोडिंग एजेंट को MCP के ज़रिए सीधे अपने नोट्स से जोड़ें।</p>
+                    <span class="kicker">Connect</span>
+                    <h2>नोट्स जो नेटवर्क बन जाते हैं।</h2>
+                    <p class="lead">परिभाषाएँ पेजों के पार जीवित रहती हैं। जितना लिखेंगे, शब्दकोश उतना बढ़ेगा — और नक्शा दिखाएगा कि सब कैसे जुड़ा है।</p>
                     <ul>
-                        <li><strong>AI चैट</strong> जो मौजूदा पेज देखती है — Free प्लान में भी असीमित</li><li><strong>इनलाइन पूर्णता</strong> — टाइप करते-करते (Pro)</li><li><strong>अंतर्निर्मित MCP सर्वर</strong>: Claude Code, Cursor और Windsurf आपके नोट्स पढ़-लिख सकते हैं</li><li><strong>डिज़ाइन से सीमित दायरा</strong> — एजेंट केवल खुला हुआ पेज और वर्कस्पेस देखते हैं</li>
+                        <li><strong>परिभाषा ब्लॉक</strong> — किसी भी पेज से शब्द संदर्भित करें, होवर पर कार्ड</li><li><strong>शब्दकोश दृश्य</strong> — सभी परिभाषाएँ एक जगह, टैग से व्यवस्थित</li><li><strong>पेज लिंक</strong> — नोट्स को सीधे जोड़ें और आपस में आएँ-जाएँ</li><li><strong>पेज मैप</strong> — लोकल सिमेंटिक खोज संबंधित पेजों को तारामंडल की तरह दिखाती है</li>
                     </ul>
                 </div>
                 <div class="dive-visual reveal">
-                    <svg viewBox="0 0 440 300" xmlns="http://www.w3.org/2000/svg" font-family="Inter,'Segoe UI',sans-serif">
-                        <defs>
-                            <filter id="g3" x="-60%" y="-60%" width="220%" height="220%">
-                                <feGaussianBlur stdDeviation="3" result="b"/>
-                                <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-                            </filter>
-                        </defs>
-                        <g stroke="#22d3ee" stroke-opacity=".35" stroke-width="1.4" stroke-dasharray="5 5">
-                            <line x1="220" y1="150" x2="90" y2="62"/>
-                            <line x1="220" y1="150" x2="352" y2="62"/>
-                            <line x1="220" y1="150" x2="220" y2="252"/>
-                        </g>
-                        <circle cx="220" cy="150" r="40" fill="#00fff7" opacity=".10"/>
-                        <circle cx="220" cy="150" r="40" fill="none" stroke="#00fff7" stroke-opacity=".6" filter="url(#g3)"/>
-                        <text x="220" y="144" text-anchor="middle" font-size="22" fill="#00fff7" filter="url(#g3)">∇</text>
-                        <text x="220" y="166" text-anchor="middle" font-size="11" fill="#aef7f4" font-weight="700">Nablix MCP</text>
+                    <!-- replace src/assets/shots/knowledge.png -->
+                    <figure class="shot"><img src="/assets/shots/knowledge.png" width="1200" height="900" alt="परिभाषा होवर कार्ड और पेज संबंध नक्शा" loading="lazy" /></figure>
+                </div>
+            </div>
 
-                        <rect x="28" y="38" width="124" height="40" rx="10" fill="#0c0c16" stroke="#2a2a40"/>
-                        <text x="90" y="62" text-anchor="middle" font-size="12.5" fill="#c9d4dd" font-weight="600">Claude Code</text>
-                        <rect x="290" y="38" width="124" height="40" rx="10" fill="#0c0c16" stroke="#2a2a40"/>
-                        <text x="352" y="62" text-anchor="middle" font-size="12.5" fill="#c9d4dd" font-weight="600">Cursor</text>
-                        <rect x="158" y="240" width="124" height="40" rx="10" fill="#0c0c16" stroke="#2a2a40"/>
-                        <text x="220" y="264" text-anchor="middle" font-size="12.5" fill="#c9d4dd" font-weight="600">Windsurf</text>
-
-                        <rect x="296" y="170" width="132" height="26" rx="13" fill="#5dff7d" opacity=".07"/>
-                        <rect x="296" y="170" width="132" height="26" rx="13" fill="none" stroke="#5dff7d" stroke-opacity=".35"/>
-                        <text x="362" y="187" text-anchor="middle" font-size="10.5" fill="#5dff7d">🔒 केवल खुला पेज</text>
-                    </svg>
+            <!-- 4: AI + MCP -->
+            <div class="dive">
+                <div class="reveal">
+                    <span class="kicker">AI × MCP</span>
+                    <h2>AI, आपके नियंत्रण में।</h2>
+                    <p class="lead">Nablix में कोई AI सदस्यता या बिचौलिया सर्वर नहीं है। अपनी OpenAI / Anthropic कुंजी लगाइए, या अपने पसंदीदा एजेंट को MCP से नोट्स से जोड़िए।</p>
+                    <ul>
+                        <li><strong>पेज को समझने वाली चैट</strong> — खुले नोट के संदर्भ में संवाद</li><li><strong>इनलाइन पूर्ति</strong> — लिखते समय सुझाव (Pro)</li><li><strong>अंतर्निर्मित MCP सर्वर</strong> — Claude Code जैसे उपकरण पेज पढ़-लिख सकते हैं, ग्राफ़ व्यू तक बना सकते हैं</li><li><strong>स्पष्ट अनुमतियाँ</strong> — फ़ोल्डर पहुँच और पेज निर्माण केवल आपकी स्वीकृति के बाद</li>
+                    </ul>
+                </div>
+                <div class="dive-visual reveal">
+                    <!-- replace src/assets/shots/ai-mcp.png -->
+                    <figure class="shot"><img src="/assets/shots/ai-mcp.png" width="1200" height="900" alt="बाहरी AI उपकरण द्वारा MCP से नोट संपादित करते समय दिखने वाला अनुमति संवाद" loading="lazy" /></figure>
                 </div>
             </div>
         </section>
@@ -352,7 +212,7 @@
             <div class="wrap reveal">
                 <div class="big">न अकाउंट। न क्लाउड। न टेलीमेट्री।</div>
                 <p class="lead">Nablix इंटरनेट से ठीक तीन ही स्थितियों में बात करता है: आपकी AI कॉल्स (आपकी कुंजी, आपका प्रदाता), लाइसेंस सक्रियण (Lemon Squeezy) और अपडेट जाँच (GitHub)। बस, सूची ख़त्म — और गोपनीयता नीति इतनी छोटी है कि सचमुच पढ़ी जा सके।</p>
-                <p style="margin-top:18px"><a href="/privacy/">गोपनीयता नीति पढ़ें →</a></p>
+                <p style="margin-top:18px"><a href="/privacy/">गोपनीयता नीति पढ़ें</a></p>
             </div>
         </section>
 
@@ -444,7 +304,10 @@
                 <span class="nabla">∇</span>
                 <h2>अपने विचारों को दौड़ने की जगह दें।</h2>
                 <p class="lead">Nablix डाउनलोड करें, एक पेज खोलें, और नोट्स, इंक, गणित और कोड को आख़िरकार साथ रहने दें।</p>
-                <a class="btn btn-primary" data-dl href="https://github.com/Afterglow-Laboratory/nablix-releases/releases/latest">⬇&nbsp; Windows के लिए डाउनलोड करें</a>
+                <a class="btn btn-primary" data-dl href="https://github.com/Afterglow-Laboratory/nablix-releases/releases/latest">
+                    <svg class="bi" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    Windows के लिए डाउनलोड करें
+                </a>
                 <span class="btn-sub">मुफ़्त · 20 पेज · बिना अकाउंट</span>
             </div>
         </section>

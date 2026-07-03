@@ -1,327 +1,440 @@
 {
-    "meta": {
-        "lang": "fr",
-        "dir": "ltr",
-        "name": "Français",
-        "fontQuery": "family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600",
-        "landingTitle": "Nablix — Notes Markdown avec écriture manuscrite, code exécutable et votre propre IA",
-        "landingDesc": "Nablix est une application de notes local-first pour Windows qui fusionne Markdown, encre manuscrite, code exécutable et IA en BYOK. Pas de compte, pas de cloud, zéro télémétrie — vos notes restent sur votre machine.",
-        "pricingTitle": "Tarifs Nablix — Gratuit, Pro 5 $/mois, Lifetime 96 $",
-        "pricingDesc": "Commencez gratuitement avec 20 pages et toutes les fonctions essentielles. Passez à Pro pour des pages illimitées, la complétion IA en ligne et la Page Map interactive — mensuel, annuel ou paiement unique.",
-        "privacyTitle": "Politique de confidentialité — Nablix",
-        "privacyDesc": "Comment Nablix traite vos données : localement. Ce qui quitte votre appareil, quand et pourquoi — la liste complète et courte.",
-        "termsTitle": "Conditions d'utilisation — Nablix",
-        "termsDesc": "Les conditions qui régissent votre utilisation de Nablix : licence, achats, remboursements, exécution de code et vos responsabilités.",
-        "notFoundTitle": "404 — Nablix"
+ "meta": {
+  "lang": "fr",
+  "dir": "ltr",
+  "name": "Français",
+  "fontQuery": "family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600",
+  "landingTitle": "Nablix — Notes Markdown avec écriture manuscrite, code exécutable et votre propre IA",
+  "landingDesc": "Nablix est une application de notes local-first pour Windows qui fusionne Markdown, encre manuscrite, code exécutable et IA en BYOK. Pas de compte, pas de cloud, zéro télémétrie — vos notes restent sur votre machine.",
+  "pricingTitle": "Tarifs Nablix — Gratuit, Pro 5 $/mois, Lifetime 96 $",
+  "pricingDesc": "Commencez gratuitement avec 20 pages et toutes les fonctions essentielles. Passez à Pro pour des pages illimitées, la complétion IA en ligne et la Page Map interactive — mensuel, annuel ou paiement unique.",
+  "privacyTitle": "Politique de confidentialité — Nablix",
+  "privacyDesc": "Comment Nablix traite vos données : localement. Ce qui quitte votre appareil, quand et pourquoi — la liste complète et courte.",
+  "termsTitle": "Conditions d'utilisation — Nablix",
+  "termsDesc": "Les conditions qui régissent votre utilisation de Nablix : licence, achats, remboursements, exécution de code et vos responsabilités.",
+  "notFoundTitle": "404 — Nablix"
+ },
+ "nav": {
+  "features": "Fonctions",
+  "pricing": "Tarifs",
+  "faq": "FAQ",
+  "download": "Télécharger"
+ },
+ "hero": {
+  "badge": "v0.1.0 · Windows",
+  "title": "Écrire. Dessiner. Exécuter.<br />Tout sur la même page.",
+  "sub": "Nablix est un carnet de notes local-first pour Windows. Markdown, encre manuscrite, code exécutable et mathématiques — des outils autrefois dispersés dans des applications séparées, réunis sur une seule page. Sans compte, sans cloud.",
+  "ctaPrimary": "Télécharger pour Windows — Gratuit",
+  "ctaSecondary": "Voir les tarifs",
+  "fine1": "Gratuit jusqu'à 20 pages",
+  "fine2": "Sans inscription",
+  "fine3": "Mises à jour automatiques",
+  "shotAlt": "L'interface réelle de Nablix : une note Markdown avec formules, écriture manuscrite et bloc de code exécutable"
+ },
+ "features": {
+  "kicker": "Fonctions",
+  "heading": "Cessez de changer d’outil.",
+  "sub": "Notes, tableau blanc, éditeur LaTeX, REPL — la concentration perdue à naviguer entre eux revient quand ils partagent une même page.",
+  "f1": {
+   "title": "Un Markdown édité en place",
+   "desc": "Commandes slash, tableaux, blocs dépliants, colonnes, sommaire. Aussi riche que soit l’édition, le fichier enregistré reste un simple .md, lisible partout."
+  },
+  "f2": {
+   "title": "L’écriture manuscrite, à même la page",
+   "desc": "Insérez un canevas n’importe où dans une note et écrivez au stylet — ou ouvrez un tableau blanc plein écran. Une encre fluide, sensible à la pression."
+  },
+  "f3": {
+   "title": "Du code qui s’exécute vraiment",
+   "desc": "Exécutez Python, TypeScript et plus encore dans la page, et gardez la sortie juste sous le bloc. Chaque page possède son dossier de travail, terminal compris."
+  },
+  "f4": {
+   "title": "Des maths, et un glossaire qui grandit",
+   "desc": "KaTeX et macros personnalisées pour écrire vite. Les termes définis rejoignent automatiquement un glossaire et s’affichent au survol depuis n’importe quelle page."
+  },
+  "f5": {
+   "title": "Visualisez les liens entre pages",
+   "desc": "Un modèle d’embedding local mesure la proximité sémantique de vos pages et les dessine en constellation. La recherche aussi est sémantique — et entièrement hors ligne."
+  },
+  "f6": {
+   "title": "Vos clés d’IA, étendues par MCP",
+   "desc": "Branchez votre clé OpenAI ou Anthropic pour le chat et la complétion en ligne. Un serveur MCP intégré permet à des outils comme Claude de lire et écrire vos notes."
+  }
+ },
+ "dive1": {
+  "kicker": "Encre × Maths",
+  "title": "Des maths à la vitesse de la main.",
+  "desc": "Quand le clavier ne suit plus la pensée, dessinez. Les formules manuscrites sont converties en KaTeX et composées proprement sur la page.",
+  "points": [
+   {
+    "html": "<strong>Canevas en ligne</strong> — un bloc manuscrit entre deux paragraphes"
+   },
+   {
+    "html": "<strong>Manuscrit → LaTeX</strong> — l’IA transforme vos tracés en bloc de formule"
+   },
+   {
+    "html": "<strong>KaTeX partout</strong> — formules en ligne, blocs, macros personnalisées"
+   },
+   {
+    "html": "<strong>Panneau d’édition</strong> — modifiez la source en voyant le rendu"
+   }
+  ],
+  "shotAlt": "Une formule manuscrite convertie en bloc KaTeX"
+ },
+ "dive2": {
+  "kicker": "Exécuter",
+  "title": "Un petit laboratoire dans vos notes.",
+  "desc": "Un bloc de code n’est pas la capture d’écran d’un travail — c’est le travail lui-même. Essayez, corrigez, et gardez le résultat à côté de votre réflexion.",
+  "points": [
+   {
+    "html": "<strong>Exécuteurs multi-langages</strong> — Python, JavaScript / TypeScript, C / C++, Go…"
+   },
+   {
+    "html": "<strong>Sortie en ligne</strong> — le résultat sous le bloc, réexécutable à volonté"
+   },
+   {
+    "html": "<strong>Espace de travail par page</strong> — chaque page a son dossier et son terminal"
+   },
+   {
+    "html": "<strong>Exécution locale</strong> — votre machine, vos outils, rien n’est envoyé"
+   }
+  ],
+  "shotAlt": "Un bloc Python exécuté dans une note, résultat affiché dessous"
+ },
+ "dive3": {
+  "kicker": "Relier",
+  "title": "Des notes qui deviennent un réseau.",
+  "desc": "Les définitions vivent au-delà des pages. Plus vous écrivez, plus le glossaire grandit — et la carte montre comment tout se relie.",
+  "points": [
+   {
+    "html": "<strong>Blocs de définition</strong> — référencez un terme depuis n’importe quelle page, carte au survol"
+   },
+   {
+    "html": "<strong>Vue glossaire</strong> — toutes les définitions au même endroit, organisées par étiquettes"
+   },
+   {
+    "html": "<strong>Liens entre pages</strong> — reliez vos notes et naviguez entre elles"
+   },
+   {
+    "html": "<strong>Carte des pages</strong> — la recherche sémantique locale dessine les pages proches en constellation"
+   }
+  ],
+  "shotAlt": "Une carte de définition au survol et la carte des relations entre pages"
+ },
+ "privacyStrip": {
+  "title": "Pas de compte. Pas de cloud. Zéro télémétrie.",
+  "desc": "Nablix ne parle à Internet que dans trois cas précis : vos appels IA (votre clé, votre fournisseur), l'activation de licence (Lemon Squeezy) et la vérification des mises à jour (GitHub). C'est la liste complète — et la politique de confidentialité est assez courte pour être vraiment lue.",
+  "link": "Lire la politique de confidentialité"
+ },
+ "pricingPreview": {
+  "heading": "Penser est gratuit. Payer, c'est pour grandir.",
+  "sub": "Commencez avec 20 pages et toutes les fonctions essentielles. Passez au niveau supérieur quand votre second cerveau les dépasse.",
+  "cards": [
+   {
+    "cls": "",
+    "flag": "",
+    "name": "Gratuit",
+    "price": "0 $",
+    "per": "pour toujours",
+    "blurb": "20 pages · 1 espace de travail · toutes les fonctions essentielles, exécution de code et chat IA compris.",
+    "btnCls": "btn-ghost",
+    "cta": "Commencer"
+   },
+   {
+    "cls": "popular",
+    "flag": "<div class=\"plan-flag\">Le plus populaire</div>",
+    "name": "Pro",
+    "price": "4 $",
+    "per": "/mois facturé à l'année",
+    "blurb": "Pages et dossiers illimités, complétion IA en ligne, Page Map interactive.",
+    "btnCls": "btn-primary",
+    "cta": "Voir le détail"
+   },
+   {
+    "cls": "life",
+    "flag": "<div class=\"plan-flag\">Paiement unique</div>",
+    "name": "Lifetime",
+    "price": "96 $",
+    "per": "une seule fois",
+    "blurb": "Toutes les fonctions Pro, pour toujours. Aucun abonnement, rien à résilier.",
+    "btnCls": "btn-magenta",
+    "cta": "Voir le détail"
+   }
+  ]
+ },
+ "faq": {
+  "heading": "Vos questions, nos réponses",
+  "items": [
+   {
+    "q": "Nablix est-il vraiment gratuit ?",
+    "a": "Oui — la version gratuite n'est pas un essai. Vous disposez de 20 pages, d'un dossier d'espace de travail et de presque toutes les fonctions : éditeur complet, canevas, exécution de code, maths, vue graphe, recherche, export et chat IA BYOK illimité. Vous ne payez que lorsque vous avez besoin de plus d'espace."
+   },
+   {
+    "q": "Quelles plateformes sont prises en charge ?",
+    "a": "Windows 10 et 11 (64 bits) aujourd'hui. Le code est multiplateforme et une version macOS est prévue dès que la version Windows sera parfaitement stable."
+   },
+   {
+    "q": "Où mes données sont-elles stockées ?",
+    "a": "Dans des dossiers ordinaires sur votre propre disque — les pages sont des fichiers que vous pouvez ouvrir, sauvegarder, synchroniser ou exporter avec l'outil de votre choix. Rien n'est envoyé chez nous : il n'existe tout simplement pas de serveur « chez nous »."
+   },
+   {
+    "q": "Ai-je besoin d'un abonnement IA ?",
+    "a": "Non. Les fonctions IA sont optionnelles et en BYOK (apportez votre propre clé) : vous connectez votre clé API OpenAI ou Anthropic et ne payez votre fournisseur que ce que vous consommez. Tout le reste fonctionne sans aucune clé."
+   },
+   {
+    "q": "Qu'est-ce que l'intégration MCP ?",
+    "a": "Nablix embarque un serveur MCP intégré : des outils comme Claude Code, Cursor et Windsurf peuvent lire et modifier vos notes comme contexte de premier ordre. L'accès est limité à la page et à l'espace de travail actuellement ouverts — rien d'autre n'est exposé."
+   },
+   {
+    "q": "Que se passe-t-il quand j'atteins la limite de 20 pages ?",
+    "a": "Rien d'effrayant. Vos notes restent toujours consultables, modifiables et exportables — la limite empêche seulement de créer de nouvelles pages au-delà de 20. Supprimez des pages pour repasser sous la limite, ou passez à Pro."
+   },
+   {
+    "q": "Windows affiche « éditeur inconnu » — pourquoi ?",
+    "a": "Les premières versions ne sont pas encore signées numériquement (un certificat de signature est prévu avant la 1.0). Chaque installateur est compilé automatiquement par GitHub Actions à partir de sources taguées, vérifiables sur la page des releases. Cliquez sur « Informations complémentaires » → « Exécuter quand même » pour continuer."
+   }
+  ]
+ },
+ "cta": {
+  "title": "Offrez à vos idées un endroit où courir.",
+  "sub": "Téléchargez Nablix, ouvrez une page, et laissez notes, encre, maths et code vivre enfin ensemble.",
+  "button": "Télécharger pour Windows",
+  "sub2": "Gratuit · 20 pages · Sans compte"
+ },
+ "footer": {
+  "tagline": "Un carnet local-first où Markdown, encre, code et IA partagent la page.",
+  "product": "Produit",
+  "releases": "Notes de version",
+  "legal": "Mentions légales",
+  "privacy": "Politique de confidentialité",
+  "terms": "Conditions d'utilisation",
+  "contact": "Contact",
+  "rights": "Tous droits réservés.",
+  "made": "Conçu au Japon par un développeur indépendant"
+ },
+ "pricing": {
+  "title": "Des tarifs simples, des limites honnêtes",
+  "sub": "Nablix est un logiciel local-first : pas de sièges, pas de paliers de stockage, pas de prise d'otage de vos données. Ne payez que lorsque votre carnet dépasse la version gratuite.",
+  "monthly": "Mensuel",
+  "yearly": "Annuel",
+  "save": "2 mois offerts",
+  "toggleAria": "Basculer la facturation annuelle",
+  "buySoon": "Disponible au lancement",
+  "buySoonSub": "Les achats ouvrent bientôt — la version gratuite est disponible dès aujourd'hui",
+  "free": {
+   "name": "Gratuit",
+   "note": "gratuit pour toujours",
+   "blurb": "Un second cerveau complet, plafonné à 20 pages.",
+   "feats": [
+    {
+     "t": "20 pages dans 1 dossier d'espace de travail"
     },
-
-    "nav": {
-        "features": "Fonctions",
-        "pricing": "Tarifs",
-        "faq": "FAQ",
-        "download": "Télécharger"
+    {
+     "t": "Éditeur Markdown complet, canevas et manuscrit"
     },
-
-    "hero": {
-        "badge": "v0.1.0 · Windows",
-        "title": "Vos pensées, <span class=\"grad-text\">reliées</span>.<br />Vos idées, <span class=\"grad-text\">vivantes</span>.",
-        "sub": "Nablix est un carnet local-first pour Windows où Markdown, encre manuscrite, code exécutable et IA partagent la même page. Pas de compte. Pas de cloud. Vos fichiers restent à vous.",
-        "ctaPrimary": "Télécharger pour Windows — Gratuit",
-        "ctaSecondary": "Voir les tarifs",
-        "fine1": "Gratuit jusqu'à 20 pages",
-        "fine2": "Sans inscription",
-        "fine3": "Mises à jour automatiques",
-        "mockAlt": "Fenêtre de Nablix montrant une page Markdown avec un bloc mathématique, du code Python exécutable, un canevas manuscrit et un graphe de pages"
+    {
+     "t": "Exécution de code dans plus de 17 langages"
     },
-
-    "features": {
-        "kicker": "Fonctions",
-        "heading": "Une page. Toutes vos façons de penser.",
-        "sub": "Cessez de jongler entre app de notes, tableau blanc, éditeur LaTeX et REPL. Nablix les replie en un seul espace de travail rapide.",
-        "items": [
-            {
-                "icon": "✍️",
-                "title": "Canevas manuscrit infini",
-                "desc": "Pensez à l'encre sur des canevas sans limites — en pages tableau blanc autonomes ou en blocs intégrés directement dans votre Markdown."
-            },
-            {
-                "icon": "⚡",
-                "title": "Du code qui s'exécute vraiment",
-                "desc": "Exécutez Python, TypeScript, Rust, C++ et plus de 17 langages en ligne, façon Jupyter. La sortie s'affiche juste sous le bloc."
-            },
-            {
-                "icon": "✨",
-                "title": "Encre → LaTeX, image → Markdown",
-                "desc": "Écrivez une équation à la main et laissez l'IA la transformer en KaTeX impeccable. Collez une capture d'écran, récupérez du Markdown éditable."
-            },
-            {
-                "icon": "🕸",
-                "title": "Un graphe, pas un tas",
-                "desc": "Des [[liens wiki]] bidirectionnels, des définitions au survol et une Page Map en constellation transforment vos notes éparses en second cerveau."
-            },
-            {
-                "icon": "🤖",
-                "title": "Votre IA, votre clé",
-                "desc": "Apportez votre propre clé OpenAI ou Anthropic. Discutez avec le contexte de la page, complétez en tapant, connectez des agents via MCP. Vos clés ne quittent jamais votre machine."
-            },
-            {
-                "icon": "🔒",
-                "title": "Local-first. Pour de vrai.",
-                "desc": "Conçu en Rust + Tauri : démarrage instantané, hors ligne complet, zéro télémétrie. Vos notes vivent dans de simples dossiers que vous possédez et pouvez exporter à tout moment."
-            }
-        ]
+    {
+     "t": "Maths KaTeX, macros et blocs de définition"
     },
-
-    "dive1": {
-        "kicker": "Écrire · Esquisser · Résoudre",
-        "title": "Des notes de niveau mathématique, encre comprise",
-        "desc": "Des maths KaTeX avec macros personnalisées, des blocs de définition avec infobulles au survol, des colonnes et des listes dépliantes — et quand taper est trop lent pour l'idée, dessinez-la.",
-        "points": [
-            { "html": "<strong>Canevas manuscrit</strong> en pleine page ou en bloc dans n'importe quelle note" },
-            { "html": "<strong>Traduction d'encre par IA</strong> — l'écriture manuscrite devient Markdown ou LaTeX en un geste" },
-            { "html": "<strong>KaTeX partout</strong> : maths en ligne, blocs mathématiques et macros réutilisables" },
-            { "html": "<strong>Blocs de définition</strong> — survolez une référence pour voir sa fiche de définition" }
-        ]
+    {
+     "t": "Liens wiki, vue graphe et recherche plein texte"
     },
-
-    "dive2": {
-        "kicker": "Run",
-        "title": "Un carnet qui exécute",
-        "desc": "Les blocs de code ne sont pas des captures d'écran de votre travail — ils sont votre travail. Exécutez-les sur place et gardez les résultats à côté du raisonnement.",
-        "points": [
-            { "html": "<strong>Plus de 17 langages</strong> : Python, JavaScript / TypeScript, Rust, C, C++, Go, R, Ruby et plus" },
-            { "html": "<strong>Sortie en ligne</strong> juste sous le bloc — réexécutez à volonté" },
-            { "html": "<strong>Espaces de travail par page</strong> : chaque page correspond à son propre dossier ; ouvrez-y un terminal directement" },
-            { "html": "<strong>S'appuie sur votre chaîne d'outils locale</strong> — pas de sandbox cloud, pas d'envoi de données" }
-        ]
+    {
+     "t": "Chat IA illimité (votre propre clé)"
     },
-
-    "dive3": {
-        "kicker": "IA BYOK + MCP",
-        "title": "L'IA selon vos conditions",
-        "desc": "Nablix n'a ni abonnement IA ni serveur intermédiaire. Branchez votre propre clé OpenAI ou Anthropic — ou reliez votre agent de codage préféré directement à vos notes via MCP.",
-        "points": [
-            { "html": "<strong>Chat IA</strong> qui voit la page courante — illimité, même en version gratuite" },
-            { "html": "<strong>Complétion en ligne</strong> pendant que vous tapez (Pro)" },
-            { "html": "<strong>Serveur MCP intégré</strong> : Claude Code, Cursor et Windsurf peuvent lire et modifier vos notes" },
-            { "html": "<strong>Portée limitée par conception</strong> — les agents ne voient que la page et l'espace de travail ouverts" }
-        ],
-        "scopeChip": "limité à la page ouverte"
+    {
+     "t": "Encre / image → LaTeX : 3 par jour"
     },
-
-    "privacyStrip": {
-        "title": "Pas de compte. Pas de cloud. Zéro télémétrie.",
-        "desc": "Nablix ne parle à Internet que dans trois cas précis : vos appels IA (votre clé, votre fournisseur), l'activation de licence (Lemon Squeezy) et la vérification des mises à jour (GitHub). C'est la liste complète — et la politique de confidentialité est assez courte pour être vraiment lue.",
-        "link": "Lire la politique de confidentialité"
-    },
-
-    "pricingPreview": {
-        "heading": "Penser est gratuit. Payer, c'est pour grandir.",
-        "sub": "Commencez avec 20 pages et toutes les fonctions essentielles. Passez au niveau supérieur quand votre second cerveau les dépasse.",
-        "cards": [
-            {
-                "cls": "",
-                "flag": "",
-                "name": "Gratuit",
-                "price": "0 $",
-                "per": "pour toujours",
-                "blurb": "20 pages · 1 espace de travail · toutes les fonctions essentielles, exécution de code et chat IA compris.",
-                "btnCls": "btn-ghost",
-                "cta": "Commencer"
-            },
-            {
-                "cls": "popular",
-                "flag": "<div class=\"plan-flag\">Le plus populaire</div>",
-                "name": "Pro",
-                "price": "4 $",
-                "per": "/mois facturé à l'année",
-                "blurb": "Pages et dossiers illimités, complétion IA en ligne, Page Map interactive.",
-                "btnCls": "btn-primary",
-                "cta": "Voir le détail"
-            },
-            {
-                "cls": "life",
-                "flag": "<div class=\"plan-flag\">Paiement unique</div>",
-                "name": "Lifetime",
-                "price": "96 $",
-                "per": "une seule fois",
-                "blurb": "Toutes les fonctions Pro, pour toujours. Aucun abonnement, rien à résilier.",
-                "btnCls": "btn-magenta",
-                "cta": "Voir le détail"
-            }
-        ]
-    },
-
-    "faq": {
-        "heading": "Vos questions, nos réponses",
-        "items": [
-            {
-                "q": "Nablix est-il vraiment gratuit ?",
-                "a": "Oui — la version gratuite n'est pas un essai. Vous disposez de 20 pages, d'un dossier d'espace de travail et de presque toutes les fonctions : éditeur complet, canevas, exécution de code, maths, vue graphe, recherche, export et chat IA BYOK illimité. Vous ne payez que lorsque vous avez besoin de plus d'espace."
-            },
-            {
-                "q": "Quelles plateformes sont prises en charge ?",
-                "a": "Windows 10 et 11 (64 bits) aujourd'hui. Le code est multiplateforme et une version macOS est prévue dès que la version Windows sera parfaitement stable."
-            },
-            {
-                "q": "Où mes données sont-elles stockées ?",
-                "a": "Dans des dossiers ordinaires sur votre propre disque — les pages sont des fichiers que vous pouvez ouvrir, sauvegarder, synchroniser ou exporter avec l'outil de votre choix. Rien n'est envoyé chez nous : il n'existe tout simplement pas de serveur « chez nous »."
-            },
-            {
-                "q": "Ai-je besoin d'un abonnement IA ?",
-                "a": "Non. Les fonctions IA sont optionnelles et en BYOK (apportez votre propre clé) : vous connectez votre clé API OpenAI ou Anthropic et ne payez votre fournisseur que ce que vous consommez. Tout le reste fonctionne sans aucune clé."
-            },
-            {
-                "q": "Qu'est-ce que l'intégration MCP ?",
-                "a": "Nablix embarque un serveur MCP intégré : des outils comme Claude Code, Cursor et Windsurf peuvent lire et modifier vos notes comme contexte de premier ordre. L'accès est limité à la page et à l'espace de travail actuellement ouverts — rien d'autre n'est exposé."
-            },
-            {
-                "q": "Que se passe-t-il quand j'atteins la limite de 20 pages ?",
-                "a": "Rien d'effrayant. Vos notes restent toujours consultables, modifiables et exportables — la limite empêche seulement de créer de nouvelles pages au-delà de 20. Supprimez des pages pour repasser sous la limite, ou passez à Pro."
-            },
-            {
-                "q": "Windows affiche « éditeur inconnu » — pourquoi ?",
-                "a": "Les premières versions ne sont pas encore signées numériquement (un certificat de signature est prévu avant la 1.0). Chaque installateur est compilé automatiquement par GitHub Actions à partir de sources taguées, vérifiables sur la page des releases. Cliquez sur « Informations complémentaires » → « Exécuter quand même » pour continuer."
-            }
-        ]
-    },
-
-    "cta": {
-        "title": "Offrez à vos idées un endroit où courir.",
-        "sub": "Téléchargez Nablix, ouvrez une page, et laissez notes, encre, maths et code vivre enfin ensemble.",
-        "button": "Télécharger pour Windows",
-        "sub2": "Gratuit · 20 pages · Sans compte"
-    },
-
-    "footer": {
-        "tagline": "Un carnet local-first où Markdown, encre, code et IA partagent la page.",
-        "product": "Produit",
-        "releases": "Notes de version",
-        "legal": "Mentions légales",
-        "privacy": "Politique de confidentialité",
-        "terms": "Conditions d'utilisation",
-        "contact": "Contact",
-        "rights": "Tous droits réservés.",
-        "made": "Conçu au Japon par un développeur indépendant"
-    },
-
-    "pricing": {
-        "title": "Des tarifs simples, des limites honnêtes",
-        "sub": "Nablix est un logiciel local-first : pas de sièges, pas de paliers de stockage, pas de prise d'otage de vos données. Ne payez que lorsque votre carnet dépasse la version gratuite.",
-        "monthly": "Mensuel",
-        "yearly": "Annuel",
-        "save": "2 mois offerts",
-        "toggleAria": "Basculer la facturation annuelle",
-        "buySoon": "Disponible au lancement",
-        "buySoonSub": "Les achats ouvrent bientôt — la version gratuite est disponible dès aujourd'hui",
-        "free": {
-            "name": "Gratuit",
-            "note": "gratuit pour toujours",
-            "blurb": "Un second cerveau complet, plafonné à 20 pages.",
-            "feats": [
-                { "t": "20 pages dans 1 dossier d'espace de travail" },
-                { "t": "Éditeur Markdown complet, canevas et manuscrit" },
-                { "t": "Exécution de code dans plus de 17 langages" },
-                { "t": "Maths KaTeX, macros et blocs de définition" },
-                { "t": "Liens wiki, vue graphe et recherche plein texte" },
-                { "t": "Chat IA illimité (votre propre clé)" },
-                { "t": "Encre / image → LaTeX : 3 par jour" },
-                { "t": "Export et mises à jour automatiques" }
-            ],
-            "cta": "Télécharger gratuitement",
-            "ctaSub": "Sans compte, sans carte bancaire"
-        },
-        "pro": {
-            "name": "Pro",
-            "flag": "Le plus populaire",
-            "perMonth": "/mois",
-            "noteMonthly": "5 $ facturés chaque mois",
-            "noteYearly": "48 $ facturés à l'année — 2 mois offerts",
-            "blurb": "De l'espace pour un carnet qui ne cesse de grandir.",
-            "feats": [
-                { "t": "Tout ce qui est dans Gratuit" },
-                { "t": "Pages illimitées" },
-                { "t": "Dossiers d'espace de travail illimités" },
-                { "t": "Complétion IA en ligne pendant la frappe" },
-                { "t": "Encre / image → LaTeX illimité" },
-                { "t": "Page Map interactive" }
-            ],
-            "ctaLive": "Passer à Pro"
-        },
-        "life": {
-            "name": "Lifetime",
-            "flag": "Paiement unique",
-            "per": "une seule fois",
-            "note": "à vous pour toujours",
-            "blurb": "Tout Pro, payé une fois. Jamais d'abonnement.",
-            "feats": [
-                { "t": "Toutes les fonctions Pro" },
-                { "t": "Toutes les mises à jour futures incluses" },
-                { "t": "Aucun prélèvement récurrent, rien à résilier" },
-                { "t": "Passez d'un appareil à l'autre à tout moment" }
-            ],
-            "ctaLive": "Obtenir Lifetime"
-        },
-        "assure1": "Garantie satisfait ou remboursé de 14 jours",
-        "assure2": "Paiement sécurisé, taxes et factures gérés par Lemon Squeezy",
-        "assure3": "Annulez à tout moment — vos données ne sont jamais verrouillées",
-        "tableHeading": "Comparer les formules",
-        "colFeature": "Fonction",
-        "rows": [
-            { "f": "Pages", "free": "20", "pro": "<span class=\"yes\">Illimité</span>" },
-            { "f": "Dossiers d'espace de travail", "free": "1", "pro": "<span class=\"yes\">Illimité</span>" },
-            { "f": "Éditeur Markdown, canevas et manuscrit", "free": "<span class=\"yes\">✓</span>", "pro": "<span class=\"yes\">✓</span>" },
-            { "f": "Exécution de code (17+ langages)", "free": "<span class=\"yes\">✓</span>", "pro": "<span class=\"yes\">✓</span>" },
-            { "f": "Maths KaTeX et macros", "free": "<span class=\"yes\">✓</span>", "pro": "<span class=\"yes\">✓</span>" },
-            { "f": "Liens wiki et vue graphe", "free": "<span class=\"yes\">✓</span>", "pro": "<span class=\"yes\">✓</span>" },
-            { "f": "Recherche plein texte", "free": "<span class=\"yes\">✓</span>", "pro": "<span class=\"yes\">✓</span>" },
-            { "f": "Chat IA (votre propre clé)", "free": "<span class=\"yes\">Illimité</span>", "pro": "<span class=\"yes\">Illimité</span>" },
-            { "f": "Complétion IA en ligne", "free": "<span class=\"no\">—</span>", "pro": "<span class=\"yes\">✓</span>" },
-            { "f": "Encre / image → LaTeX", "free": "3 / jour", "pro": "<span class=\"yes\">Illimité</span>" },
-            { "f": "Page Map", "free": "Lecture seule", "pro": "<span class=\"yes\">Interactive</span>" },
-            { "f": "Serveur MCP (Claude Code, Cursor…)", "free": "<span class=\"yes\">✓</span>", "pro": "<span class=\"yes\">✓</span>" },
-            { "f": "Export et mises à jour automatiques", "free": "<span class=\"yes\">✓</span>", "pro": "<span class=\"yes\">✓</span>" }
-        ],
-        "faqHeading": "Facturation et licences",
-        "faq": [
-            {
-                "q": "Comment se déroule l'achat ?",
-                "a": "Le paiement et la facturation sont gérés par Lemon Squeezy, notre revendeur officiel (merchant of record) — paiement, taxes et factures inclus. Vous recevez une clé de licence par e-mail en quelques minutes ; collez-la dans Nablix (Réglages → Licence) et c'est terminé."
-            },
-            {
-                "q": "Puis-je utiliser une licence sur plusieurs appareils ?",
-                "a": "Oui. Vous pouvez à tout moment désactiver votre licence sur un appareil et l'activer sur un autre, directement depuis l'application. La licence est attachée à la personne, pas à la machine."
-            },
-            {
-                "q": "Que signifie exactement « Lifetime » ?",
-                "a": "Un paiement unique qui débloque définitivement toutes les fonctions Pro, mises à jour futures de l'application comprises. Ce n'est pas un abonnement et il n'y a rien à renouveler."
-            },
-            {
-                "q": "Que se passe-t-il si j'annule Pro ?",
-                "a": "Vos notes ne sont jamais prises en otage. Tout reste consultable, modifiable et exportable. Si vous dépassez les limites de la version gratuite, vous ne pourrez simplement plus créer de nouvelles pages ou dossiers tant que vous n'êtes pas repassé dessous — ou réabonné."
-            },
-            {
-                "q": "Les prix incluent-ils les taxes ?",
-                "a": "Lemon Squeezy calcule et ajoute la TVA ou taxe de vente applicable au moment du paiement selon votre pays, et s'occupe de toutes les formalités fiscales en tant que merchant of record."
-            },
-            {
-                "q": "Quelle est votre politique de remboursement ?",
-                "a": "Si Nablix ne vous convient pas, écrivez-nous dans les 14 jours suivant l'achat et nous vous remboursons intégralement — sans formulaire, sans interrogatoire."
-            },
-            {
-                "q": "Existe-t-il une version Microsoft Store ?",
-                "a": "Une édition Store est prévue. Les règles du bac à sable du Store interdisent de lancer des processus externes : l'exécution de code restera donc exclusive à l'édition officielle téléchargée ici. Les licences achetées sur ce site activent l'édition officielle."
-            },
-            {
-                "q": "Dois-je payer un supplément pour l'IA ?",
-                "a": "Nablix ne facture jamais l'IA. Vous apportez votre propre clé API OpenAI ou Anthropic et payez votre fournisseur directement à l'usage — généralement quelques centimes pour de la prise de notes. Le chat IA est illimité dans toutes les formules, y compris la gratuite."
-            }
-        ]
-    },
-
-    "notFound": {
-        "desc": "This page drifted off the graph.",
-        "descJa": "このページはグラフの外に漂流してしまったようです。",
-        "home": "Retour à l'accueil"
+    {
+     "t": "Export et mises à jour automatiques"
     }
+   ],
+   "cta": "Télécharger gratuitement",
+   "ctaSub": "Sans compte, sans carte bancaire"
+  },
+  "pro": {
+   "name": "Pro",
+   "flag": "Le plus populaire",
+   "perMonth": "/mois",
+   "noteMonthly": "5 $ facturés chaque mois",
+   "noteYearly": "48 $ facturés à l'année — 2 mois offerts",
+   "blurb": "De l'espace pour un carnet qui ne cesse de grandir.",
+   "feats": [
+    {
+     "t": "Tout ce qui est dans Gratuit"
+    },
+    {
+     "t": "Pages illimitées"
+    },
+    {
+     "t": "Dossiers d'espace de travail illimités"
+    },
+    {
+     "t": "Complétion IA en ligne pendant la frappe"
+    },
+    {
+     "t": "Encre / image → LaTeX illimité"
+    },
+    {
+     "t": "Page Map interactive"
+    }
+   ],
+   "ctaLive": "Passer à Pro"
+  },
+  "life": {
+   "name": "Lifetime",
+   "flag": "Paiement unique",
+   "per": "une seule fois",
+   "note": "à vous pour toujours",
+   "blurb": "Tout Pro, payé une fois. Jamais d'abonnement.",
+   "feats": [
+    {
+     "t": "Toutes les fonctions Pro"
+    },
+    {
+     "t": "Toutes les mises à jour futures incluses"
+    },
+    {
+     "t": "Aucun prélèvement récurrent, rien à résilier"
+    },
+    {
+     "t": "Passez d'un appareil à l'autre à tout moment"
+    }
+   ],
+   "ctaLive": "Obtenir Lifetime"
+  },
+  "assure1": "Garantie satisfait ou remboursé de 14 jours",
+  "assure2": "Paiement sécurisé, taxes et factures gérés par Lemon Squeezy",
+  "assure3": "Annulez à tout moment — vos données ne sont jamais verrouillées",
+  "tableHeading": "Comparer les formules",
+  "colFeature": "Fonction",
+  "rows": [
+   {
+    "f": "Pages",
+    "free": "20",
+    "pro": "<span class=\"yes\">Illimité</span>"
+   },
+   {
+    "f": "Dossiers d'espace de travail",
+    "free": "1",
+    "pro": "<span class=\"yes\">Illimité</span>"
+   },
+   {
+    "f": "Éditeur Markdown, canevas et manuscrit",
+    "free": "<span class=\"yes\">✓</span>",
+    "pro": "<span class=\"yes\">✓</span>"
+   },
+   {
+    "f": "Exécution de code (17+ langages)",
+    "free": "<span class=\"yes\">✓</span>",
+    "pro": "<span class=\"yes\">✓</span>"
+   },
+   {
+    "f": "Maths KaTeX et macros",
+    "free": "<span class=\"yes\">✓</span>",
+    "pro": "<span class=\"yes\">✓</span>"
+   },
+   {
+    "f": "Liens wiki et vue graphe",
+    "free": "<span class=\"yes\">✓</span>",
+    "pro": "<span class=\"yes\">✓</span>"
+   },
+   {
+    "f": "Recherche plein texte",
+    "free": "<span class=\"yes\">✓</span>",
+    "pro": "<span class=\"yes\">✓</span>"
+   },
+   {
+    "f": "Chat IA (votre propre clé)",
+    "free": "<span class=\"yes\">Illimité</span>",
+    "pro": "<span class=\"yes\">Illimité</span>"
+   },
+   {
+    "f": "Complétion IA en ligne",
+    "free": "<span class=\"no\">—</span>",
+    "pro": "<span class=\"yes\">✓</span>"
+   },
+   {
+    "f": "Encre / image → LaTeX",
+    "free": "3 / jour",
+    "pro": "<span class=\"yes\">Illimité</span>"
+   },
+   {
+    "f": "Page Map",
+    "free": "Lecture seule",
+    "pro": "<span class=\"yes\">Interactive</span>"
+   },
+   {
+    "f": "Serveur MCP (Claude Code, Cursor…)",
+    "free": "<span class=\"yes\">✓</span>",
+    "pro": "<span class=\"yes\">✓</span>"
+   },
+   {
+    "f": "Export et mises à jour automatiques",
+    "free": "<span class=\"yes\">✓</span>",
+    "pro": "<span class=\"yes\">✓</span>"
+   }
+  ],
+  "faqHeading": "Facturation et licences",
+  "faq": [
+   {
+    "q": "Comment se déroule l'achat ?",
+    "a": "Le paiement et la facturation sont gérés par Lemon Squeezy, notre revendeur officiel (merchant of record) — paiement, taxes et factures inclus. Vous recevez une clé de licence par e-mail en quelques minutes ; collez-la dans Nablix (Réglages → Licence) et c'est terminé."
+   },
+   {
+    "q": "Puis-je utiliser une licence sur plusieurs appareils ?",
+    "a": "Oui. Vous pouvez à tout moment désactiver votre licence sur un appareil et l'activer sur un autre, directement depuis l'application. La licence est attachée à la personne, pas à la machine."
+   },
+   {
+    "q": "Que signifie exactement « Lifetime » ?",
+    "a": "Un paiement unique qui débloque définitivement toutes les fonctions Pro, mises à jour futures de l'application comprises. Ce n'est pas un abonnement et il n'y a rien à renouveler."
+   },
+   {
+    "q": "Que se passe-t-il si j'annule Pro ?",
+    "a": "Vos notes ne sont jamais prises en otage. Tout reste consultable, modifiable et exportable. Si vous dépassez les limites de la version gratuite, vous ne pourrez simplement plus créer de nouvelles pages ou dossiers tant que vous n'êtes pas repassé dessous — ou réabonné."
+   },
+   {
+    "q": "Les prix incluent-ils les taxes ?",
+    "a": "Lemon Squeezy calcule et ajoute la TVA ou taxe de vente applicable au moment du paiement selon votre pays, et s'occupe de toutes les formalités fiscales en tant que merchant of record."
+   },
+   {
+    "q": "Quelle est votre politique de remboursement ?",
+    "a": "Si Nablix ne vous convient pas, écrivez-nous dans les 14 jours suivant l'achat et nous vous remboursons intégralement — sans formulaire, sans interrogatoire."
+   },
+   {
+    "q": "Existe-t-il une version Microsoft Store ?",
+    "a": "Une édition Store est prévue. Les règles du bac à sable du Store interdisent de lancer des processus externes : l'exécution de code restera donc exclusive à l'édition officielle téléchargée ici. Les licences achetées sur ce site activent l'édition officielle."
+   },
+   {
+    "q": "Dois-je payer un supplément pour l'IA ?",
+    "a": "Nablix ne facture jamais l'IA. Vous apportez votre propre clé API OpenAI ou Anthropic et payez votre fournisseur directement à l'usage — généralement quelques centimes pour de la prise de notes. Le chat IA est illimité dans toutes les formules, y compris la gratuite."
+   }
+  ]
+ },
+ "notFound": {
+  "desc": "This page drifted off the graph.",
+  "descJa": "このページはグラフの外に漂流してしまったようです。",
+  "home": "Retour à l'accueil"
+ },
+ "dive4": {
+  "kicker": "IA × MCP",
+  "title": "L’IA, sous votre contrôle.",
+  "desc": "Nablix n’a ni abonnement IA ni serveur intermédiaire. Apportez votre clé OpenAI ou Anthropic, ou connectez votre agent habituel via MCP.",
+  "points": [
+   {
+    "html": "<strong>Un chat qui connaît la page</strong> — une conversation ancrée dans la note ouverte"
+   },
+   {
+    "html": "<strong>Complétion en ligne</strong> — des suggestions pendant la frappe (Pro)"
+   },
+   {
+    "html": "<strong>Serveur MCP intégré</strong> — des outils comme Claude Code peuvent lire, éditer, même créer des vues graphe"
+   },
+   {
+    "html": "<strong>Autorisations explicites</strong> — accès au dossier et création de pages uniquement après votre accord"
+   }
+  ],
+  "shotAlt": "La boîte de dialogue d’autorisation affichée quand un outil IA externe modifie une note via MCP"
+ }
 }

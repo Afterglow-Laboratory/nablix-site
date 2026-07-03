@@ -1,327 +1,440 @@
 {
-    "meta": {
-        "lang": "zh",
-        "dir": "ltr",
-        "name": "简体中文",
-        "fontQuery": "family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&family=Noto+Sans+SC:wght@400;500;700;800",
-        "landingTitle": "Nablix — 集手写、可运行代码与自带 AI 于一体的 Markdown 笔记应用",
-        "landingDesc": "Nablix 是一款 Windows 本地优先笔记应用，将 Markdown、手写墨迹、可执行代码与 BYOK AI 融为一体。无需账号、无云端、零遥测——笔记只保存在你的电脑上。",
-        "pricingTitle": "Nablix 价格 — 免费版 / Pro $5 每月 / 终身版 $96",
-        "pricingDesc": "免费使用 20 个页面及全部核心功能。升级 Pro 解锁无限页面、行内 AI 补全与交互式页面地图——支持月付、年付或一次性买断。",
-        "privacyTitle": "隐私政策 — Nablix",
-        "privacyDesc": "Nablix 如何处理你的数据：全部本地化。哪些数据会离开你的设备、何时、为什么——完整而简短的清单。",
-        "termsTitle": "服务条款 — Nablix",
-        "termsDesc": "Nablix 的使用条款：许可证、购买与退款、代码执行以及你的责任。",
-        "notFoundTitle": "404 — Nablix"
+ "meta": {
+  "lang": "zh",
+  "dir": "ltr",
+  "name": "简体中文",
+  "fontQuery": "family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&family=Noto+Sans+SC:wght@400;500;700;800",
+  "landingTitle": "Nablix — 集手写、可运行代码与自带 AI 于一体的 Markdown 笔记应用",
+  "landingDesc": "Nablix 是一款 Windows 本地优先笔记应用，将 Markdown、手写墨迹、可执行代码与 BYOK AI 融为一体。无需账号、无云端、零遥测——笔记只保存在你的电脑上。",
+  "pricingTitle": "Nablix 价格 — 免费版 / Pro $5 每月 / 终身版 $96",
+  "pricingDesc": "免费使用 20 个页面及全部核心功能。升级 Pro 解锁无限页面、行内 AI 补全与交互式页面地图——支持月付、年付或一次性买断。",
+  "privacyTitle": "隐私政策 — Nablix",
+  "privacyDesc": "Nablix 如何处理你的数据：全部本地化。哪些数据会离开你的设备、何时、为什么——完整而简短的清单。",
+  "termsTitle": "服务条款 — Nablix",
+  "termsDesc": "Nablix 的使用条款：许可证、购买与退款、代码执行以及你的责任。",
+  "notFoundTitle": "404 — Nablix"
+ },
+ "nav": {
+  "features": "功能",
+  "pricing": "价格",
+  "faq": "常见问题",
+  "download": "下载"
+ },
+ "hero": {
+  "badge": "v0.1.0 · Windows",
+  "title": "书写。手绘。运行。<br />一切都在同一页上。",
+  "sub": "Nablix 是一款 Windows 平台的本地优先笔记应用。Markdown、手写墨迹、可运行的代码和数学公式——过去分散在不同应用里的工具，如今汇聚在同一页纸上。无需账号，无需云端。",
+  "ctaPrimary": "免费下载 Windows 版",
+  "ctaSecondary": "查看价格",
+  "fine1": "20 页内免费",
+  "fine2": "无需注册",
+  "fine3": "自动更新",
+  "shotAlt": "Nablix 的真实界面：Markdown 笔记中排列着公式、手写内容和可运行的代码块"
+ },
+ "features": {
+  "kicker": "Features",
+  "heading": "不再切换工具。",
+  "sub": "笔记、白板、LaTeX 编辑器、REPL——在它们之间来回切换所流失的专注力，Nablix 帮你在一页之内找回来。",
+  "f1": {
+   "title": "所见即所得的 Markdown",
+   "desc": "斜杠命令、表格、折叠块、分栏、目录。无论编辑多么丰富，保存下来的始终是普通的 .md 文件，随时可以用其他工具打开。"
+  },
+  "f2": {
+   "title": "直接在页面上手写",
+   "desc": "在笔记的任意位置插入画布，用笔直接书写，也可以打开全屏白板。顺滑且支持压感的墨迹。"
+  },
+  "f3": {
+   "title": "代码就地运行",
+   "desc": "在页面内运行 Python、TypeScript 等代码块，输出结果就留在块的下方。每个页面都有专属的工作区文件夹，还能打开终端。"
+  },
+  "f4": {
+   "title": "公式与不断成长的术语表",
+   "desc": "用 KaTeX 和自定义宏快速书写公式。定义过的术语会自动汇入术语表，在任何页面悬停即可查看定义。"
+  },
+  "f5": {
+   "title": "看见页面之间的关联",
+   "desc": "本地运行的嵌入模型会计算页面之间的语义距离，并绘制成星座般的地图。搜索同样基于语义——完全离线。"
+  },
+  "f6": {
+   "title": "自己的 AI 密钥，MCP 扩展",
+   "desc": "设置 OpenAI / Anthropic API 密钥即可使用聊天和行内补全。内置 MCP 服务器，Claude 等外部 AI 工具可以读写你的笔记。"
+  }
+ },
+ "dive1": {
+  "kicker": "Ink × Math",
+  "title": "以手的速度书写数学。",
+  "desc": "当打字跟不上思考时，直接画出来。手写公式由 AI 转换为 KaTeX，以精美的排版呈现在页面上。",
+  "points": [
+   {
+    "html": "<strong>行内画布</strong> — 可插入段落之间的手写块"
+   },
+   {
+    "html": "<strong>手写 → LaTeX</strong> — AI 将笔迹直接转换为公式块"
+   },
+   {
+    "html": "<strong>KaTeX 全面支持</strong> — 行内公式、公式块、自定义宏"
+   },
+   {
+    "html": "<strong>公式编辑面板</strong> — 一边预览渲染结果一边编辑源码"
+   }
+  ],
+  "shotAlt": "手写公式被转换为 KaTeX 公式块的过程"
+ },
+ "dive2": {
+  "kicker": "Run",
+  "title": "笔记里的小实验室。",
+  "desc": "代码块不是工作成果的截图——它就是工作本身。尝试、修改，把结果留在思考的旁边。",
+  "points": [
+   {
+    "html": "<strong>多语言运行器</strong> — Python、JavaScript / TypeScript、C / C++、Go 等"
+   },
+   {
+    "html": "<strong>行内输出</strong> — 结果就在块的下方，可随时重新运行"
+   },
+   {
+    "html": "<strong>页面专属工作区</strong> — 每个页面拥有自己的文件夹和终端"
+   },
+   {
+    "html": "<strong>本地运行</strong> — 使用你电脑上的工具链，不上传任何内容"
+   }
+  ],
+  "shotAlt": "笔记中运行 Python 代码块并在下方显示结果"
+ },
+ "dive3": {
+  "kicker": "Connect",
+  "title": "让笔记成为知识网络。",
+  "desc": "术语定义跨页面生效。写得越多，术语表越丰富，页面之间的关系也能在地图上一览无余。",
+  "points": [
+   {
+    "html": "<strong>定义块</strong> — 任何页面都能引用术语，悬停即显示卡片"
+   },
+   {
+    "html": "<strong>术语表视图</strong> — 汇总文件夹内的所有定义，用标签整理"
+   },
+   {
+    "html": "<strong>页面链接</strong> — 直接链接笔记并相互跳转"
+   },
+   {
+    "html": "<strong>页面地图</strong> — 本地语义搜索将相关页面绘制成星座"
+   }
+  ],
+  "shotAlt": "定义引用的悬停卡片与页面关联地图"
+ },
+ "privacyStrip": {
+  "title": "无账号。无云端。零遥测。",
+  "desc": "Nablix 只在三种情况下访问互联网：你的 AI 调用（你的密钥、你选的服务商）、许可证激活（Lemon Squeezy）、更新检查（GitHub）。仅此而已——隐私政策短到真的能读完。",
+  "link": "阅读隐私政策"
+ },
+ "pricingPreview": {
+  "heading": "思考免费，扩张才付费。",
+  "sub": "20 个页面起步，核心功能全部包含。等你的第二大脑装不下了，再升级也不迟。",
+  "cards": [
+   {
+    "cls": "",
+    "flag": "",
+    "name": "Free",
+    "price": "$0",
+    "per": "永久免费",
+    "blurb": "20 页 · 1 个工作区 · 全部核心功能，包括代码执行与 AI 对话。",
+    "btnCls": "btn-ghost",
+    "cta": "立即开始"
+   },
+   {
+    "cls": "popular",
+    "flag": "<div class=\"plan-flag\">最受欢迎</div>",
+    "name": "Pro",
+    "price": "$4",
+    "per": "/月（按年计费）",
+    "blurb": "无限页面与文件夹、行内 AI 补全、交互式页面地图。",
+    "btnCls": "btn-primary",
+    "cta": "查看详情"
+   },
+   {
+    "cls": "life",
+    "flag": "<div class=\"plan-flag\">一次买断</div>",
+    "name": "Lifetime",
+    "price": "$96",
+    "per": "一次性",
+    "blurb": "Pro 的全部功能，永久拥有。没有订阅，无需退订。",
+    "btnCls": "btn-magenta",
+    "cta": "查看详情"
+   }
+  ]
+ },
+ "faq": {
+  "heading": "常见问题",
+  "items": [
+   {
+    "q": "Nablix 真的免费吗？",
+    "a": "是的——免费版不是试用版。你可以使用 20 个页面、1 个工作区文件夹，以及几乎全部功能：完整编辑器、画布、代码执行、公式、图谱视图、搜索、导出，还有不限次数的 BYOK AI 对话。只有当空间不够时才需要升级。"
+   },
+   {
+    "q": "支持哪些平台？",
+    "a": "目前支持 Windows 10 / 11（64 位）。代码库已做跨平台设计，待 Windows 版足够稳定后将推出 macOS 版。"
+   },
+   {
+    "q": "我的数据保存在哪里？",
+    "a": "保存在你自己硬盘上的普通文件夹中——页面就是文件，可以用任何工具打开、备份、同步或导出。不会向我们上传任何内容，事实上根本不存在「我们的服务器」。"
+   },
+   {
+    "q": "需要订阅 AI 服务吗？",
+    "a": "不需要。AI 功能是可选的，并采用 BYOK（自带密钥）方式：接入你自己的 OpenAI 或 Anthropic API 密钥，按用量直接付费给服务商。没有密钥，其他功能照常使用。"
+   },
+   {
+    "q": "MCP 集成是什么？",
+    "a": "Nablix 内置 MCP 服务器，让 Claude Code、Cursor、Windsurf 等工具能把你的笔记作为一等上下文来读写。访问范围仅限你当前打开的页面及其工作区，其余内容不会暴露。"
+   },
+   {
+    "q": "达到 20 页上限后会怎样？",
+    "a": "不会发生任何可怕的事。你的笔记始终可以查看、编辑和导出——免费版的限制只是阻止创建第 21 个页面。删除部分页面回到上限以内，或升级到 Pro 即可。"
+   },
+   {
+    "q": "Windows 提示「未知发布者」是怎么回事？",
+    "a": "早期版本尚未进行代码签名（计划在 1.0 之前引入签名证书）。每个安装包都由 GitHub Actions 从打了标签的源码自动构建，所有版本均可在 releases 页面核验。点击「更多信息」→「仍要运行」即可继续。"
+   }
+  ]
+ },
+ "cta": {
+  "title": "给你的灵感一个能奔跑的地方。",
+  "sub": "下载 Nablix，打开一个页面，让笔记、墨迹、公式和代码终于住在一起。",
+  "button": "下载 Windows 版",
+  "sub2": "免费 · 20 页 · 无需账号"
+ },
+ "footer": {
+  "tagline": "一款本地优先的笔记应用，让 Markdown、墨迹、代码与 AI 共享同一页。",
+  "product": "产品",
+  "releases": "更新日志",
+  "legal": "法律信息",
+  "privacy": "隐私政策",
+  "terms": "服务条款",
+  "contact": "联系我们",
+  "rights": "保留所有权利。",
+  "made": "由日本独立开发者打造"
+ },
+ "pricing": {
+  "title": "简单的价格，诚实的限制",
+  "sub": "Nablix 是本地优先软件：没有席位费，没有存储分级，更不会绑架你的数据。只有当免费版不够用时才需要付费。",
+  "monthly": "月付",
+  "yearly": "年付",
+  "save": "省 2 个月",
+  "toggleAria": "切换按年计费",
+  "buySoon": "即将开售",
+  "buySoonSub": "购买通道即将开放——免费版今天就能用",
+  "free": {
+   "name": "Free",
+   "note": "永久免费",
+   "blurb": "一个完整的第二大脑，上限 20 页。",
+   "feats": [
+    {
+     "t": "20 个页面 / 1 个工作区文件夹"
     },
-
-    "nav": {
-        "features": "功能",
-        "pricing": "价格",
-        "faq": "常见问题",
-        "download": "下载"
+    {
+     "t": "完整 Markdown 编辑器、画布与手写"
     },
-
-    "hero": {
-        "badge": "v0.1.0 · Windows",
-        "title": "思绪<span class=\"grad-text\">相连</span>，<br />灵感<span class=\"grad-text\">鲜活</span>。",
-        "sub": "Nablix 是一款 Windows 本地优先笔记本：Markdown、手写墨迹、可执行代码与 AI 共享同一个页面。无需账号，没有云端，文件永远属于你。",
-        "ctaPrimary": "免费下载 Windows 版",
-        "ctaSecondary": "查看价格",
-        "fine1": "20 页内免费",
-        "fine2": "无需注册",
-        "fine3": "自动更新",
-        "mockAlt": "Nablix 应用窗口，显示包含数学公式块、可运行 Python 代码、手写画布和页面图谱的 Markdown 页面"
+    {
+     "t": "17 种以上语言的代码执行"
     },
-
-    "features": {
-        "kicker": "Features",
-        "heading": "一个页面，承载你思考的每种方式。",
-        "sub": "不必再在笔记应用、白板、LaTeX 编辑器和 REPL 之间来回切换。Nablix 把它们折叠进一个快速的工作区。",
-        "items": [
-            {
-                "icon": "✍️",
-                "title": "无限手写画布",
-                "desc": "在无边界的画布上用笔思考——既可作为独立的白板页面，也可作为嵌入 Markdown 的区块。"
-            },
-            {
-                "icon": "⚡",
-                "title": "真正能运行的代码",
-                "desc": "以 Jupyter 风格就地执行 Python、TypeScript、Rust、C++ 等 17 种以上语言，输出直接显示在代码块下方。"
-            },
-            {
-                "icon": "✨",
-                "title": "手写→LaTeX，图片→Markdown",
-                "desc": "手写一个公式，AI 帮你转换成整洁的 KaTeX；粘贴一张截图，得到可编辑的 Markdown。"
-            },
-            {
-                "icon": "🕸",
-                "title": "是图谱，不是堆积",
-                "desc": "双向 [[wiki 链接]]、悬停即现的术语定义、星座般的页面地图，让零散笔记变成第二大脑。"
-            },
-            {
-                "icon": "🤖",
-                "title": "你的 AI，你的密钥",
-                "desc": "接入自己的 OpenAI 或 Anthropic 密钥：上下文对话、输入补全、通过 MCP 连接智能体。密钥永不离开你的电脑。"
-            },
-            {
-                "icon": "🔒",
-                "title": "名副其实的本地优先",
-                "desc": "Rust + Tauri 打造：瞬间启动、完全离线、零遥测。笔记保存在你拥有的普通文件夹里，随时可导出。"
-            }
-        ]
+    {
+     "t": "KaTeX 公式、宏与定义块"
     },
-
-    "dive1": {
-        "kicker": "书写 · 手绘 · 求解",
-        "title": "经得起数学考验的笔记，还有墨迹",
-        "desc": "支持自定义宏的 KaTeX 公式、悬停显示释义的定义块、分栏与折叠列表——当打字跟不上思路时，直接画出来。",
-        "points": [
-            { "html": "<strong>手写画布</strong>：既可整页使用，也可作为笔记内的行内区块" },
-            { "html": "<strong>AI 墨迹转换</strong>——手写内容一键变为 Markdown 或 LaTeX" },
-            { "html": "<strong>KaTeX 全面支持</strong>：行内公式、公式块与可复用宏" },
-            { "html": "<strong>定义块</strong>——悬停任意引用即可查看其定义卡片" }
-        ]
+    {
+     "t": "Wiki 链接、图谱视图与全文搜索"
     },
-
-    "dive2": {
-        "kicker": "Run",
-        "title": "可以执行的笔记本",
-        "desc": "代码块不是工作的截图——它就是工作本身。就地运行，让结果与思考并肩存放。",
-        "points": [
-            { "html": "<strong>17 种以上语言</strong>：Python、JavaScript / TypeScript、Rust、C、C++、Go、R、Ruby 等" },
-            { "html": "<strong>行内输出</strong>显示在代码块正下方——随时重新运行" },
-            { "html": "<strong>页面专属工作区</strong>：每个页面对应自己的文件夹，可直接在此打开终端" },
-            { "html": "<strong>使用你本机的工具链</strong>——没有云沙箱，没有上传" }
-        ]
+    {
+     "t": "AI 对话不限次数（自带密钥）"
     },
-
-    "dive3": {
-        "kicker": "BYOK AI + MCP",
-        "title": "AI，按你的规则来",
-        "desc": "Nablix 没有 AI 订阅，也没有中间服务器。插入自己的 OpenAI / Anthropic 密钥，或通过 MCP 把你喜爱的编程智能体直接接进笔记。",
-        "points": [
-            { "html": "<strong>AI 对话</strong>能看到当前页面——即使免费版也不限次数" },
-            { "html": "<strong>行内补全</strong>：输入时由 AI 续写（Pro）" },
-            { "html": "<strong>内置 MCP 服务器</strong>：Claude Code、Cursor、Windsurf 可读写你的笔记" },
-            { "html": "<strong>权限按设计收紧</strong>——智能体只能看到你当前打开的页面和工作区" }
-        ],
-        "scopeChip": "仅限当前页面"
+    {
+     "t": "手写 / 图片→LaTeX：每天 3 次"
     },
-
-    "privacyStrip": {
-        "title": "无账号。无云端。零遥测。",
-        "desc": "Nablix 只在三种情况下访问互联网：你的 AI 调用（你的密钥、你选的服务商）、许可证激活（Lemon Squeezy）、更新检查（GitHub）。仅此而已——隐私政策短到真的能读完。",
-        "link": "阅读隐私政策"
-    },
-
-    "pricingPreview": {
-        "heading": "思考免费，扩张才付费。",
-        "sub": "20 个页面起步，核心功能全部包含。等你的第二大脑装不下了，再升级也不迟。",
-        "cards": [
-            {
-                "cls": "",
-                "flag": "",
-                "name": "Free",
-                "price": "$0",
-                "per": "永久免费",
-                "blurb": "20 页 · 1 个工作区 · 全部核心功能，包括代码执行与 AI 对话。",
-                "btnCls": "btn-ghost",
-                "cta": "立即开始"
-            },
-            {
-                "cls": "popular",
-                "flag": "<div class=\"plan-flag\">最受欢迎</div>",
-                "name": "Pro",
-                "price": "$4",
-                "per": "/月（按年计费）",
-                "blurb": "无限页面与文件夹、行内 AI 补全、交互式页面地图。",
-                "btnCls": "btn-primary",
-                "cta": "查看详情"
-            },
-            {
-                "cls": "life",
-                "flag": "<div class=\"plan-flag\">一次买断</div>",
-                "name": "Lifetime",
-                "price": "$96",
-                "per": "一次性",
-                "blurb": "Pro 的全部功能，永久拥有。没有订阅，无需退订。",
-                "btnCls": "btn-magenta",
-                "cta": "查看详情"
-            }
-        ]
-    },
-
-    "faq": {
-        "heading": "常见问题",
-        "items": [
-            {
-                "q": "Nablix 真的免费吗？",
-                "a": "是的——免费版不是试用版。你可以使用 20 个页面、1 个工作区文件夹，以及几乎全部功能：完整编辑器、画布、代码执行、公式、图谱视图、搜索、导出，还有不限次数的 BYOK AI 对话。只有当空间不够时才需要升级。"
-            },
-            {
-                "q": "支持哪些平台？",
-                "a": "目前支持 Windows 10 / 11（64 位）。代码库已做跨平台设计，待 Windows 版足够稳定后将推出 macOS 版。"
-            },
-            {
-                "q": "我的数据保存在哪里？",
-                "a": "保存在你自己硬盘上的普通文件夹中——页面就是文件，可以用任何工具打开、备份、同步或导出。不会向我们上传任何内容，事实上根本不存在「我们的服务器」。"
-            },
-            {
-                "q": "需要订阅 AI 服务吗？",
-                "a": "不需要。AI 功能是可选的，并采用 BYOK（自带密钥）方式：接入你自己的 OpenAI 或 Anthropic API 密钥，按用量直接付费给服务商。没有密钥，其他功能照常使用。"
-            },
-            {
-                "q": "MCP 集成是什么？",
-                "a": "Nablix 内置 MCP 服务器，让 Claude Code、Cursor、Windsurf 等工具能把你的笔记作为一等上下文来读写。访问范围仅限你当前打开的页面及其工作区，其余内容不会暴露。"
-            },
-            {
-                "q": "达到 20 页上限后会怎样？",
-                "a": "不会发生任何可怕的事。你的笔记始终可以查看、编辑和导出——免费版的限制只是阻止创建第 21 个页面。删除部分页面回到上限以内，或升级到 Pro 即可。"
-            },
-            {
-                "q": "Windows 提示「未知发布者」是怎么回事？",
-                "a": "早期版本尚未进行代码签名（计划在 1.0 之前引入签名证书）。每个安装包都由 GitHub Actions 从打了标签的源码自动构建，所有版本均可在 releases 页面核验。点击「更多信息」→「仍要运行」即可继续。"
-            }
-        ]
-    },
-
-    "cta": {
-        "title": "给你的灵感一个能奔跑的地方。",
-        "sub": "下载 Nablix，打开一个页面，让笔记、墨迹、公式和代码终于住在一起。",
-        "button": "下载 Windows 版",
-        "sub2": "免费 · 20 页 · 无需账号"
-    },
-
-    "footer": {
-        "tagline": "一款本地优先的笔记应用，让 Markdown、墨迹、代码与 AI 共享同一页。",
-        "product": "产品",
-        "releases": "更新日志",
-        "legal": "法律信息",
-        "privacy": "隐私政策",
-        "terms": "服务条款",
-        "contact": "联系我们",
-        "rights": "保留所有权利。",
-        "made": "由日本独立开发者打造"
-    },
-
-    "pricing": {
-        "title": "简单的价格，诚实的限制",
-        "sub": "Nablix 是本地优先软件：没有席位费，没有存储分级，更不会绑架你的数据。只有当免费版不够用时才需要付费。",
-        "monthly": "月付",
-        "yearly": "年付",
-        "save": "省 2 个月",
-        "toggleAria": "切换按年计费",
-        "buySoon": "即将开售",
-        "buySoonSub": "购买通道即将开放——免费版今天就能用",
-        "free": {
-            "name": "Free",
-            "note": "永久免费",
-            "blurb": "一个完整的第二大脑，上限 20 页。",
-            "feats": [
-                { "t": "20 个页面 / 1 个工作区文件夹" },
-                { "t": "完整 Markdown 编辑器、画布与手写" },
-                { "t": "17 种以上语言的代码执行" },
-                { "t": "KaTeX 公式、宏与定义块" },
-                { "t": "Wiki 链接、图谱视图与全文搜索" },
-                { "t": "AI 对话不限次数（自带密钥）" },
-                { "t": "手写 / 图片→LaTeX：每天 3 次" },
-                { "t": "导出与自动更新" }
-            ],
-            "cta": "免费下载",
-            "ctaSub": "无需账号，无需银行卡"
-        },
-        "pro": {
-            "name": "Pro",
-            "flag": "最受欢迎",
-            "perMonth": "/月",
-            "noteMonthly": "每月支付 $5",
-            "noteYearly": "年付 $48——省 2 个月",
-            "blurb": "为不断生长的笔记本留足空间。",
-            "feats": [
-                { "t": "免费版全部功能" },
-                { "t": "无限页面" },
-                { "t": "无限工作区文件夹" },
-                { "t": "输入时的行内 AI 补全" },
-                { "t": "手写 / 图片→LaTeX 不限次数" },
-                { "t": "交互式页面地图" }
-            ],
-            "ctaLive": "升级到 Pro"
-        },
-        "life": {
-            "name": "Lifetime",
-            "flag": "一次买断",
-            "per": "一次性",
-            "note": "永久拥有",
-            "blurb": "Pro 的一切，一次付清。从此与订阅无缘。",
-            "feats": [
-                { "t": "Pro 的全部功能" },
-                { "t": "包含今后所有更新" },
-                { "t": "没有周期扣费，无需退订" },
-                { "t": "随时在你的设备间迁移" }
-            ],
-            "ctaLive": "购买终身版"
-        },
-        "assure1": "14 天退款保证",
-        "assure2": "支付、税务与发票由 Lemon Squeezy 处理",
-        "assure3": "随时取消——你的数据永不被锁定",
-        "tableHeading": "方案对比",
-        "colFeature": "功能",
-        "rows": [
-            { "f": "页面数", "free": "20", "pro": "<span class=\"yes\">无限</span>" },
-            { "f": "工作区文件夹", "free": "1", "pro": "<span class=\"yes\">无限</span>" },
-            { "f": "Markdown 编辑器、画布与手写", "free": "<span class=\"yes\">✓</span>", "pro": "<span class=\"yes\">✓</span>" },
-            { "f": "代码执行（17 种以上语言）", "free": "<span class=\"yes\">✓</span>", "pro": "<span class=\"yes\">✓</span>" },
-            { "f": "KaTeX 公式与宏", "free": "<span class=\"yes\">✓</span>", "pro": "<span class=\"yes\">✓</span>" },
-            { "f": "Wiki 链接与图谱视图", "free": "<span class=\"yes\">✓</span>", "pro": "<span class=\"yes\">✓</span>" },
-            { "f": "全文搜索", "free": "<span class=\"yes\">✓</span>", "pro": "<span class=\"yes\">✓</span>" },
-            { "f": "AI 对话（自带密钥）", "free": "<span class=\"yes\">无限</span>", "pro": "<span class=\"yes\">无限</span>" },
-            { "f": "行内 AI 补全", "free": "<span class=\"no\">—</span>", "pro": "<span class=\"yes\">✓</span>" },
-            { "f": "手写 / 图片→LaTeX", "free": "每天 3 次", "pro": "<span class=\"yes\">无限</span>" },
-            { "f": "页面地图", "free": "仅查看", "pro": "<span class=\"yes\">可交互</span>" },
-            { "f": "MCP 服务器（Claude Code、Cursor…）", "free": "<span class=\"yes\">✓</span>", "pro": "<span class=\"yes\">✓</span>" },
-            { "f": "导出与自动更新", "free": "<span class=\"yes\">✓</span>", "pro": "<span class=\"yes\">✓</span>" }
-        ],
-        "faqHeading": "购买与许可证",
-        "faq": [
-            {
-                "q": "购买流程是怎样的？",
-                "a": "结账与计费由我们的登记商户（Merchant of Record）Lemon Squeezy 负责——他们处理付款、税费与发票。几分钟内你会收到一封含许可证密钥的邮件，把密钥粘贴进 Nablix（设置 → 许可证）即可完成。"
-            },
-            {
-                "q": "一个许可证可以在多台设备上用吗？",
-                "a": "可以。你随时可以在应用内停用某台设备上的许可证，再在另一台设备上激活。许可证按「人」授权，而不是按「机器」。"
-            },
-            {
-                "q": "「终身版」到底是什么意思？",
-                "a": "一次性付款即可永久解锁全部 Pro 功能，并包含应用今后的更新。它不是订阅，也不存在任何续费。"
-            },
-            {
-                "q": "取消 Pro 后会发生什么？",
-                "a": "你的笔记永远不会被扣为人质。一切内容仍可查看、编辑和导出。如果超出了免费版限额，只是在回到限额以内（或再次升级）之前无法新建页面和文件夹。"
-            },
-            {
-                "q": "价格含税吗？",
-                "a": "Lemon Squeezy 会在结账时根据你所在国家计算并加收适用的增值税/销售税，并以登记商户身份处理全部税务文书。"
-            },
-            {
-                "q": "退款政策是什么？",
-                "a": "如果 Nablix 不适合你，请在购买后 14 天内发邮件联系我们，我们将全额退款——没有表格，也没有盘问。"
-            },
-            {
-                "q": "有 Microsoft Store 版吗？",
-                "a": "Store 版正在计划中。由于商店沙箱规则禁止启动外部进程，代码执行功能将是你在本站下载的官方版独有。在本站购买的许可证适用于官方版。"
-            },
-            {
-                "q": "AI 需要额外付费吗？",
-                "a": "Nablix 绝不收取 AI 费用。你接入自己的 OpenAI / Anthropic API 密钥，按用量直接付费给服务商——笔记场景通常只需几分钱。所有方案（包括免费版）的 AI 对话都不限次数。"
-            }
-        ]
-    },
-
-    "notFound": {
-        "desc": "This page drifted off the graph.",
-        "descJa": "このページはグラフの外に漂流してしまったようです。",
-        "home": "返回首页"
+    {
+     "t": "导出与自动更新"
     }
+   ],
+   "cta": "免费下载",
+   "ctaSub": "无需账号，无需银行卡"
+  },
+  "pro": {
+   "name": "Pro",
+   "flag": "最受欢迎",
+   "perMonth": "/月",
+   "noteMonthly": "每月支付 $5",
+   "noteYearly": "年付 $48——省 2 个月",
+   "blurb": "为不断生长的笔记本留足空间。",
+   "feats": [
+    {
+     "t": "免费版全部功能"
+    },
+    {
+     "t": "无限页面"
+    },
+    {
+     "t": "无限工作区文件夹"
+    },
+    {
+     "t": "输入时的行内 AI 补全"
+    },
+    {
+     "t": "手写 / 图片→LaTeX 不限次数"
+    },
+    {
+     "t": "交互式页面地图"
+    }
+   ],
+   "ctaLive": "升级到 Pro"
+  },
+  "life": {
+   "name": "Lifetime",
+   "flag": "一次买断",
+   "per": "一次性",
+   "note": "永久拥有",
+   "blurb": "Pro 的一切，一次付清。从此与订阅无缘。",
+   "feats": [
+    {
+     "t": "Pro 的全部功能"
+    },
+    {
+     "t": "包含今后所有更新"
+    },
+    {
+     "t": "没有周期扣费，无需退订"
+    },
+    {
+     "t": "随时在你的设备间迁移"
+    }
+   ],
+   "ctaLive": "购买终身版"
+  },
+  "assure1": "14 天退款保证",
+  "assure2": "支付、税务与发票由 Lemon Squeezy 处理",
+  "assure3": "随时取消——你的数据永不被锁定",
+  "tableHeading": "方案对比",
+  "colFeature": "功能",
+  "rows": [
+   {
+    "f": "页面数",
+    "free": "20",
+    "pro": "<span class=\"yes\">无限</span>"
+   },
+   {
+    "f": "工作区文件夹",
+    "free": "1",
+    "pro": "<span class=\"yes\">无限</span>"
+   },
+   {
+    "f": "Markdown 编辑器、画布与手写",
+    "free": "<span class=\"yes\">✓</span>",
+    "pro": "<span class=\"yes\">✓</span>"
+   },
+   {
+    "f": "代码执行（17 种以上语言）",
+    "free": "<span class=\"yes\">✓</span>",
+    "pro": "<span class=\"yes\">✓</span>"
+   },
+   {
+    "f": "KaTeX 公式与宏",
+    "free": "<span class=\"yes\">✓</span>",
+    "pro": "<span class=\"yes\">✓</span>"
+   },
+   {
+    "f": "Wiki 链接与图谱视图",
+    "free": "<span class=\"yes\">✓</span>",
+    "pro": "<span class=\"yes\">✓</span>"
+   },
+   {
+    "f": "全文搜索",
+    "free": "<span class=\"yes\">✓</span>",
+    "pro": "<span class=\"yes\">✓</span>"
+   },
+   {
+    "f": "AI 对话（自带密钥）",
+    "free": "<span class=\"yes\">无限</span>",
+    "pro": "<span class=\"yes\">无限</span>"
+   },
+   {
+    "f": "行内 AI 补全",
+    "free": "<span class=\"no\">—</span>",
+    "pro": "<span class=\"yes\">✓</span>"
+   },
+   {
+    "f": "手写 / 图片→LaTeX",
+    "free": "每天 3 次",
+    "pro": "<span class=\"yes\">无限</span>"
+   },
+   {
+    "f": "页面地图",
+    "free": "仅查看",
+    "pro": "<span class=\"yes\">可交互</span>"
+   },
+   {
+    "f": "MCP 服务器（Claude Code、Cursor…）",
+    "free": "<span class=\"yes\">✓</span>",
+    "pro": "<span class=\"yes\">✓</span>"
+   },
+   {
+    "f": "导出与自动更新",
+    "free": "<span class=\"yes\">✓</span>",
+    "pro": "<span class=\"yes\">✓</span>"
+   }
+  ],
+  "faqHeading": "购买与许可证",
+  "faq": [
+   {
+    "q": "购买流程是怎样的？",
+    "a": "结账与计费由我们的登记商户（Merchant of Record）Lemon Squeezy 负责——他们处理付款、税费与发票。几分钟内你会收到一封含许可证密钥的邮件，把密钥粘贴进 Nablix（设置 → 许可证）即可完成。"
+   },
+   {
+    "q": "一个许可证可以在多台设备上用吗？",
+    "a": "可以。你随时可以在应用内停用某台设备上的许可证，再在另一台设备上激活。许可证按「人」授权，而不是按「机器」。"
+   },
+   {
+    "q": "「终身版」到底是什么意思？",
+    "a": "一次性付款即可永久解锁全部 Pro 功能，并包含应用今后的更新。它不是订阅，也不存在任何续费。"
+   },
+   {
+    "q": "取消 Pro 后会发生什么？",
+    "a": "你的笔记永远不会被扣为人质。一切内容仍可查看、编辑和导出。如果超出了免费版限额，只是在回到限额以内（或再次升级）之前无法新建页面和文件夹。"
+   },
+   {
+    "q": "价格含税吗？",
+    "a": "Lemon Squeezy 会在结账时根据你所在国家计算并加收适用的增值税/销售税，并以登记商户身份处理全部税务文书。"
+   },
+   {
+    "q": "退款政策是什么？",
+    "a": "如果 Nablix 不适合你，请在购买后 14 天内发邮件联系我们，我们将全额退款——没有表格，也没有盘问。"
+   },
+   {
+    "q": "有 Microsoft Store 版吗？",
+    "a": "Store 版正在计划中。由于商店沙箱规则禁止启动外部进程，代码执行功能将是你在本站下载的官方版独有。在本站购买的许可证适用于官方版。"
+   },
+   {
+    "q": "AI 需要额外付费吗？",
+    "a": "Nablix 绝不收取 AI 费用。你接入自己的 OpenAI / Anthropic API 密钥，按用量直接付费给服务商——笔记场景通常只需几分钱。所有方案（包括免费版）的 AI 对话都不限次数。"
+   }
+  ]
+ },
+ "notFound": {
+  "desc": "This page drifted off the graph.",
+  "descJa": "このページはグラフの外に漂流してしまったようです。",
+  "home": "返回首页"
+ },
+ "dive4": {
+  "kicker": "AI × MCP",
+  "title": "AI，由你掌控。",
+  "desc": "Nablix 没有 AI 订阅，也没有中间服务器。设置自己的 OpenAI / Anthropic 密钥，或通过 MCP 把你惯用的 AI 代理接入笔记。",
+  "points": [
+   {
+    "html": "<strong>理解页面的聊天</strong> — 以当前打开的笔记为上下文对话"
+   },
+   {
+    "html": "<strong>行内补全</strong> — 边写边获得续写建议（Pro）"
+   },
+   {
+    "html": "<strong>内置 MCP 服务器</strong> — Claude Code 等外部工具可以读写页面，甚至创建图谱视图"
+   },
+   {
+    "html": "<strong>显式授权</strong> — 读取文件夹或创建页面，都需要你在应用内对话框中确认"
+   }
+  ],
+  "shotAlt": "外部 AI 工具通过 MCP 编辑笔记时显示的授权对话框"
+ }
 }

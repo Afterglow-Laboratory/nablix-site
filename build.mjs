@@ -166,12 +166,12 @@ for (const page of PAGES) {
   writeOut('404.html', render(templates.notFound, data));
 }
 
-// static passthroughs
-for (const f of fs.readdirSync(path.join(SRC, 'assets'))) {
-  fs.mkdirSync(path.join(OUT, 'assets'), { recursive: true });
-  fs.copyFileSync(path.join(SRC, 'assets', f), path.join(OUT, 'assets', f));
-  generated.push(`assets/${f}`);
-}
+// static passthroughs (recursive: assets/ may contain subfolders like shots/)
+fs.cpSync(path.join(SRC, 'assets'), path.join(OUT, 'assets'), {
+  recursive: true,
+  filter: (src) => !src.endsWith('README.md'),
+});
+generated.push('assets/ (recursive)');
 fs.copyFileSync(path.join(SRC, 'css', 'style.css'), path.join(OUT, 'assets', 'style.css'));
 fs.copyFileSync(path.join(SRC, 'js', 'site.js'), path.join(OUT, 'assets', 'site.js'));
 fs.copyFileSync(path.join(SRC, 'assets', 'favicon.ico'), path.join(OUT, 'favicon.ico'));
