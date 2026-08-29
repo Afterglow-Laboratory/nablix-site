@@ -6,12 +6,13 @@
        CONFIG — edit these at launch
        ════════════════════════════════════════════════════════════ */
 
-    // LemonSqueezy checkout URLs. Leave empty ('') until the store is
-    // switched to Live mode; buttons render as "available at launch".
+    // LemonSqueezy checkout URLs (Live mode, store activated 2026-08).
+    // Taken from the Share Product panel — never from a checkout page's
+    // address bar, as those cart URLs are single-use and per-customer.
     var BUY_LINKS = {
-        pro_monthly: '',
-        pro_annual: '',
-        lifetime: ''
+        pro_monthly: 'https://nablix.lemonsqueezy.com/checkout/buy/38645461-5595-4092-91ed-4b2e204c5e37?enabled=2070727',
+        pro_annual:  'https://nablix.lemonsqueezy.com/checkout/buy/b4b7f038-6fd3-4d5b-91c9-25587af2e42d?enabled=2070726',
+        lifetime:    'https://nablix.lemonsqueezy.com/checkout/buy/7270cdbd-7e3a-4066-8b12-478fd1fe1088'
     };
 
     var RELEASES_REPO = 'Afterglow-Laboratory/nablix-releases';
