@@ -45,7 +45,7 @@
                     <ul>
                         {{#each pricing.pro.feats}}<li>{{.t}}</li>{{/each}}
                     </ul>
-                    <a class="btn btn-primary" data-buy="pro_monthly" data-buy-pro data-label-live="{{pricing.pro.ctaLive}}" aria-disabled="true" href="#">{{pricing.buySoon}}</a>
+                    <a class="btn btn-primary" data-buy-pro data-buy-monthly="{{buyProMonthly}}" data-buy-annual="{{buyProAnnual}}" href="{{buyProMonthly}}">{{pricing.pro.ctaLive}}</a>
                 </div>
 
                 <!-- Lifetime -->
@@ -58,7 +58,7 @@
                     <ul>
                         {{#each pricing.life.feats}}<li>{{.t}}</li>{{/each}}
                     </ul>
-                    <a class="btn btn-magenta" data-buy="lifetime" data-label-live="{{pricing.life.ctaLive}}" aria-disabled="true" href="#">{{pricing.buySoon}}</a>
+                    <a class="btn btn-magenta" href="{{buyLifetime}}">{{pricing.life.ctaLive}}</a>
                 </div>
             </div>
 

@@ -6,14 +6,6 @@
        CONFIG — edit these at launch
        ════════════════════════════════════════════════════════════ */
 
-    // LemonSqueezy checkout URLs (Live mode, store activated 2026-08).
-    // Taken from the Share Product panel — never from a checkout page's
-    // address bar, as those cart URLs are single-use and per-customer.
-    var BUY_LINKS = {
-        pro_monthly: 'https://nablix.lemonsqueezy.com/checkout/buy/38645461-5595-4092-91ed-4b2e204c5e37?enabled=2070727',
-        pro_annual:  'https://nablix.lemonsqueezy.com/checkout/buy/b4b7f038-6fd3-4d5b-91c9-25587af2e42d?enabled=2070726',
-        lifetime:    'https://nablix.lemonsqueezy.com/checkout/buy/7270cdbd-7e3a-4066-8b12-478fd1fe1088'
-    };
 
     var RELEASES_REPO = 'Afterglow-Laboratory/nablix-releases';
     var RELEASES_PAGE = 'https://github.com/' + RELEASES_REPO + '/releases/latest';
@@ -72,16 +64,6 @@
     }
     loadRelease();
 
-    // ─── Buy buttons ──────────────────────────────────────────────
-    document.querySelectorAll('[data-buy]').forEach(function (btn) {
-        var url = BUY_LINKS[btn.getAttribute('data-buy')];
-        if (url) {
-            btn.href = url;
-            btn.removeAttribute('aria-disabled');
-            var soon = btn.getAttribute('data-label-live');
-            if (soon) btn.textContent = soon;
-        }
-    });
 
     // ─── Pricing billing toggle ───────────────────────────────────
     var sw = document.querySelector('.switch');
@@ -94,11 +76,11 @@
             document.querySelectorAll('.toggle-row .opt').forEach(function (o) {
                 o.classList.toggle('on', (o.getAttribute('data-opt') === (yearly ? 'yearly' : 'monthly')));
             });
+            // Both checkout URLs are rendered onto the button at build time.
             var proBuy = document.querySelector('[data-buy-pro]');
             if (proBuy) {
-                proBuy.setAttribute('data-buy', yearly ? 'pro_annual' : 'pro_monthly');
-                var url = BUY_LINKS[yearly ? 'pro_annual' : 'pro_monthly'];
-                if (url) { proBuy.href = url; proBuy.removeAttribute('aria-disabled'); }
+                var url = proBuy.getAttribute(yearly ? 'data-buy-annual' : 'data-buy-monthly');
+                if (url) proBuy.href = url;
             }
         };
         sw.addEventListener('click', function () { setYearly(sw.getAttribute('aria-checked') !== 'true'); });

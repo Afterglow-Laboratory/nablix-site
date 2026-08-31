@@ -21,6 +21,20 @@ const SITE_ORIGIN = 'https://nablix.app';
 const LANGS = ['en', 'ja', 'zh', 'fr', 'es', 'hi', 'ar'];
 const LEGAL_LANGS = ['en', 'ja'];
 
+// Lemon Squeezy checkout URLs (live since the store was activated, 2026-08).
+// Taken from the Share Product panel -- never from a checkout page's address
+// bar, as those cart URLs are single-use and per-customer.
+//
+// These live here rather than in site.js so the buttons ship with working
+// hrefs and their real labels. They used to say "available at launch" and
+// point at '#' until JavaScript replaced them, which meant a visitor whose
+// script had not run yet was told a live store was not open.
+const BUY_LINKS = {
+  proMonthly: 'https://nablix.lemonsqueezy.com/checkout/buy/38645461-5595-4092-91ed-4b2e204c5e37?enabled=2070727',
+  proAnnual:  'https://nablix.lemonsqueezy.com/checkout/buy/b4b7f038-6fd3-4d5b-91c9-25587af2e42d?enabled=2070726',
+  lifetime:   'https://nablix.lemonsqueezy.com/checkout/buy/7270cdbd-7e3a-4066-8b12-478fd1fe1088',
+};
+
 // Copyright year. The notice used to be new Date().getFullYear() alone, so a
 // rebuild in 2027 would have replaced 2026 outright and lost the year the site
 // was first published. Convention is to keep the first year and extend a range
@@ -135,6 +149,9 @@ for (const page of PAGES) {
       alternates: alternatesHtml(page.sub, page.langs),
       langSwitcher: langSwitcherHtml(page.sub, page.langs, lang),
       year: COPYRIGHT_YEARS,
+      buyProMonthly: BUY_LINKS.proMonthly,
+      buyProAnnual: BUY_LINKS.proAnnual,
+      buyLifetime: BUY_LINKS.lifetime,
       pageTitle: lookup(dict, `meta.${page.titleKey}`),
       pageDesc: lookup(dict, `meta.${page.descKey}`),
     };
@@ -169,6 +186,9 @@ for (const page of PAGES) {
     alternates: '',
     langSwitcher: '',
     year: COPYRIGHT_YEARS,
+    buyProMonthly: BUY_LINKS.proMonthly,
+    buyProAnnual: BUY_LINKS.proAnnual,
+    buyLifetime: BUY_LINKS.lifetime,
     pageTitle: dict.meta.notFoundTitle,
     pageDesc: dict.meta.landingDesc,
   };

@@ -210,7 +210,6 @@
   "yearly": "Annuel",
   "save": "2 mois offerts",
   "toggleAria": "Basculer la facturation annuelle",
-  "buySoon": "Disponible au lancement",
   "free": {
    "name": "Gratuit",
    "note": "gratuit pour toujours",
@@ -353,7 +352,7 @@
    {
     "f": "Page Map",
     "free": "Lecture seule",
-    "pro": "<span class=\"yes\">Interactive</span>"
+    "pro": "<span class=\"yes\">Carte interactive</span>"
    },
    {
     "f": "Serveur MCP (Claude Code, Cursor…)",
