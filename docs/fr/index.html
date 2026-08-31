@@ -261,8 +261,8 @@
             <div class="faq-list reveal">
                 
                 <details class="faq-item">
-                    <summary>Nablix est-il vraiment gratuit ?</summary>
-                    <div class="faq-a"><p>Oui — la version gratuite n'est pas un essai. Vous disposez de 20 pages, d'un dossier d'espace de travail et de presque toutes les fonctions : éditeur complet, canevas, exécution de code, maths, vue graphe, recherche, export et chat IA BYOK illimité. Vous ne payez que lorsque vous avez besoin de plus d'espace.</p></div>
+                    <summary>Windows affiche « éditeur inconnu » — pourquoi ?</summary>
+                    <div class="faq-a"><p>Les premières versions ne sont pas encore signées numériquement (un certificat de signature est prévu avant la 1.0). Chaque installateur est compilé automatiquement par GitHub Actions à partir de sources taguées, vérifiables sur la page des releases. Cliquez sur « Informations complémentaires » → « Exécuter quand même » pour continuer.</p></div>
                 </details>
                 
                 <details class="faq-item">
@@ -277,22 +277,12 @@
                 
                 <details class="faq-item">
                     <summary>Ai-je besoin d'un abonnement IA ?</summary>
-                    <div class="faq-a"><p>Non. Les fonctions IA sont optionnelles et en BYOK (apportez votre propre clé) : vous connectez votre clé API OpenAI ou Anthropic et ne payez votre fournisseur que ce que vous consommez. Tout le reste fonctionne sans aucune clé.</p></div>
+                    <div class="faq-a"><p>Non. La façon recommandée d'utiliser l'IA avec Nablix est l'intégration MCP : connectez un assistant que vous avez déjà — Claude Code, Codex, Cursor, Antigravity — et il travaille directement sur vos notes. Il existe aussi un copilote intégré qui accepte votre propre clé API OpenAI ou Anthropic, mais il est bien plus limité et n'est plus la voie recommandée. Rien dans Nablix ne dépend de l'IA : tout le reste fonctionne sans clé et sans assistant.</p></div>
                 </details>
                 
                 <details class="faq-item">
                     <summary>Qu'est-ce que l'intégration MCP ?</summary>
-                    <div class="faq-a"><p>Nablix embarque un serveur MCP intégré : des outils comme Claude Code, Cursor et Windsurf peuvent lire et modifier vos notes comme contexte de premier ordre. L'accès est limité à la page et à l'espace de travail actuellement ouverts — rien d'autre n'est exposé.</p></div>
-                </details>
-                
-                <details class="faq-item">
-                    <summary>Que se passe-t-il quand j'atteins la limite de 20 pages ?</summary>
-                    <div class="faq-a"><p>Rien d'effrayant. Vos notes restent toujours consultables, modifiables et exportables — la limite empêche seulement de créer de nouvelles pages au-delà de 20. Supprimez des pages pour repasser sous la limite, ou passez à Pro.</p></div>
-                </details>
-                
-                <details class="faq-item">
-                    <summary>Windows affiche « éditeur inconnu » — pourquoi ?</summary>
-                    <div class="faq-a"><p>Les premières versions ne sont pas encore signées numériquement (un certificat de signature est prévu avant la 1.0). Chaque installateur est compilé automatiquement par GitHub Actions à partir de sources taguées, vérifiables sur la page des releases. Cliquez sur « Informations complémentaires » → « Exécuter quand même » pour continuer.</p></div>
+                    <div class="faq-a"><p>Nablix embarque un serveur MCP intégré : des outils comme Claude Code, Codex, Cursor et Antigravity peuvent lire et modifier vos notes comme contexte de premier ordre. L'accès est limité à la page et à l'espace de travail actuellement ouverts — rien d'autre n'est exposé. Vous pouvez aussi interdire une page à l'IA, par un clic droit dans la barre latérale. Cette page et tout ce qu'elle contient ne peuvent alors plus être lus ni modifiés par aucun outil d'IA, copilote intégré compris.</p></div>
                 </details>
                 
             </div>

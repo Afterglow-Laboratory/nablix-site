@@ -261,8 +261,8 @@
             <div class="faq-list reveal">
                 
                 <details class="faq-item">
-                    <summary>Nablixは本当に無料ですか？</summary>
-                    <div class="faq-a"><p>はい。Freeプランは体験版ではありません。20ページ・1ワークスペースの範囲で、エディタ、キャンバス、コード実行、数式、グラフビュー、検索、エクスポート、そして回数無制限のAIチャット（BYOK）まで、ほぼすべての機能が使えます。手狭になったときだけアップグレードしてください。</p></div>
+                    <summary>Windowsに「発行元不明」と警告されます</summary>
+                    <div class="faq-a"><p>初期ビルドにはまだコード署名がありません（1.0までに署名証明書を導入予定です）。インストーラーはGitHub Actionsがタグ付きソースから自動ビルドしており、すべてのリリースはreleasesページで検証できます。「詳細情報」→「実行」で続行できます。</p></div>
                 </details>
                 
                 <details class="faq-item">
@@ -277,22 +277,12 @@
                 
                 <details class="faq-item">
                     <summary>AIのサブスク契約が必要ですか？</summary>
-                    <div class="faq-a"><p>いいえ。AI機能はオプションかつBYOK（自分のキーを持ち込む）方式です。OpenAIまたはAnthropicのAPIキーを接続し、使った分だけプロバイダに直接支払います。キーがなくても他の機能はすべて動きます。</p></div>
+                    <div class="faq-a"><p>いいえ。NablixでAIを使う推奨の方法はMCP連携です。すでに使っているアシスタント（Claude Code、Codex、Cursor、Antigravityなど）をつなぐだけで、ノートを直接読み書きできます。自分のOpenAI／AnthropicのAPIキーを入れて使う内蔵のコパイロットもありますが、できることが限られるため現在は非推奨です。AIがなくても支障はありません。ほかの機能はキーもアシスタントもなしで動きます。</p></div>
                 </details>
                 
                 <details class="faq-item">
                     <summary>MCP連携とは何ですか？</summary>
-                    <div class="faq-a"><p>NablixはMCPサーバーを内蔵しており、Claude Code、Cursor、WindsurfのようなAIツールがあなたのノートを直接読み書きできます。アクセスできるのは現在開いているページとそのワークスペースだけ。それ以外は公開されません。</p></div>
-                </details>
-                
-                <details class="faq-item">
-                    <summary>20ページの上限に達したらどうなりますか？</summary>
-                    <div class="faq-a"><p>怖いことは何も起きません。既存のノートの閲覧・編集・エクスポートは常に可能です。Freeの制限は「20ページを超える新規作成」を止めるだけ。ページを削除して上限内に戻るか、Proにアップグレードしてください。</p></div>
-                </details>
-                
-                <details class="faq-item">
-                    <summary>Windowsに「発行元不明」と警告されます</summary>
-                    <div class="faq-a"><p>初期ビルドにはまだコード署名がありません（1.0までに署名証明書を導入予定です）。インストーラーはGitHub Actionsがタグ付きソースから自動ビルドしており、すべてのリリースはreleasesページで検証できます。「詳細情報」→「実行」で続行できます。</p></div>
+                    <div class="faq-a"><p>NablixはMCPサーバーを内蔵しており、Claude Code、Codex、Cursor、AntigravityのようなAIツールがあなたのノートを直接読み書きできます。アクセスできるのは現在開いているページとそのワークスペースだけ。それ以外は公開されません。 特に大事なページは、ページ単位でAIに触らせない設定にできます。指定したページとその配下のページは、内蔵のコパイロットを含め、どのAIツールからも読み取り・編集ができなくなります。</p></div>
                 </details>
                 
             </div>

@@ -165,8 +165,8 @@
   "heading": "Questions, answered",
   "items": [
    {
-    "q": "Is Nablix really free?",
-    "a": "Yes — the Free plan is not a trial. You get 20 pages, one workspace folder, and almost every feature: the full editor, canvas, code execution, math, graph view, search, export and unlimited BYOK AI chat. You only upgrade when you need more room."
+    "q": "Windows says 'unknown publisher' — why?",
+    "a": "Early builds are not yet code-signed (a signing certificate is planned before 1.0). Every installer is built automatically from tagged source by GitHub Actions, and you can inspect each release on the releases page. Click 'More info' → 'Run anyway' to proceed."
    },
    {
     "q": "Which platforms are supported?",
@@ -178,19 +178,11 @@
    },
    {
     "q": "Do I need an AI subscription?",
-    "a": "No. AI features are optional and BYOK (bring your own key): you connect your own OpenAI or Anthropic API key and pay your provider only for what you use. Everything else works without any key."
+    "a": "No. The recommended way to use AI with Nablix is the MCP integration: connect an assistant you already have — Claude Code, Codex, Cursor, Antigravity — and it works with your notes directly. There is also a built-in copilot that takes your own OpenAI or Anthropic API key, but it is far more limited and is no longer the recommended path. Nothing in Nablix depends on AI: every other feature works with no key and no assistant."
    },
    {
     "q": "What is the MCP integration?",
-    "a": "Nablix ships a built-in MCP server, so tools like Claude Code, Cursor and Windsurf can read and edit your notes as first-class context. Access is scoped to the page and workspace you currently have open — nothing else is exposed."
-   },
-   {
-    "q": "What happens when I hit the 20-page limit?",
-    "a": "Nothing scary. Your notes always remain viewable, editable and exportable — Free limits only stop you from creating new pages beyond 20. Delete pages to get back under the limit, or upgrade to Pro."
-   },
-   {
-    "q": "Windows says 'unknown publisher' — why?",
-    "a": "Early builds are not yet code-signed (a signing certificate is planned before 1.0). Every installer is built automatically from tagged source by GitHub Actions, and you can inspect each release on the releases page. Click 'More info' → 'Run anyway' to proceed."
+    "a": "Nablix ships a built-in MCP server, so tools like Claude Code, Codex, Cursor and Antigravity can read and edit your notes as first-class context. Access is scoped to the page and workspace you currently have open — nothing else is exposed. You can also mark a page as off-limits to AI, by right-clicking it in the sidebar. That page and everything filed under it can then no longer be read or changed by any AI tool, the built-in copilot included."
    }
   ]
  },
