@@ -295,7 +295,7 @@
    ],
    "ctaLive": "Obtenir Lifetime"
   },
-  "assure1": "Garantie satisfait ou remboursé de 14 jours",
+  "assure1": "Remboursements gérés par Lemon Squeezy",
   "assure2": "Paiement sécurisé, taxes et factures gérés par Lemon Squeezy",
   "assure3": "Annulez à tout moment — vos données ne sont jamais verrouillées",
   "tableHeading": "Comparer les formules",
@@ -390,8 +390,8 @@
     "a": "Lemon Squeezy calcule et ajoute la TVA ou taxe de vente applicable au moment du paiement selon votre pays, et s'occupe de toutes les formalités fiscales en tant que merchant of record."
    },
    {
-    "q": "Quelle est votre politique de remboursement ?",
-    "a": "Si Nablix ne vous convient pas, écrivez-nous dans les 14 jours suivant l'achat et nous vous remboursons intégralement — sans formulaire, sans interrogatoire."
+    "q": "Comment fonctionnent les remboursements ?",
+    "a": "Votre achat est réalisé auprès de Lemon Squeezy, qui agit comme Merchant of Record. Les remboursements sont donc traités par Lemon Squeezy selon sa propre politique : adressez-lui vos demandes plutôt qu'à nous. Vos droits légaux de consommateur ne sont pas affectés."
    },
    {
     "q": "Existe-t-il une version Microsoft Store ?",
