@@ -2,7 +2,7 @@
 <p class="doc-date">Effective date: June 11, 2026 · Applies to the Nablix desktop app and the nablix.app website</p>
 
 <div class="note">
-    <strong>The short version:</strong> Nablix is local-first. Your notes live on your device and are never uploaded to us — we don't operate a server that could receive them. The app talks to the internet only for license activation (Lemon Squeezy), update checks (GitHub), and AI requests you initiate with your own API key.
+    <strong>The short version:</strong> Nablix is local-first. Your notes live on your device and are never uploaded to us — we don't operate a server that could receive them. The app talks to the internet only for license activation (Lemon Squeezy), update checks (GitHub), a one-time download of the search model (Hugging Face), and AI requests you initiate with your own API key.
 </div>
 
 <h2>1. Who we are</h2>
@@ -17,6 +17,7 @@
         <tr><td>Your notes, pages, canvases, attachments</td><td>Folders on your device</td><td>Never sent to us. Sent to your AI provider only if you explicitly use an AI feature on that content.</td></tr>
         <tr><td>AI API keys (OpenAI / Anthropic)</td><td>Stored locally on your device; requests are proxied through the app's local backend</td><td>Used only to authenticate your requests to the provider you chose. Never sent to us.</td></tr>
         <tr><td>License key &amp; device name</td><td>Stored locally</td><td>Sent to Lemon Squeezy to activate/validate your license.</td></tr>
+        <tr><td>Embedding model for search and the page map</td><td>Cached on your device after the first download</td><td>Downloaded from Hugging Face the first time you open search. None of your notes are sent.</td></tr>
         <tr><td>Usage analytics / telemetry</td><td colspan="2"><strong>None. The app contains no analytics, tracking or telemetry of any kind.</strong></td></tr>
     </tbody>
 </table>
@@ -43,6 +44,9 @@
 
 <h3>4.4 MCP — AI tools you connect</h3>
 <p>If you enable the built-in MCP server, third-party AI tools that <em>you</em> configure (for example Claude Code, Cursor or Windsurf) can read and edit the currently open page and its workspace, locally on your machine. What those tools then do with that content (for example sending it to their own AI provider) is governed by their respective privacy policies. Access is limited to the page and workspace you have open; closing the note revokes the context.</p>
+
+<h3>4.5 Embedding model download — Hugging Face</h3>
+<p>Semantic search and the page map run an embedding model on your device. That model is not shipped inside the installer, so it is <strong>downloaded once from Hugging Face (huggingface.co) the first time you open search</strong>. Only the information any web request carries (your IP address, for example) is exposed; none of your notes are sent. Once downloaded it is cached on your device, and all later indexing and searching happens offline.</p>
 
 <h2>5. What we don't do</h2>
 <ul>

@@ -53,7 +53,7 @@
   },
   "f5": {
    "title": "See how pages relate",
-   "desc": "A local embedding model measures how close your pages are in meaning and draws them as a constellation. Search is semantic too — and fully offline."
+   "desc": "A local embedding model measures how close your pages are in meaning and draws them as a constellation. Search is semantic too, and once the model has been fetched the first time, all of it runs offline."
   },
   "f6": {
    "title": "Your own AI keys, extended by MCP",
@@ -122,7 +122,7 @@
  },
  "privacyStrip": {
   "title": "No account. No cloud. No telemetry.",
-  "desc": "Nablix talks to the internet in exactly three cases: your AI calls (your key, your provider), license activation (Lemon Squeezy) and update checks (GitHub). That is the entire list — and the privacy policy is short enough to actually read.",
+  "desc": "Nablix talks to the internet in exactly four cases: your AI calls (your key, your provider), license activation (Lemon Squeezy), update checks (GitHub) and a one-time download of the search model (Hugging Face). That is the entire list — and the privacy policy is short enough to actually read.",
   "link": "Read the privacy policy"
  },
  "pricingPreview": {

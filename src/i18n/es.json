@@ -53,7 +53,7 @@
   },
   "f5": {
    "title": "Ve cómo se relacionan tus páginas",
-   "desc": "Un modelo de embeddings local mide la cercanía semántica de tus páginas y las dibuja como una constelación. La búsqueda también es semántica, y totalmente offline."
+   "desc": "Un modelo de embeddings local mide la cercanía semántica de tus páginas y las dibuja como una constelación. La búsqueda también es semántica: una vez descargado el modelo la primera vez, todo funciona sin conexión."
   },
   "f6": {
    "title": "Tus propias claves de IA, ampliadas con MCP",
@@ -122,7 +122,7 @@
  },
  "privacyStrip": {
   "title": "Sin cuenta. Sin nube. Sin telemetría.",
-  "desc": "Nablix habla con internet exactamente en tres casos: tus llamadas de IA (tu clave, tu proveedor), la activación de licencia (Lemon Squeezy) y la comprobación de actualizaciones (GitHub). Esa es toda la lista — y la política de privacidad es tan corta que de verdad se puede leer.",
+  "desc": "Nablix habla con internet exactamente en cuatro casos: tus llamadas de IA (tu clave, tu proveedor), la activación de licencia (Lemon Squeezy), la comprobación de actualizaciones (GitHub) y una descarga única del modelo de búsqueda (Hugging Face). Esa es toda la lista — y la política de privacidad es tan corta que de verdad se puede leer.",
   "link": "Leer la política de privacidad"
  },
  "pricingPreview": {
