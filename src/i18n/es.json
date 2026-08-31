@@ -7,7 +7,7 @@
   "landingTitle": "Nablix — Notas Markdown con escritura a mano, código ejecutable y tu propia IA",
   "landingDesc": "Nablix es una app de notas local-first para Windows que fusiona Markdown, tinta manuscrita, código ejecutable e IA BYOK. Sin cuenta, sin nube, sin telemetría: tus notas se quedan en tu máquina.",
   "pricingTitle": "Precios de Nablix — Gratis, Pro 5 $/mes, Lifetime 96 $",
-  "pricingDesc": "Empieza gratis con 20 páginas y todas las funciones esenciales. Pasa a Pro para páginas ilimitadas, autocompletado IA y el Page Map interactivo — mensual, anual o pago único.",
+  "pricingDesc": "Precios de Nablix. La versión gratuita incluye el editor, la escritura a mano, la ejecución de código y el chat con IA. Mensual, anual o pago único.",
   "privacyTitle": "Política de privacidad — Nablix",
   "privacyDesc": "Cómo maneja Nablix tus datos: localmente. Qué sale de tu dispositivo, cuándo y por qué — la lista completa y breve.",
   "termsTitle": "Términos del servicio — Nablix",
@@ -26,7 +26,7 @@
   "sub": "Nablix es un cuaderno local-first para Windows. Markdown, tinta manuscrita, código ejecutable y matemáticas: herramientas que vivían en aplicaciones separadas, reunidas en una sola página. Sin cuenta, sin nube.",
   "ctaPrimary": "Descargar para Windows — Gratis",
   "ctaSecondary": "Ver precios",
-  "fine1": "Gratis hasta 20 páginas",
+  "fine1": "Gratis para empezar",
   "fine2": "Sin registro",
   "fine3": "Actualizaciones automáticas",
   "shotAlt": "La interfaz real de Nablix: una nota Markdown con fórmulas, escritura a mano y un bloque de código ejecutable"
@@ -126,8 +126,8 @@
   "link": "Leer la política de privacidad"
  },
  "pricingPreview": {
-  "heading": "Pensar es gratis. Pagas para crecer.",
-  "sub": "Empieza con 20 páginas y todas las funciones esenciales incluidas. Mejora cuando tu segundo cerebro se quede pequeño.",
+  "heading": "Empieza gratis.",
+  "sub": "La versión gratuita cubre lo esencial. Los planes de pago levantan los límites y añaden algunas funciones más.",
   "cards": [
    {
     "cls": "",
@@ -135,7 +135,7 @@
     "name": "Gratis",
     "price": "0 $",
     "per": "para siempre",
-    "blurb": "20 páginas · 1 espacio de trabajo · todas las funciones esenciales, con ejecución de código y chat IA.",
+    "blurb": "El editor, la escritura a mano, la ejecución de código y el chat con IA están todos ahí.",
     "btnCls": "btn-ghost",
     "cta": "Empezar"
    },
@@ -190,7 +190,7 @@
   "title": "Dale a tus ideas un lugar donde correr.",
   "sub": "Descarga Nablix, abre una página y deja que notas, tinta, matemáticas y código por fin vivan juntos.",
   "button": "Descargar para Windows",
-  "sub2": "Gratis · 20 páginas · Sin cuenta"
+  "sub2": "Gratis · Sin cuenta"
  },
  "footer": {
   "tagline": "Markdown, escritura a mano, código y hasta los archivos con los que trabajas: todo unificado. Una nueva generación de cuaderno local-first.",
@@ -205,7 +205,7 @@
  },
  "pricing": {
   "title": "Precios simples, límites honestos",
-  "sub": "Nablix es software local-first: sin asientos, sin niveles de almacenamiento, sin secuestrar tus datos. Paga solo cuando tu cuaderno supere el plan Gratis.",
+  "sub": "Nablix es software local-first: sin asientos, sin niveles de almacenamiento, sin secuestrar tus datos. Paga solo cuando llegues a los límites.",
   "monthly": "Mensual",
   "yearly": "Anual",
   "save": "2 meses gratis",
@@ -215,7 +215,7 @@
   "free": {
    "name": "Gratis",
    "note": "gratis para siempre",
-   "blurb": "Un segundo cerebro completo, con tope de 20 páginas.",
+   "blurb": "Lo que necesitas ya está aquí.",
    "feats": [
     {
      "t": "20 páginas en 1 carpeta de espacio de trabajo"

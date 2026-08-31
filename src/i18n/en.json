@@ -7,7 +7,7 @@
   "landingTitle": "Nablix — Markdown notes with handwriting, runnable code & your own AI",
   "landingDesc": "Nablix is a local-first note app for Windows that fuses Markdown, handwritten ink, executable code and BYOK AI. No account, no cloud, no telemetry — your notes stay on your machine.",
   "pricingTitle": "Nablix Pricing — Free, Pro $5/mo, Lifetime $96",
-  "pricingDesc": "Start free with 20 pages and every core feature. Upgrade to Pro for unlimited pages, inline AI completion and the interactive Page Map — monthly, yearly, or pay-once Lifetime.",
+  "pricingDesc": "Nablix pricing. The free version gives you the editor, handwriting, code execution and AI chat. Monthly, yearly, or pay once.",
   "privacyTitle": "Privacy Policy — Nablix",
   "privacyDesc": "How Nablix handles your data: locally. Exactly what leaves your device, when, and why — the complete, short list.",
   "termsTitle": "Terms of Service — Nablix",
@@ -26,7 +26,7 @@
   "sub": "Nablix is a local-first notebook for Windows. Markdown, handwritten ink, runnable code and math — tools that used to live in separate apps, folded into a single page. No account, no cloud.",
   "ctaPrimary": "Download for Windows — Free",
   "ctaSecondary": "See pricing",
-  "fine1": "Free up to 20 pages",
+  "fine1": "Free to start",
   "fine2": "No sign-up",
   "fine3": "Auto-updates",
   "shotAlt": "The actual Nablix interface: a Markdown note with math, handwriting and a runnable code block"
@@ -126,8 +126,8 @@
   "link": "Read the privacy policy"
  },
  "pricingPreview": {
-  "heading": "Free to think. Pay to scale.",
-  "sub": "Start with 20 pages and every core feature included. Upgrade when your second brain outgrows them.",
+  "heading": "Start free.",
+  "sub": "The free version covers the essentials. Paid plans lift the limits and unlock a few more features.",
   "cards": [
    {
     "cls": "",
@@ -135,7 +135,7 @@
     "name": "Free",
     "price": "$0",
     "per": "forever",
-    "blurb": "20 pages · 1 workspace · all core features, including code execution and AI chat.",
+    "blurb": "The editor, handwriting, code execution and AI chat are all there.",
     "btnCls": "btn-ghost",
     "cta": "Get started"
    },
@@ -190,7 +190,7 @@
   "title": "Give your ideas a place to run.",
   "sub": "Download Nablix, open a page, and let notes, ink, math and code finally live together.",
   "button": "Download for Windows",
-  "sub2": "Free · 20 pages · No account"
+  "sub2": "Free · No account"
  },
  "footer": {
   "tagline": "Markdown, handwriting, code and even the files you work with — all unified. A new generation of local-first notebook.",
@@ -205,7 +205,7 @@
  },
  "pricing": {
   "title": "Simple pricing, honest limits",
-  "sub": "Nablix is local-first software: no seats, no storage tiers, no data hostage-taking. Pay only when your notebook outgrows Free.",
+  "sub": "Nablix is local-first software: no seats, no storage tiers, no data hostage-taking. Pay only when you reach the limits.",
   "monthly": "Monthly",
   "yearly": "Yearly",
   "save": "2 months free",
@@ -215,7 +215,7 @@
   "free": {
    "name": "Free",
    "note": "free forever",
-   "blurb": "A complete second brain, capped at 20 pages.",
+   "blurb": "Everything you need to work is here.",
    "feats": [
     {
      "t": "20 pages in 1 workspace folder"

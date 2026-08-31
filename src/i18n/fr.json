@@ -7,7 +7,7 @@
   "landingTitle": "Nablix — Notes Markdown avec écriture manuscrite, code exécutable et votre propre IA",
   "landingDesc": "Nablix est une application de notes local-first pour Windows qui fusionne Markdown, encre manuscrite, code exécutable et IA en BYOK. Pas de compte, pas de cloud, zéro télémétrie — vos notes restent sur votre machine.",
   "pricingTitle": "Tarifs Nablix — Gratuit, Pro 5 $/mois, Lifetime 96 $",
-  "pricingDesc": "Commencez gratuitement avec 20 pages et toutes les fonctions essentielles. Passez à Pro pour des pages illimitées, la complétion IA en ligne et la Page Map interactive — mensuel, annuel ou paiement unique.",
+  "pricingDesc": "Tarifs de Nablix. La version gratuite donne accès à l'éditeur, à l'écriture manuscrite, à l'exécution de code et au chat IA. Mensuel, annuel ou paiement unique.",
   "privacyTitle": "Politique de confidentialité — Nablix",
   "privacyDesc": "Comment Nablix traite vos données : localement. Ce qui quitte votre appareil, quand et pourquoi — la liste complète et courte.",
   "termsTitle": "Conditions d'utilisation — Nablix",
@@ -26,7 +26,7 @@
   "sub": "Nablix est un carnet de notes local-first pour Windows. Markdown, encre manuscrite, code exécutable et mathématiques — des outils autrefois dispersés dans des applications séparées, réunis sur une seule page. Sans compte, sans cloud.",
   "ctaPrimary": "Télécharger pour Windows — Gratuit",
   "ctaSecondary": "Voir les tarifs",
-  "fine1": "Gratuit jusqu'à 20 pages",
+  "fine1": "Gratuit pour commencer",
   "fine2": "Sans inscription",
   "fine3": "Mises à jour automatiques",
   "shotAlt": "L'interface réelle de Nablix : une note Markdown avec formules, écriture manuscrite et bloc de code exécutable"
@@ -126,8 +126,8 @@
   "link": "Lire la politique de confidentialité"
  },
  "pricingPreview": {
-  "heading": "Penser est gratuit. Payer, c'est pour grandir.",
-  "sub": "Commencez avec 20 pages et toutes les fonctions essentielles. Passez au niveau supérieur quand votre second cerveau les dépasse.",
+  "heading": "Commencez gratuitement.",
+  "sub": "La version gratuite couvre l'essentiel. Les formules payantes lèvent les limites et ajoutent quelques fonctions.",
   "cards": [
    {
     "cls": "",
@@ -135,7 +135,7 @@
     "name": "Gratuit",
     "price": "0 $",
     "per": "pour toujours",
-    "blurb": "20 pages · 1 espace de travail · toutes les fonctions essentielles, exécution de code et chat IA compris.",
+    "blurb": "L'éditeur, l'écriture manuscrite, l'exécution de code et le chat IA sont tous là.",
     "btnCls": "btn-ghost",
     "cta": "Commencer"
    },
@@ -190,7 +190,7 @@
   "title": "Offrez à vos idées un endroit où courir.",
   "sub": "Téléchargez Nablix, ouvrez une page, et laissez notes, encre, maths et code vivre enfin ensemble.",
   "button": "Télécharger pour Windows",
-  "sub2": "Gratuit · 20 pages · Sans compte"
+  "sub2": "Gratuit · Sans compte"
  },
  "footer": {
   "tagline": "Markdown, écriture manuscrite, code et jusqu'aux fichiers que vous manipulez : tout est réuni. Une nouvelle génération de bloc-notes local-first.",
@@ -205,7 +205,7 @@
  },
  "pricing": {
   "title": "Des tarifs simples, des limites honnêtes",
-  "sub": "Nablix est un logiciel local-first : pas de sièges, pas de paliers de stockage, pas de prise d'otage de vos données. Ne payez que lorsque votre carnet dépasse la version gratuite.",
+  "sub": "Nablix est un logiciel local-first : pas de sièges, pas de paliers de stockage, pas de prise d'otage de vos données. Ne payez qu'une fois les limites atteintes.",
   "monthly": "Mensuel",
   "yearly": "Annuel",
   "save": "2 mois offerts",
@@ -215,7 +215,7 @@
   "free": {
    "name": "Gratuit",
    "note": "gratuit pour toujours",
-   "blurb": "Un second cerveau complet, plafonné à 20 pages.",
+   "blurb": "L'essentiel est déjà là.",
    "feats": [
     {
      "t": "20 pages dans 1 dossier d'espace de travail"
