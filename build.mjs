@@ -21,6 +21,15 @@ const SITE_ORIGIN = 'https://nablix.app';
 const LANGS = ['en', 'ja', 'zh', 'fr', 'es', 'hi', 'ar'];
 const LEGAL_LANGS = ['en', 'ja'];
 
+// Copyright year. The notice used to be new Date().getFullYear() alone, so a
+// rebuild in 2027 would have replaced 2026 outright and lost the year the site
+// was first published. Convention is to keep the first year and extend a range
+// as the work is updated: 2026 this year, 2026-2027 next, and so on.
+const FIRST_YEAR = 2026;
+const currentYear = new Date().getFullYear();
+const COPYRIGHT_YEARS =
+  currentYear > FIRST_YEAR ? `${FIRST_YEAR}–${currentYear}` : String(FIRST_YEAR);
+
 // ---------- helpers ----------
 
 const read = (p) => fs.readFileSync(p, 'utf8');
@@ -125,7 +134,7 @@ for (const page of PAGES) {
       canonical: `${SITE_ORIGIN}${pagePath(lang, page.sub)}`,
       alternates: alternatesHtml(page.sub, page.langs),
       langSwitcher: langSwitcherHtml(page.sub, page.langs, lang),
-      year: String(new Date().getFullYear()),
+      year: COPYRIGHT_YEARS,
       pageTitle: lookup(dict, `meta.${page.titleKey}`),
       pageDesc: lookup(dict, `meta.${page.descKey}`),
     };
@@ -159,7 +168,7 @@ for (const page of PAGES) {
     canonical: `${SITE_ORIGIN}/`,
     alternates: '',
     langSwitcher: '',
-    year: String(new Date().getFullYear()),
+    year: COPYRIGHT_YEARS,
     pageTitle: dict.meta.notFoundTitle,
     pageDesc: dict.meta.landingDesc,
   };
