@@ -21,7 +21,7 @@
   "download": "डाउनलोड"
  },
  "hero": {
-  "badge": "v0.1.0 · Windows",
+  "badge": "Windows 10 / 11",
   "title": "Write. Draw. <span class=\"grad-text\">Run.</span><br />All on the same page.",
   "sub": "Nablix, Windows के लिए एक लोकल-फ़र्स्ट नोटबुक है। Markdown, हस्तलिखित स्याही, चलने वाला कोड और गणित — जो उपकरण अलग-अलग ऐप्स में बिखरे थे, वे अब एक ही पेज पर हैं। न खाता चाहिए, न क्लाउड।",
   "ctaPrimary": "Windows के लिए डाउनलोड करें — मुफ़्त",

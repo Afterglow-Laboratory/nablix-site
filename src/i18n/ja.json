@@ -21,7 +21,7 @@
   "download": "ダウンロード"
  },
  "hero": {
-  "badge": "v0.1.0 · Windows",
+  "badge": "Windows 10 / 11 対応",
   "title": "Write. Draw. <span class=\"grad-text\">Run.</span><br />All on the same page.",
   "sub": "Nablix は Windows 向けのローカルファーストなノートアプリです。Markdown、手書きのインク、実行できるコード、数式——別々のアプリに散らばっていた道具を、1枚のページにまとめました。アカウントもクラウドも不要です。",
   "ctaPrimary": "Windows版を無料ダウンロード",

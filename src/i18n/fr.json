@@ -21,7 +21,7 @@
   "download": "Télécharger"
  },
  "hero": {
-  "badge": "v0.1.0 · Windows",
+  "badge": "Windows 10 / 11",
   "title": "Write. Draw. <span class=\"grad-text\">Run.</span><br />All on the same page.",
   "sub": "Nablix est un carnet de notes local-first pour Windows. Markdown, encre manuscrite, code exécutable et mathématiques — des outils autrefois dispersés dans des applications séparées, réunis sur une seule page. Sans compte, sans cloud.",
   "ctaPrimary": "Télécharger pour Windows — Gratuit",
