@@ -22,7 +22,7 @@
  },
  "hero": {
   "badge": "v0.1.0 · Windows",
-  "title": "Escribe. Dibuja. <span class=\"grad-text\">Ejecuta.</span><br />Todo en la misma página.",
+  "title": "Write. Draw. <span class=\"grad-text\">Run.</span><br />All on the same page.",
   "sub": "Nablix es un cuaderno local-first para Windows. Markdown, tinta manuscrita, código ejecutable y matemáticas: herramientas que vivían en aplicaciones separadas, reunidas en una sola página. Sin cuenta, sin nube.",
   "ctaPrimary": "Descargar para Windows — Gratis",
   "ctaSecondary": "Ver precios",
