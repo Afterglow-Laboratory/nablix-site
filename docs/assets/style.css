@@ -102,15 +102,6 @@ h3 { font-size: 1.1rem; font-weight: 700; }
 :lang(ja) h2, :lang(zh) h2 { letter-spacing: 0; line-height: 1.35; }
 :lang(hi) h1, :lang(ar) h1 { line-height: 1.4; }
 
-/* Japanese and Chinese have no spaces, so the browser will break a line
-   between almost any two characters -- which splits words down the middle.
-   auto-phrase segments at phrase boundaries instead. Browsers without it
-   simply keep the old behaviour, so there is nothing to fall back from. */
-:lang(ja) h1, :lang(ja) h2, :lang(ja) h3, :lang(ja) p, :lang(ja) li,
-:lang(zh) h1, :lang(zh) h2, :lang(zh) h3, :lang(zh) p, :lang(zh) li {
-    word-break: auto-phrase;
-    text-wrap: pretty;
-}
 
 .grad-text {
     background: var(--grad);
@@ -343,6 +334,7 @@ h3 { font-size: 1.1rem; font-weight: 700; }
    letter-spacing and line height rather than the CJK overrides above. */
 .hero h1 { max-width: 840px; margin-inline: auto; letter-spacing: -0.02em; line-height: 1.16; }
 .hero .lead { max-width: 640px; margin: 20px auto 0; }
+
 
 .hero-ctas {
     display: flex;

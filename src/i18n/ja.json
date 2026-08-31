@@ -23,7 +23,7 @@
  "hero": {
   "badge": "v0.1.0 · Windows",
   "title": "Write. Draw. <span class=\"grad-text\">Run.</span><br />All on the same page.",
-  "sub": "Nablix は、Windows で動く手元完結のノートアプリです。Markdown、手書き、実行できるコード、数式。これまで別々のアプリに分かれていたものが、1枚のページに収まります。アカウントもクラウドも要りません。",
+  "sub": "Nablix は Windows 向けのローカルファーストなノートアプリです。Markdown、手書きのインク、実行できるコード、数式——別々のアプリに散らばっていた道具を、1枚のページにまとめました。アカウントもクラウドも不要です。",
   "ctaPrimary": "Windows版を無料ダウンロード",
   "ctaSecondary": "料金を見る",
   "fine1": "20ページまで無料",
