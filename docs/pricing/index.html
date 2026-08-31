@@ -63,15 +63,15 @@
     <main>
         <header class="hero wrap" style="padding-bottom:0">
             <h1>Simple pricing, honest limits</h1>
-            <p class="lead" style="max-width:620px;margin:20px auto 0">Nablix is local-first software: no seats, no storage tiers, no data hostage-taking. Pay only when you reach the limits.</p>
+            <p class="lead" style="max-width:620px;margin:20px auto 0">There are two ways to pay: a Pro subscription, or Lifetime as a one-time purchase.</p>
         </header>
 
         <section class="section wrap" style="padding-top:42px">
             <!-- billing toggle -->
             <div class="toggle-row">
-                <span class="opt" data-opt="monthly" role="button" tabindex="0">Monthly</span>
-                <div class="switch" role="switch" aria-checked="true" tabindex="0" aria-label="Toggle yearly billing"></div>
-                <span class="opt on" data-opt="yearly" role="button" tabindex="0">Yearly<span class="save">2 months free</span></span>
+                <span class="opt on" data-opt="monthly" role="button" tabindex="0">Monthly</span>
+                <div class="switch" role="switch" aria-checked="false" tabindex="0" aria-label="Toggle yearly billing"></div>
+                <span class="opt" data-opt="yearly" role="button" tabindex="0">Yearly<span class="save">2 months free</span></span>
             </div>
 
             <div class="plans">
@@ -91,15 +91,15 @@
                 <div class="plan popular reveal">
                     <div class="plan-flag">Most popular</div>
                     <h3>Pro</h3>
-                    <div class="price" data-when="monthly" style="display:none"><span class="amount">$5</span><span class="per">/month</span></div>
-                    <div class="price-note" data-when="monthly" style="display:none">$5 billed monthly</div>
-                    <div class="price" data-when="yearly"><span class="amount">$4</span><span class="per">/month</span></div>
-                    <div class="price-note" data-when="yearly">$48 billed yearly — 2 months free</div>
+                    <div class="price" data-when="monthly"><span class="amount">$5</span><span class="per">/month</span></div>
+                    <div class="price-note" data-when="monthly">$5 billed monthly</div>
+                    <div class="price" data-when="yearly" style="display:none"><span class="amount">$4</span><span class="per">/month</span></div>
+                    <div class="price-note" data-when="yearly" style="display:none">$48 billed yearly — 2 months free</div>
                     <p class="blurb">Headroom for a notebook that never stops growing.</p>
                     <ul>
                         <li>Everything in Free</li><li>Unlimited pages</li><li>Unlimited workspace folders</li><li>Inline AI completion as you type</li><li>Unlimited ink / image → LaTeX</li><li>Interactive Page Map</li>
                     </ul>
-                    <a class="btn btn-primary" data-buy="pro_annual" data-buy-pro data-label-live="Upgrade to Pro" aria-disabled="true" href="#">Available at launch</a>
+                    <a class="btn btn-primary" data-buy="pro_monthly" data-buy-pro data-label-live="Upgrade to Pro" aria-disabled="true" href="#">Available at launch</a>
                 </div>
 
                 <!-- Lifetime -->

@@ -63,15 +63,15 @@
     <main>
         <header class="hero wrap" style="padding-bottom:0">
             <h1>シンプルな料金と、正直な制限</h1>
-            <p class="lead" style="max-width:620px;margin:20px auto 0">Nablixはローカルファーストなソフトウェアです。シート課金も、容量プランも、データの人質化もありません。上限に届いたときだけ、お支払いを。</p>
+            <p class="lead" style="max-width:620px;margin:20px auto 0">料金はProのサブスクリプションと、Lifetimeの買い切りの2種類です。</p>
         </header>
 
         <section class="section wrap" style="padding-top:42px">
             <!-- billing toggle -->
             <div class="toggle-row">
-                <span class="opt" data-opt="monthly" role="button" tabindex="0">月払い</span>
-                <div class="switch" role="switch" aria-checked="true" tabindex="0" aria-label="年払いに切り替え"></div>
-                <span class="opt on" data-opt="yearly" role="button" tabindex="0">年払い<span class="save">2ヶ月分お得</span></span>
+                <span class="opt on" data-opt="monthly" role="button" tabindex="0">月払い</span>
+                <div class="switch" role="switch" aria-checked="false" tabindex="0" aria-label="年払いに切り替え"></div>
+                <span class="opt" data-opt="yearly" role="button" tabindex="0">年払い<span class="save">2ヶ月分お得</span></span>
             </div>
 
             <div class="plans">
@@ -91,15 +91,15 @@
                 <div class="plan popular reveal">
                     <div class="plan-flag">いちばん人気</div>
                     <h3>Pro</h3>
-                    <div class="price" data-when="monthly" style="display:none"><span class="amount">$5</span><span class="per">/月</span></div>
-                    <div class="price-note" data-when="monthly" style="display:none">$5を毎月お支払い</div>
-                    <div class="price" data-when="yearly"><span class="amount">$4</span><span class="per">/月</span></div>
-                    <div class="price-note" data-when="yearly">年額$48 — 2ヶ月分お得</div>
+                    <div class="price" data-when="monthly"><span class="amount">$5</span><span class="per">/月</span></div>
+                    <div class="price-note" data-when="monthly">$5を毎月お支払い</div>
+                    <div class="price" data-when="yearly" style="display:none"><span class="amount">$4</span><span class="per">/月</span></div>
+                    <div class="price-note" data-when="yearly" style="display:none">年額$48 — 2ヶ月分お得</div>
                     <p class="blurb">成長が止まらないノートのための、十分な余白。</p>
                     <ul>
                         <li>Freeの全機能</li><li>ページ数無制限</li><li>ワークスペースフォルダ無制限</li><li>入力中のインラインAI補完</li><li>手書き / 画像→LaTeX変換 無制限</li><li>ページマップのフル操作</li>
                     </ul>
-                    <a class="btn btn-primary" data-buy="pro_annual" data-buy-pro data-label-live="Proにアップグレード" aria-disabled="true" href="#">まもなく販売開始</a>
+                    <a class="btn btn-primary" data-buy="pro_monthly" data-buy-pro data-label-live="Proにアップグレード" aria-disabled="true" href="#">まもなく販売開始</a>
                 </div>
 
                 <!-- Lifetime -->

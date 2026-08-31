@@ -108,7 +108,9 @@
         document.querySelectorAll('.toggle-row .opt').forEach(function (o) {
             o.addEventListener('click', function () { setYearly(o.getAttribute('data-opt') === 'yearly'); });
         });
-        setYearly(true); // default to the better deal
+        // Monthly is the default: the annual price is the one that needs a
+        // decision, and the toggle should not make it for the visitor.
+        setYearly(false);
     }
 
     // ─── Language suggestion banner ──────────────────────────────

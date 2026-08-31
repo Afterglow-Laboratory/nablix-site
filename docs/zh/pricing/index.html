@@ -63,15 +63,15 @@
     <main>
         <header class="hero wrap" style="padding-bottom:0">
             <h1>简单的价格，诚实的限制</h1>
-            <p class="lead" style="max-width:620px;margin:20px auto 0">Nablix 是本地优先软件：没有席位费，没有存储分级，更不会绑架你的数据。只有在触及上限时才需要付费。</p>
+            <p class="lead" style="max-width:620px;margin:20px auto 0">付费方式有两种：Pro 订阅，或一次性买断的 Lifetime。</p>
         </header>
 
         <section class="section wrap" style="padding-top:42px">
             <!-- billing toggle -->
             <div class="toggle-row">
-                <span class="opt" data-opt="monthly" role="button" tabindex="0">月付</span>
-                <div class="switch" role="switch" aria-checked="true" tabindex="0" aria-label="切换按年计费"></div>
-                <span class="opt on" data-opt="yearly" role="button" tabindex="0">年付<span class="save">省 2 个月</span></span>
+                <span class="opt on" data-opt="monthly" role="button" tabindex="0">月付</span>
+                <div class="switch" role="switch" aria-checked="false" tabindex="0" aria-label="切换按年计费"></div>
+                <span class="opt" data-opt="yearly" role="button" tabindex="0">年付<span class="save">省 2 个月</span></span>
             </div>
 
             <div class="plans">
@@ -91,15 +91,15 @@
                 <div class="plan popular reveal">
                     <div class="plan-flag">最受欢迎</div>
                     <h3>Pro</h3>
-                    <div class="price" data-when="monthly" style="display:none"><span class="amount">$5</span><span class="per">/月</span></div>
-                    <div class="price-note" data-when="monthly" style="display:none">每月支付 $5</div>
-                    <div class="price" data-when="yearly"><span class="amount">$4</span><span class="per">/月</span></div>
-                    <div class="price-note" data-when="yearly">年付 $48——省 2 个月</div>
+                    <div class="price" data-when="monthly"><span class="amount">$5</span><span class="per">/月</span></div>
+                    <div class="price-note" data-when="monthly">每月支付 $5</div>
+                    <div class="price" data-when="yearly" style="display:none"><span class="amount">$4</span><span class="per">/月</span></div>
+                    <div class="price-note" data-when="yearly" style="display:none">年付 $48——省 2 个月</div>
                     <p class="blurb">为不断生长的笔记本留足空间。</p>
                     <ul>
                         <li>免费版全部功能</li><li>无限页面</li><li>无限工作区文件夹</li><li>输入时的行内 AI 补全</li><li>手写 / 图片→LaTeX 不限次数</li><li>交互式页面地图</li>
                     </ul>
-                    <a class="btn btn-primary" data-buy="pro_annual" data-buy-pro data-label-live="升级到 Pro" aria-disabled="true" href="#">即将开售</a>
+                    <a class="btn btn-primary" data-buy="pro_monthly" data-buy-pro data-label-live="升级到 Pro" aria-disabled="true" href="#">即将开售</a>
                 </div>
 
                 <!-- Lifetime -->

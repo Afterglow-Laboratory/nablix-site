@@ -15,9 +15,9 @@
         <section class="section wrap" style="padding-top:42px">
             <!-- billing toggle -->
             <div class="toggle-row">
-                <span class="opt" data-opt="monthly" role="button" tabindex="0">{{pricing.monthly}}</span>
-                <div class="switch" role="switch" aria-checked="true" tabindex="0" aria-label="{{pricing.toggleAria}}"></div>
-                <span class="opt on" data-opt="yearly" role="button" tabindex="0">{{pricing.yearly}}<span class="save">{{pricing.save}}</span></span>
+                <span class="opt on" data-opt="monthly" role="button" tabindex="0">{{pricing.monthly}}</span>
+                <div class="switch" role="switch" aria-checked="false" tabindex="0" aria-label="{{pricing.toggleAria}}"></div>
+                <span class="opt" data-opt="yearly" role="button" tabindex="0">{{pricing.yearly}}<span class="save">{{pricing.save}}</span></span>
             </div>
 
             <div class="plans">
@@ -37,15 +37,15 @@
                 <div class="plan popular reveal">
                     <div class="plan-flag">{{pricing.pro.flag}}</div>
                     <h3>{{pricing.pro.name}}</h3>
-                    <div class="price" data-when="monthly" style="display:none"><span class="amount">$5</span><span class="per">{{pricing.pro.perMonth}}</span></div>
-                    <div class="price-note" data-when="monthly" style="display:none">{{pricing.pro.noteMonthly}}</div>
-                    <div class="price" data-when="yearly"><span class="amount">$4</span><span class="per">{{pricing.pro.perMonth}}</span></div>
-                    <div class="price-note" data-when="yearly">{{pricing.pro.noteYearly}}</div>
+                    <div class="price" data-when="monthly"><span class="amount">$5</span><span class="per">{{pricing.pro.perMonth}}</span></div>
+                    <div class="price-note" data-when="monthly">{{pricing.pro.noteMonthly}}</div>
+                    <div class="price" data-when="yearly" style="display:none"><span class="amount">$4</span><span class="per">{{pricing.pro.perMonth}}</span></div>
+                    <div class="price-note" data-when="yearly" style="display:none">{{pricing.pro.noteYearly}}</div>
                     <p class="blurb">{{pricing.pro.blurb}}</p>
                     <ul>
                         {{#each pricing.pro.feats}}<li>{{.t}}</li>{{/each}}
                     </ul>
-                    <a class="btn btn-primary" data-buy="pro_annual" data-buy-pro data-label-live="{{pricing.pro.ctaLive}}" aria-disabled="true" href="#">{{pricing.buySoon}}</a>
+                    <a class="btn btn-primary" data-buy="pro_monthly" data-buy-pro data-label-live="{{pricing.pro.ctaLive}}" aria-disabled="true" href="#">{{pricing.buySoon}}</a>
                 </div>
 
                 <!-- Lifetime -->
