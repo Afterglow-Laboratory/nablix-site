@@ -25,21 +25,30 @@
     // ─── Download buttons: resolve latest .exe from GitHub API ───
     function fmtMB(bytes) { return (bytes / 1048576).toFixed(1) + ' MB'; }
 
-    function applyRelease(rel) {
+    // `live` is false when this came from the sessionStorage copy rather than
+    // from the API just now. A cached entry names a specific installer file,
+    // and pointing the button at that file is how a visitor ended up
+    // downloading v0.2.0 after v0.3.2 had shipped -- a tab left open across a
+    // release keeps serving the build that was current when it was opened.
+    // Cached data may therefore set the label, but never the download target:
+    // the fallback href is /releases/latest, which cannot go stale.
+    function applyRelease(rel, live) {
         if (!rel || !rel.tag_name) return;
         var exe = (rel.assets || []).filter(function (a) { return /-setup\.exe$/i.test(a.name); })[0];
         var msi = (rel.assets || []).filter(function (a) { return /\.msi$/i.test(a.name); })[0];
 
-        document.querySelectorAll('[data-dl]').forEach(function (btn) {
-            if (exe) btn.href = exe.browser_download_url;
-        });
+        if (live) {
+            document.querySelectorAll('[data-dl]').forEach(function (btn) {
+                if (exe) btn.href = exe.browser_download_url;
+            });
+            document.querySelectorAll('[data-dl-msi]').forEach(function (a) {
+                if (msi) a.href = msi.browser_download_url;
+            });
+        }
         document.querySelectorAll('[data-dl-meta]').forEach(function (el) {
             var bits = [rel.tag_name];
             if (exe) bits.push(fmtMB(exe.size));
             el.textContent = bits.join(' · ');
-        });
-        document.querySelectorAll('[data-dl-msi]').forEach(function (a) {
-            if (msi) a.href = msi.browser_download_url;
         });
     }
 
@@ -48,7 +57,7 @@
             var cached = sessionStorage.getItem('nablix-release');
             if (cached) {
                 var c = JSON.parse(cached);
-                if (Date.now() - c.t < 3600000) { applyRelease(c.rel); return; }
+                if (Date.now() - c.t < 3600000) { applyRelease(c.rel, false); return; }
             }
         } catch (e) { /* ignore */ }
 
@@ -56,7 +65,7 @@
             .then(function (r) { return r.ok ? r.json() : null; })
             .then(function (rel) {
                 if (!rel) return;
-                applyRelease(rel);
+                applyRelease(rel, true);
                 try { sessionStorage.setItem('nablix-release', JSON.stringify({ t: Date.now(), rel: rel })); } catch (e) { /* ignore */ }
             })
             .catch(function () { /* fallback hrefs already point to the releases page */ });
